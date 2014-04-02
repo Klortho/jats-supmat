@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article SYSTEM "../dtd/NISO-supmat-extension-rec0.dtd">
+<article dtd-version="1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ext="http://jats.nlm.nih.gov/extensions/ext">
+   
+    <!-- Isolation an dDifferentiation of Stromal Vascular Cells to Beige/Brite Cells. PMC: http://www.ncbi.nlm.nih.gov/pubmed/23568137 
+http://www.jove.com/video/50191/
+-->   
+     <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">J Vis Exp</journal-id>
+      <journal-id journal-id-type="iso-abbrev">J Vis Exp</journal-id>
+      <journal-id journal-id-type="publisher-id">JoVE</journal-id>
+      <journal-title-group>
+        <journal-title>Journal of Visualized Experiments : JoVE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1940-087X</issn>
+      <publisher>
+        <publisher-name>MyJove Corporation</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="publisher-id">50191</article-id>
+      <article-id pub-id-type="doi">10.3791/50191</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Cellular Biology</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Isolation and Differentiation of Stromal Vascular Cells to Beige/Brite Cells</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Liisberg Aune</surname>
+            <given-names>Ulrike</given-names>
+          </name>
+          <xref ref-type="aff" rid="I27665D5367"/>
+          <xref ref-type="aff" rid="I38350D5712"/>
+          <xref ref-type="aff" rid="I46886"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ruiz</surname>
+            <given-names>Lauren</given-names>
+          </name>
+          <xref ref-type="aff" rid="I27665D5367"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kajimura</surname>
+            <given-names>Shingo</given-names>
+          </name>
+          <xref ref-type="aff" rid="I27665D5367"/>
+        </contrib>
+      </contrib-group>
+      <aff id="I27665D5367">UCSF Diabetes Center and Department of Cell and Tissue Biology, University of California, San Francisco</aff>
+      <aff id="I38350D5712">Department of Biology, University of Copenhagen, Denmark</aff>
+      <aff id="I46886">National Institute of Nutrition and Seafood Research, Bergen, Norway</aff>
+      <author-notes>
+        <fn>
+          <p>Correspondence to: Shingo Kajimura at <email>Skajimura@diabetes.ucsf.edu</email></p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>28</day>
+        <month>3</month>
+        <year>2013</year>
+      </pub-date>
+      <issue>73</issue>
+      <elocation-id>50191</elocation-id>
+      <permissions>
+        <copyright-statement>Copyright &#x000a9; 2013, Journal of Visualized Experiments</copyright-statement>
+        <copyright-year>2013</copyright-year>
+      </permissions>
+      <abstract>
+        <p>Brown adipocytes have the ability to uncouple the respiratory chain in mitochondria and dissipate chemical energy as heat. Development of UCP1-positive brown adipocytes in white adipose tissues (so called beige or brite cells) is highly induced by a variety of environmental cues such as chronic cold exposure or by PPAR&#x003b3; agonists, therefore, this cell type has potential as a therapeutic target for obesity treatment. Although most immortalized adipocyte lines cannot recapitulate the process of "browning" of white fat in culture, primary adipocytes isolated from stromal vascular fraction in subcutaneous white adipose tissue (WAT) provide a reliable cellular system to study the molecular control of beige/brite cell development. Here we describe a protocol for effective isolation of primary preadipocytes and for inducing differentiation to beige/brite cells in culture. The browning effect can be assessed by the expression of brown fat-selective markers such as UCP1.</p>
+      </abstract>
+      <kwd-group kwd-group-type="author-generated">
+        <kwd>Cellular Biology</kwd>
+        <kwd>Issue 73</kwd>
+        <kwd>Medicine</kwd>
+        <kwd>Anatomy</kwd>
+        <kwd>Physiology</kwd>
+        <kwd>Molecular Biology</kwd>
+        <kwd>Surgery</kwd>
+        <kwd>Adipose Tissue</kwd>
+        <kwd>Adipocytes</kwd>
+        <kwd>Transcription Factors</kwd>
+        <kwd>Cell Differentiation</kwd>
+        <kwd>Obesity</kwd>
+        <kwd>Diabetes</kwd>
+        <kwd>brown adipose tissue</kwd>
+        <kwd>beige/brite cells</kwd>
+        <kwd>primary adipocytes</kwd>
+        <kwd>stromal-vascular fraction</kwd>
+        <kwd>differentiation</kwd>
+        <kwd>uncoupling protein 1</kwd>
+        <kwd>rosiglitazone</kwd>
+        <kwd>differentiation</kwd>
+        <kwd>cells</kwd>
+        <kwd>isolation</kwd>
+        <kwd>fat</kwd>
+        <kwd>animal model</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+      <fig id="Fig_50191" orientation="portrait" position="anchor" xml:lang="en">
+          <caption> <p>Video Article Chapters 0:05 Title, 1:16 Adipose Tissue Isolation, 2:13 Tissue Cutting and Digestion, 3:09 Preparing Cell Suspension, 3:58 Plating Cells, 4:46 Differentiatie Cells, 5:47 Results: Browning of Primary Adiposcytes, 7:02 Conclusion</p> 
+          </caption>
+          
+          <alternatives> 
+              <ext:resource id="Video_50191" xlink:href="http://www.jove.com/video/50191/" orientation="portrait" xlink:type="simple" position="anchor" mimetype="video" mime-subtype="quicktime" > 
+                  <ext:resource-meta>
+                      <ext:filename>Video_50191</ext:filename>
+                      <ext:format>MOV</ext:format>
+                  </ext:resource-meta>
+              </ext:resource>
+              
+              
+              <ext:resource xlink:href="jove-73-50191-thumb.png"  mimetype="image" mime-subtype="png"> 
+                  <ext:resource-meta>
+                      <ext:format>PNG</ext:format>
+                  </ext:resource-meta>
+              </ext:resource>   
+          </alternatives>
+      </fig>
+    <sec>
+      <title>Introduction</title>
+      <p>Obesity is dramatically increasing worldwide and is now considered one of the most serious concerns to public health <sup>1</sup>. This condition is related to a misbalance in energy intake relative to expenditure and results in excess energy stored as lipid in white adipose tissue (WAT). Enlarged WAT is associated with increased body mass and weight, while brown adipose tissue has the ability to dissipate excess energy to produce heat. Hence BAT can function as protection against both cold and obesity <sup>2,3</sup> . This is achieved by uncoupling of the electron transport in mitochondria by uncoupling protein 1 (UCP1). This protein is considered a hallmark for nonshivering thermogenesis in BAT<sup>3</sup>. Several studies in recent years revealed that adult humans have functional BAT <sup>4-8</sup> and, consequently, manipulation of BAT in humans can be a potential therapeutic intervention in the battle against obesity and its related diseases.</p>
+      <p>Current evidence indicates that two types of brown adipocytes exist in rodents; "classical" or "pre-existing" brown fat develops during the prenatal stage and forms dedicated brown adipose depots in interscapular region and other peripheral tissues. On the other hand, an "inducible" form of brown fat (so called brite or beige cells) develops during post-natal stage and appears interspersed in white adipose tissues. The two types of brown adipocytes are also separated by different developmental origins. While the pre-existing brown adipocytes arise from myoblastsic-like <italic>Myf5</italic> precursors, the inducible brite/beige cells interspersed in WAT arise from a non-<italic>Myf5</italic> lineage<sup>9,10</sup> . In addition, regulatory pathways of this cell type is likely to be different from the <italic>Myf5</italic>-derived brown adipocytes <sup>11</sup>. The development of the beige cells (<italic>i.e.</italic> "browning" of white fat) can be activated in response to chronic cold exposure and to &#x003b2;3-adrenoceptor-agonists or PPAR&#x003b3; agonists in adults<sup>12-14</sup>. The beige/brite cells are likely to be a promising therapeutic target for manipulation of overall energy balance and can potentially become part of obesity treatment; hence, it is important to understand precise molecular mechanisms and signaling pathways by which environmental cues control the development of beige cells.</p>
+      <p>To understand the molecular control of the browning of white fat, <italic>in vitro</italic> experiments are best suited as differentiation of preadipocytes takes place rather asynchronously and it is difficult to detect the cells <italic>in situ</italic>
+        <sup>15</sup>. Although studies on adipocyte development have thus far been performed primarily on cell lines such as 3T3-L1, 3T3-F442A or HIB1, these cell lines appear to lack the molecular signature of beige cells. On the other hand, primary adipocytes isolated from subcutaneous WAT are most likely to recapitulate the process of browning of white fat in a cell autonomous fashion. Here we provide a protocol for effective isolation of the stromal-vascular fraction from adipose tissues and for inducing the browning of white fat in response to PPAR&#x003b3; agonists. Rosiglitazone has been shown to be an especially effective mediator of browning in these cells. As previously suggested <sup>16</sup>, this cellular system can be used to serve a reliable cellular system to study the development of beige/brite cells.
+      </p>
+    </sec>
+    <sec>
+      <title>Protocol</title>
+      <sec>
+        <title>1. Prepare Digestion Medium</title>
+        <p>Make 5 ml per 5 mice per tissue (approximately 1 ml/1 g adipose tissue).</p>
+        <list list-type="order">
+          <list-item>
+            <p>Weigh in digestion enzymes: - Collaginase D: 1.5 u/ml (1108874103, 1 g, Roche, 70334223) - Dispase II: 2.4 u/ml (04942078001, 0,980 mg/lyo, Roche, 11466200) </p>
+          </list-item>
+          <list-item>
+            <p>Add 25 ml PBS and mix well to dissolve</p>
+          </list-item>
+          <list-item>
+            <p>Add CaCl<sub>2</sub> just prior to digestion of the tissue at a final concentration of 10 mM</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec>
+        <title>2. Dissect Adipose Tissue from Mice</title>
+        <list list-type="order">
+          <list-item>
+            <p>Dissection should be performed carefully, and immediately after the mice (6-8 weeks old) are sacrificed. Work sterile with ethanol sprayed on the mouse fur before opening it. Place the tissue directly in clean PBS, separate interscapular BAT and subcutaneous inguinal WAT.</p>
+          </list-item>
+          <list-item>
+            <p>For interscapular BAT: have the mouse placed with the back faced up, cut open along the back and all the way to the neck. The brown adipose tissue can be found right under the skin between the shoulders (interscapular). BAT can be seen as two lobes, butterfly shaped. A thin layer of white fat covering the BAT should to be carefully removed.</p>
+          </list-item>
+          <list-item>
+            <p>For subcutaneous WAT (inguinal WAT): remove skin. Inguinal WAT is found directly under the skin on both sides, starting almost on the back and going alongside, inside of the thighs and down toward the testicle.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec>
+        <title>3. Cut and Digest Adipose Tissue</title>
+        <list list-type="order">
+          <list-item>
+            <p>Quickly remove all contamination, like hair, skeletal muscle and connective tissue from the tissue sections.</p>
+          </list-item>
+          <list-item>
+            <p>Dry tissue quickly on paper to not dilute dissection medium with PBS and place it on a dry plate.</p>
+          </list-item>
+          <list-item>
+            <p>Add digestion medium (added CaCl<sub>2</sub> prior to digestion) and mince the tissue into small pieces. Mix very well by pipetting up and down with a 5 ml pipette. Transfer the minced tissues in 50 ml tubes with the rest of the digestion medium, mix even more by pipetting up and down.</p>
+          </list-item>
+          <list-item>
+            <p>Digest in 37 &#x000b0;C with constant agitation at 150 rpm for 40-50 min. Check every 10-15 min to make sure the digestion is going well and to prevent over-digestion.</p>
+          </list-item>
+        </list>
+        <p>
+          <italic>
+            <bold>Note:</bold> Correct digestion medium and time are important. The tissue needs to be well digested, but excess digestion can damage the cells.
+          </italic>
+        </p>
+      </sec>
+      <sec>
+        <title>4. Filter Cell Suspension</title>
+        <list list-type="order">
+          <list-item>
+            <p>Stop digestion by adding 5 ml complete medium (DMEM/F12 containing 10% FPS and P/S). The cells should almost be completely homogenous. Mix well by pipetting.</p>
+          </list-item>
+          <list-item>
+            <p>Centrifuge at 700 x g for 10 min.</p>
+          </list-item>
+          <list-item>
+            <p>SVF can now be seen as a brownish pellet on the bottom of the tube. Aspirate the oily mature adipocyte layer on top and most of the liquid layer - keep the pellet and dissolve it in 10 ml complete medium. Mix well.</p>
+          </list-item>
+          <list-item>
+            <p>Place a cell strainer (50-70 &#x003bc;m diameter) over a new 50 ml tube and filter the cell suspension.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec>
+        <title>5. Plate Cells </title>
+        <list list-type="order">
+          <list-item>
+            <p>Transfer cell suspension to a 15 ml tube and centrifuge at 700 x g for 10 min.</p>
+          </list-item>
+          <list-item>
+            <p>Aspirate medium and re-suspend pellet in 10 ml complete medium. Pipette and mix well.</p>
+          </list-item>
+          <list-item>
+            <p>Estimate how many plates are needed. This may vary and depends on the pellet size. A general rule is 2 of 10 cm plates from 5 mice for inguinal WAT and one 10 cm plate for BAT.</p>
+          </list-item>
+          <list-item>
+            <p>Plate cells on collagen coated dishes (R&#x00026;D) in complete medium</p>
+          </list-item>
+          <list-item>
+            <p>1-2 hr after plating the cells, aspirate medium, wash with PBS twice and add fresh medium. This step is important as this can remove red blood cells, immune cells and other contaminants.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec>
+        <title>6. Differentiate Cells</title>
+        <list list-type="order">
+          <list-item>
+            <p>Make maintenance and induction mediums.</p>
+          </list-item>
+        </list>
+      </sec>
+      <sec>
+        <title>Maintenance medium</title>
+        <p>Complete medium with added: </p>
+        <p>Insulin, final conc. 5 &#x003bc;g/ml (5 mg/ml stock, ***100 &#x003bc;l of acetic acid in 10 ml H<sub>2</sub>O to prepare acidified water pH 2.5. dissolve insulin in the acidified water. Store stock at -20 &#x000b0;C)</p>
+        <p>3,3',5-Triiodo-L-thyronine (T3), final conc. 1 nM (10 &#x003bc;M stock, ***dissolve T3 in 1N NaOH and add medium to make 10 &#x003bc;M stock. Sigma cat# T-2877)</p>
+        <p>Store at 4 &#x000b0;C, good for one week</p>
+      </sec>
+      <sec>
+        <title>Induction medium</title>
+        <p>Maintenance medium containing following compounds:</p>
+        <p>Indomethacin, final conc. 125 &#x003bc;M (0.125 M stock in ethanol, Sigma cat#I-7378). Indomethacin must be heated to 60 &#x000b0;C to be dissolved.</p>
+        <p>Dexamethasone, final conc. 2 &#x003bc;g/ml (2 mg/ml sock in ethanol, Sigma cat# D-1756)3-Isobutyl-1-methylxanthine (IBMX), final conc. 0.5 mM (0.25 M stock in DMSO, Sigma cat# I-5879)Rosiglitazone, final conc. 0.5 &#x003bc;M (10 mM stock in DMSO, Sigma cat# R-2408)</p>
+        <p>
+          <italic>
+            <bold>Note:</bold> Make fresh induction medium each time.
+          </italic>
+        </p>
+        <list list-type="order">
+          <list-item>
+            <p>Grow primary adipocytes to 95-97% confluence in complete medium (confluent but not too packed)</p>
+          </list-item>
+          <list-item>
+            <p>Change regular complete medium with induction medium (day 0)</p>
+          </list-item>
+          <list-item>
+            <p>After 48 hr (day 2), change medium to maintenance medium with rosiglitazone (0.5 &#x003bc;M)</p>
+          </list-item>
+          <list-item>
+            <p>After additional 48 hr (day 4), change to fresh maintenance medium with rosiglitazone (1 &#x003bc;M) for additional 2-3 days. 6-7 days after adding the induction medium, cells are fully differentiated to mature fat cells and are filled with oil droplets. Droplets will appear around 3-4 days after the induction.</p>
+          </list-item>
+        </list>
+        <p>
+          <italic>
+            <bold>Note:</bold> Change medium every 2-3 days until the cells are fully differentiated.
+          </italic>
+        </p>
+        <p>Cells can now be harvested and mRNA expression of <italic>Ucp1</italic> and other brown adipocyte-specific genes can be measured by qRT-PCR. Western blot will be used to detect proteins.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Representative Results</title>
+      <p>Browning of primary adipocytes can be accessed by measuring mRNA expression of <italic>Ucp1</italic> and other brown fat-specific or selective genes by qRT-PCR. Presented in <bold>Figure 1</bold> is gene expression data in inguinal WAT-derived primary adipocytes. The cells were induced to differentiate in the presence of two different doses of rosiglitazone at 50 nM and 500 nM, respectively. A subset of cells was treated with forskolin at 10 &#x003bc;M for 4 hr prior to harvest. This will induce cyclic-AMP (cAMP) in the cells and activate thermogenic gene program including <italic>Ucp1 </italic>expression.</p>
+      <p>As shown in <bold>Figure 1A</bold>, rosiglitazone robustly induced <italic>Ucp1 </italic>mRNA expression. Forskolin treatment (cAMP) further augmented the rosiglitazone-induced UCP1 expression. Another brown fat-selective gene, <italic>Cidea </italic>expression was also robustly induced by rosiglitazone in a dose-dependent manner (<bold>Figure 1B</bold>). <italic>Fabp4</italic> is a direct target of PPAR&#x003b3; and an adipogenic marker for both brown fat and white fat. As shown in <bold>Figure 1C</bold>, <italic>Fabp4</italic> expression was also increased when treated with rosiglitazone. This browning effect was not simply due to an enhancement of adipogenesis <italic>per se</italic>, since the induction of <italic>Ucp1</italic> and <italic>Cidea</italic> expression was still significant even if the mRNA levels of <italic>Ucp1</italic> and <italic>Cidea</italic> were normalized to those of <italic>Fabp4</italic> (<bold>Figures 1D</bold> and <bold>E</bold>).</p>
+      <p>To confirm increased protein level of UCP1, Western blot should be performed. As presented in <bold>Figure 2</bold>, a high dose of rosiglitazone (500 nM) robustly increased UCP1 protein in the cells. Importantly, as previously shown in Ohno <italic>et al.</italic>
+        <sup>16</sup>, rosiglitazone-inducible beige cells showed elevated total and uncoupled oxygen consumption in response to cAMP stimulation, an important functional characteristics of brown adipocytes/beige cells.
+      </p>
+      <p>
+        <graphic xlink:href="jove-73-50191-0.jpg" position="float" orientation="portrait"/>
+        <bold> Figure 1. Quantitative real-time PCR (qRT-PCR) showing the induction of brown fat-selective genes including <italic>Ucp1</italic> (A) and <italic>Cidea </italic>(B).</bold> Expression of an adipogenic marker <italic>Fabp4 </italic>is also shown <bold>(C)</bold>. Where indicated, cells were treated with cAMP (forskolin at 10 &#x003bc;M) for four hours prior to harvest. Total RNA was extracted from differentiated cells using TRIzol (Invitrogen). Reverse transcription was performed using a cDNA reverse transcription kit (iScript, Applied Biosystems) and qRT-PCR was performed in duplicates with SYBR green fluorescent dye using an ABI ViiA7 machine. TATA-binding protein (TBP) functioned as a reference gene and primer sequences are provided in <bold>Table 1</bold>. Rosiglitazone induced the brown-selective genes <italic>Ucp1</italic>
+        <bold>(D)</bold> and <italic>Cidea</italic>
+        <bold>(E)</bold> after normalization by an adipogenic marker gene <italic>Fabp4</italic>.
+      </p>
+      <p>
+        <graphic xlink:href="jove-73-50191-1.jpg" position="float" orientation="portrait"/>
+        <bold> Figure 2. Western blot of UCP1 protein levels in inguinal primary cells treated with rosiglitazone at doses of 50 nM or 500 nM.</bold> Total cell lysates were isolated and applied for Western blottings. UCP1 antibody (Abcam) was used for Western blotting.
+      </p>
+      <table-wrap orientation="portrait" id="d35e471" position="float">
+        <table frame="hsides" rules="groups">
+          <tbody>
+            <tr>
+              <td rowspan="1" colspan="1">
+                <bold>Gene</bold>
+              </td>
+              <td rowspan="1" colspan="1">
+                <bold>Species</bold>
+              </td>
+              <td rowspan="1" colspan="1">
+                <bold>Forward primer</bold>
+              </td>
+              <td rowspan="1" colspan="1">
+                <bold>Reverse primer</bold>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">
+                <italic>
+                  <bold>Fabp4</bold>
+                </italic>
+              </td>
+              <td rowspan="1" colspan="1">mouse</td>
+              <td rowspan="1" colspan="1">ACACCGAGATTTCCTTCAAACTG</td>
+              <td rowspan="1" colspan="1">CCATCTAGGGTTATGATGCTCTTCA</td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">
+                <italic>
+                  <bold>Cidea</bold>
+                </italic>
+              </td>
+              <td rowspan="1" colspan="1">mouse</td>
+              <td rowspan="1" colspan="1">ATCACAACTGGCCTGGTTACG</td>
+              <td rowspan="1" colspan="1">TACTACCCGGTGTCCATTTCT</td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">
+                <italic>
+                  <bold>Tbp</bold>
+                </italic>
+              </td>
+              <td rowspan="1" colspan="1">mouse</td>
+              <td rowspan="1" colspan="1">ACCCTTCACCAATGACTCCTATG</td>
+              <td rowspan="1" colspan="1">TGACTGCAGCAAATCGCTTGG</td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">
+                <italic>
+                  <bold>Ucp1</bold>
+                </italic>
+              </td>
+              <td rowspan="1" colspan="1">mouse</td>
+              <td rowspan="1" colspan="1">CACCTTCCCGCTGGACACT</td>
+              <td rowspan="1" colspan="1">CCCTAGGACACCTTTATACCTAATGG</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <p>
+        <bold>Table 1. Primer sequences for real time qPCR analysis.</bold>
+      </p>
+    </sec>
+    <sec sec-type="discussion">
+      <title>Discussion</title>
+      <p>Here we present a reliable cellular system to study the development of beige/brite cells in primary cultured adipocytes in mice. As compared to several available immortalized cell lines, this system is likely to offer enhanced relevance to the browning of white fat <italic>in vivo</italic>.</p>
+      <p>Even though the study of these primary adipocytes offers some advantages, there also exist some limitations and concerns that are important to consider. First, this system is highly reliant on differentiation potency of the cells. Expression of brown fat-selective genes such as <italic>Ucp1</italic> and <italic>Cidea</italic> are especially differentiation-dependent. For example, PPAR&#x003b3; agonists and BMP7 also enhance adipogenesis, therefore, the "browning" effects have to be fairly accessed in cells with similar degrees of differentiation. Alternatively, as shown in <bold>Figures 1D</bold> and <bold>E</bold>, normalizing the expression of brown fat-selective genes with that of adipogenesis marker genes such as <italic>Fabp4</italic> may be useful. Second, the age of the mice is important. It could perhaps be tempting to use large mice in order to get as many cells as possible, but as differentiation declines with age. It would be interesting to examine how internal and external cues such as cold exposure, obesity, insulin-resistance or aging affects the proliferation, self-renewal or differentiation capacity of this cell type using this culture system. In our case, the appropriate age of mice of type C57BL/6J is between 6-8 weeks. Third, primary cells are in general more sensitive and more fragile than immortalized adipocyte lines. Although preadipocytes from BAT or subcutaneous WAT have better capacity of proliferation and differentiation than those from visceral WAT, they tend to lose their differentiation capacity after several passages. We normally induce differentiation within a maximum of 3 passages.</p>
+      <p>Another important aspect to consider is that the stromal-vascular fraction is a heterogeneous cell population. In this protocol we focus on preadipocytes and their ability to turn on a brown fat-selective genetic program in the presence of a PPAR&#x003b3; agonist rosiglitazone. A recent study has shown that PDGFRa-positive bi-potent progenitors in the abdominal WAT gives rise to brown adipocytes in response to beta-adrenergic stimulation <italic>in vivo</italic>
+        <sup>17</sup>. However, the actual origin of the beige/brite cells that emerge in response to chronic PPAR&#x003b3; agonist treatment remains unclear. The debate has been active and researchers are preoccupied with this fundamental question; is browning of white fat through enhanced white-to-brown fat conversion, through proliferation of committed brown preadipocytes or through transdifferentiation from mature white adipocytes <sup>18,19</sup> .
+      </p>
+      <p>Rosiglitazone has been known to induce the browning of white fat <italic>in vitro</italic> and <italic>in vivo</italic>
+        <sup>20-26</sup>. Interestingly, activation of PPAR&#x003b3; by synthetic agonists can induce the browning of white fat, however, overexpression of PPAR&#x003b3; in white adipocytes is not sufficient <sup>27</sup>. We have previously shown that the PPAR&#x003b3; agonist-induced browning effect is mediated in part through the protein stabilization of PRDM16 <sup>16</sup>. Hence, identifying small compounds or endogeneous molecules that stabilize PRDM16 protein may be able to specifically induce the browning of white fat. Current method provides a robust and reliable experimental system to identify such factors, which may lead to a novel therapeutic intervention for the treatment of obesity and diabetes.
+      </p>
+    </sec>
+    <sec>
+      <title>Disclosures</title>
+      <p>The authors declare that they have no competing financial interests.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Haruya Ohno, Kosaku Shinoda, Louis Sharp, Emi Tomoda, and Lauren Ruiz for discussion, technical help and editorial assistance on the manuscript. This work was supported by grants from the NIH (DK087853), from the Program for Breakthrough Biomedical Research and from Asubio Pharm Inc. to S.K. U.L.A. was supported by a SHARE PhD fellowships from The University of Copenhagen and the EU FP7 project DIABAT (HEALTH-F2-2011-278373) to Lise Madsen and Karsten Kristiansen. We also acknowledge the DERC center grant (NIH P30 DK063720).</p>
+    </ack>
+    <ref-list>
+      <ref id="B0">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barness</surname>
+              <given-names>LA</given-names>
+            </name>
+            <name>
+              <surname>Opitz</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Gilbert-Barness</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Obesity: genetic, molecular, and environmental aspects</article-title>
+          <source>American Journal of Medical Genetics. Part A</source>
+          <year>2007</year>
+          <volume>143A</volume>
+          <fpage>3016</fpage>
+          <lpage>3034</lpage>
+          <pub-id pub-id-type="pmid">18000969</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B1">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rothwell</surname>
+              <given-names>NJ</given-names>
+            </name>
+            <name>
+              <surname>Stock</surname>
+              <given-names>MJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Combined effects of cafeteria and tube-feeding on energy balance in the rat</article-title>
+          <source>The Proceedings of the Nutrition Society</source>
+          <year>1979</year>
+          <volume>38</volume>
+          <fpage>5A</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B2">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cannon</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Nedergaard</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Brown adipose tissue: function and physiological significance</article-title>
+          <source>Physiological Reviews</source>
+          <year>2004</year>
+          <volume>84</volume>
+          <fpage>277</fpage>
+          <lpage>359</lpage>
+          <pub-id pub-id-type="pmid">14715917</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cypess</surname>
+              <given-names>AM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Identification and importance of brown adipose tissue in adult humans</article-title>
+          <source>The New England Journal of Medicine</source>
+          <year>2009</year>
+          <volume>360</volume>
+          <fpage>1509</fpage>
+          <lpage>1517</lpage>
+          <pub-id pub-id-type="pmid">19357406</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>van Marken Lichtenbelt</surname>
+              <given-names>WD</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Cold-activated brown adipose tissue in healthy men</article-title>
+          <source>The New England Journal of Medicine</source>
+          <year>2009</year>
+          <volume>360</volume>
+          <fpage>1500</fpage>
+          <lpage>1508</lpage>
+          <pub-id pub-id-type="pmid">19357405</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Virtanen</surname>
+              <given-names>KA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Functional brown adipose tissue in healthy adults</article-title>
+          <source>The New England Journal of Medicine</source>
+          <year>2009</year>
+          <volume>360</volume>
+          <fpage>1518</fpage>
+          <lpage>1525</lpage>
+          <pub-id pub-id-type="pmid">19357407</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zingaretti</surname>
+              <given-names>MC</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The presence of UCP1 demonstrates that metabolically active adipose tissue in the neck of adult humans truly represents brown adipose tissue</article-title>
+          <source>FASEB Journal: Official Publication of the Federation of American Societies for Experimental Biology</source>
+          <year>2009</year>
+          <volume>23</volume>
+          <fpage>3113</fpage>
+          <lpage>3120</lpage>
+          <pub-id pub-id-type="pmid">19417078</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saito</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>High incidence of metabolically active brown adipose tissue in healthy adult humans: effects of cold exposure and adiposity</article-title>
+          <source>Diabetes</source>
+          <year>2009</year>
+          <volume>58</volume>
+          <fpage>1526</fpage>
+          <lpage>1531</lpage>
+          <pub-id pub-id-type="pmid">19401428</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Seale</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>PRDM16 controls a brown fat/skeletal muscle switch</article-title>
+          <source>Nature</source>
+          <year>2008</year>
+          <volume>454</volume>
+          <fpage>961</fpage>
+          <lpage>967</lpage>
+          <pub-id pub-id-type="pmid">18719582</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Petrovic</surname>
+              <given-names>N</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Chronic peroxisome proliferator-activated receptor gamma (PPARgamma) activation of epididymally derived white adipocyte cultures reveals a population of thermogenically competent, UCP1-containing adipocytes molecularly distinct from classic brown adipocytes</article-title>
+          <source>The Journal of Biological Chemistry</source>
+          <year>2010</year>
+          <volume>285</volume>
+          <fpage>7153</fpage>
+          <lpage>7164</lpage>
+          <pub-id pub-id-type="pmid">20028987</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Coulter</surname>
+              <given-names>AA</given-names>
+            </name>
+            <name>
+              <surname>Bearden</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Koza</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Kozak</surname>
+              <given-names>LP</given-names>
+            </name>
+          </person-group>
+          <article-title>Dietary fat interacts with QTLs controlling induction of Pgc-1 alpha and Ucp1 during conversion of white to brown fat</article-title>
+          <source>Physiological Genomics</source>
+          <year>2003</year>
+          <volume>14</volume>
+          <fpage>139</fpage>
+          <lpage>147</lpage>
+          <pub-id pub-id-type="pmid">12746468</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Klingenspor</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Cold-induced recruitment of brown adipose tissue thermogenesis</article-title>
+          <source>Experimental Physiology</source>
+          <year>2003</year>
+          <volume>88</volume>
+          <fpage>141</fpage>
+          <lpage>148</lpage>
+          <pub-id pub-id-type="pmid">12525862</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cinti</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>The adipose organ</article-title>
+          <source>Prostaglandins, leukotrienes, and essential fatty acids</source>
+          <year>1016</year>
+          <volume>73</volume>
+          <fpage>9</fpage>
+          <lpage>15</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B13">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ghorbani</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Himms-Hagen</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Appearance of brown adipocytes in white adipose tissue during CL 316,243-induced reversal of obesity and diabetes in Zucker fa/fa rats</article-title>
+          <source>International Journal of Obesity and Related Metabolic Disorders: Journal of the International Association for the Study of Obesity</source>
+          <year>1997</year>
+          <volume>21</volume>
+          <fpage>465</fpage>
+          <lpage>475</lpage>
+          <pub-id pub-id-type="pmid">9192230</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hansen</surname>
+              <given-names>JB</given-names>
+            </name>
+            <name>
+              <surname>Kristiansen</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulatory circuits controlling white versus brown adipocyte differentiation</article-title>
+          <source>The Biochemical Journal</source>
+          <year>2006</year>
+          <volume>398</volume>
+          <fpage>153</fpage>
+          <lpage>168</lpage>
+          <pub-id pub-id-type="pmid">16898874</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ohno</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Shinoda</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Spiegelman</surname>
+              <given-names>BM</given-names>
+            </name>
+            <name>
+              <surname>Kajimura</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>PPARy agonists induce a white-to-brown fat conversion through stabilization of PRDM16 protein</article-title>
+          <source>Cell metabolism</source>
+          <year>2012</year>
+          <volume>15</volume>
+          <fpage>395</fpage>
+          <lpage>404</lpage>
+          <pub-id pub-id-type="pmid">22405074</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>YH</given-names>
+            </name>
+            <name>
+              <surname>Petkova</surname>
+              <given-names>AP</given-names>
+            </name>
+            <name>
+              <surname>Mottillo</surname>
+              <given-names>EP</given-names>
+            </name>
+            <name>
+              <surname>Granneman</surname>
+              <given-names>JG</given-names>
+            </name>
+          </person-group>
+          <article-title>In vivo identification of bipotential adipocyte progenitors recruited by beta3-adrenoceptor activation and high-fat feeding</article-title>
+          <source>Cell Metabolism</source>
+          <year>2012</year>
+          <volume>15</volume>
+          <fpage>480</fpage>
+          <lpage>491</lpage>
+          <pub-id pub-id-type="pmid">22482730</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cinti</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Transdifferentiation properties of adipocytes in the adipose organ</article-title>
+          <source>American Journal of Physiology. Endocrinology and Metabolism</source>
+          <year>2009</year>
+          <volume>297</volume>
+          <fpage>E977</fpage>
+          <lpage>E986</lpage>
+          <pub-id pub-id-type="pmid">19458063</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barbatelli</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The emergence of cold-induced brown adipocytes in mouse white fat depots is determined predominantly by white to brown adipocyte transdifferentiation</article-title>
+          <source>American Journal of Physiology. Endocrinology and Metabolism</source>
+          <year>2010</year>
+          <volume>298</volume>
+          <fpage>E1244</fpage>
+          <lpage>E1253</lpage>
+          <pub-id pub-id-type="pmid">20354155</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Petrovic</surname>
+              <given-names>N</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Chronic peroxisome proliferator-activated receptor gamma (PPARgamma) activation of epididymally derived white adipocyte cultures reveals a population of thermogenically competent, UCP1-containing adipocytes molecularly distinct from classic brown adipocytes</article-title>
+          <source>The Journal of Biological Chemistry</source>
+          <year>2009</year>
+          <volume>285</volume>
+          <fpage>7153</fpage>
+          <lpage>7164</lpage>
+          <pub-id pub-id-type="pmid">20028987</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rong</surname>
+              <given-names>JX</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Adipose mitochondrial biogenesis is suppressed in db/db and high-fat diet-fed mice and improved by rosiglitazone</article-title>
+          <source>Diabetes</source>
+          <year>2007</year>
+          <volume>56</volume>
+          <fpage>1751</fpage>
+          <lpage>1760</lpage>
+          <pub-id pub-id-type="pmid">17456854</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilson-Fritch</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mitochondrial remodeling in adipose tissue associated with obesity and treatment with rosiglitazone</article-title>
+          <source>The Journal of Clinical Investigation</source>
+          <year>2004</year>
+          <volume>114</volume>
+          <fpage>1281</fpage>
+          <lpage>1289</lpage>
+          <pub-id pub-id-type="pmid">15520860</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sell</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Peroxisome proliferator-activated receptor gamma agonism increases the capacity for sympathetically mediated thermogenesis in lean and ob/ob mice</article-title>
+          <source>Endocrinology</source>
+          <year>2004</year>
+          <volume>145</volume>
+          <fpage>3925</fpage>
+          <lpage>3934</lpage>
+          <pub-id pub-id-type="pmid">15131020</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fukui</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Masui</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Osada</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Umesono</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Motojima</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>A new thiazolidinedione, NC-2100, which is a weak PPAR-gamma activator, exhibits potent antidiabetic effects and induces uncoupling protein 1 in white adipose tissue of KKAy obese mice</article-title>
+          <source>Diabetes</source>
+          <year>2000</year>
+          <volume>49</volume>
+          <fpage>759</fpage>
+          <lpage>767</lpage>
+          <pub-id pub-id-type="pmid">10905484</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vernochet</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>C/EBPalpha and the corepressors CtBP1 and CtBP2 regulate repression of select visceral white adipose genes during induction of the brown phenotype in white adipocytes by peroxisome proliferator-activated receptor gamma agonists</article-title>
+          <source>Molecular and Cellular Biology</source>
+          <year>2009</year>
+          <volume>29</volume>
+          <fpage>4714</fpage>
+          <lpage>4728</lpage>
+          <pub-id pub-id-type="pmid">19564408</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tai</surname>
+              <given-names>TA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Activation of the nuclear receptor peroxisome proliferator-activated receptor gamma promotes brown adipocyte differentiation</article-title>
+          <source>The Journal of Biological Chemistry</source>
+          <year>1996</year>
+          <volume>271</volume>
+          <fpage>29909</fpage>
+          <lpage>29914</lpage>
+          <pub-id pub-id-type="pmid">8939934</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26">
+        <element-citation publication-type="journal" publisher-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sugii</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>PPARgamma activation in adipocytes is sufficient for systemic insulin sensitization</article-title>
+          <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+          <year>2009</year>
+          <volume>106</volume>
+          <fpage>22504</fpage>
+          <lpage>22509</lpage>
+          <pub-id pub-id-type="pmid">20018750</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+   

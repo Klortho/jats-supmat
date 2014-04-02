@@ -1,0 +1,1249 @@
+<!-- ArticleInstanceId : 2865164, Path: /aci/5-2010/1/preload/nxml/, Name : aci-2010-015.nxml -->
+<!DOCTYPE article SYSTEM "../dtd/NISO-supmat-extension-rec0.dtd">
+
+<!--Plasma can be found at:  http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2865164/#!po=68.7500--> 
+
+
+
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?>
+  <?DTDIdentifier.IdentifierType public?>
+  <?SourceDTD.DTDName journalpublishing.dtd?>
+  <?SourceDTD.Version 2.3?>
+  <?ConverterInfo.XSLTName jp2nlmx2.xsl?>
+  <?ConverterInfo.Version 2?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Anal Chem Insights</journal-id>
+      <journal-id journal-id-type="publisher-id">Analytical Chemistry Insights</journal-id>
+      <journal-title-group>
+        <journal-title>Analytical Chemistry Insights</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1177-3901</issn>
+      <publisher>
+        <publisher-name>Libertas Academica</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">20448843</article-id>
+      <article-id pub-id-type="publisher-id">aci-2010-015</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Rapid Communication</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A Modified Method for Determination of Lumefantrine in Human Plasma by HPLC-UV and Combination of Protein Precipitation and Solid-Phase Extraction: Application to a Pharmacokinetic Study</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Huang</surname>
+            <given-names>Liusheng</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lizak</surname>
+            <given-names>Patricia S.</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jayewardene</surname>
+            <given-names>Anura L.</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Marzan</surname>
+            <given-names>Florence</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lee</surname>
+            <given-names>Ming-Na Tina</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Aweeka</surname>
+            <given-names>Francesca T.</given-names>
+          </name>
+          <xref ref-type="corresp" rid="c1-aci-2010-015"/>
+        </contrib>
+        <aff id="af1-aci-2010-015">Department of Clinical Pharmacy, School of Pharmacy, University of California, San Francisco, CA 94110, USA.</aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="c1-aci-2010-015">Email: <email>faweeka@sfghsom.ucsf.edu</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>29</day>
+        <month>3</month>
+        <year>2010</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2010</year>
+      </pub-date>
+      <volume>5</volume>
+      <fpage>15</fpage>
+      <lpage>23</lpage>
+      <permissions>
+        <copyright-statement>&#x000a9; 2010 The authors.</copyright-statement>
+        <copyright-year>2010</copyright-year>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0">
+          <license-p>
+<!--CREATIVE COMMONS-->This article is an open-access article distributed under the terms and conditions of the Creative Commons Attribution license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>An HPLC-UV method was developed and validated for the determination of lumefantrine in human plasma. Lumefantrine and its internal standard halofantrine were extracted from plasma samples using protein precipitation with acetonitrile (0.2% perchloric acid) followed by solid-phase extraction with Hypersep C<sub>8</sub> cartridges. Chromatographic separation was performed on a Zorbax SB-CN HPLC column (3.0 &#x000d7; 150 mm, 3.5 &#x003bc;m) with water/methanol (0.1% TFA) as the mobile phases in a gradient elution mode. Detection was performed using UV/vis detector at &#x003bb; = 335 nm. The method showed to be linear over a range of 50&#x02013;10,000 ng/mL with acceptable intra- and inter-day precision and accuracy. The mean recoveries were 88.2% for lumefatrine and 84.5% for the I.S. The internal standard halofantrine is readily available from commercial sources. This method was successfully applied to a pharmacokinetic interaction study between a first-line antimalarial combination (artemether&#x02014;lumefantrine) and antiretroviral therapy.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>HPLC-UV</kwd>
+        <kwd>lumefantrine</kwd>
+        <kwd>halofantrine</kwd>
+        <kwd>protein precipitation</kwd>
+        <kwd>SPE</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>Introduction</title>
+      <p>Malaria is a serious and sometimes fatal protozoan disease caused by malaria parasites (<italic>Plasmodium vivax, ovale, falciparum and malariae</italic>) and transmitted by the female <italic>Anopheles</italic> mosquitoes. Symptoms of malaria include fever, chills, sweats, headache, nausea, and vomiting. Each year, malaria afflicts an estimated 350&#x02013;500 million people and leads to 1.5&#x02013;2.7 million deaths worldwide. Nine percent of all deaths in children less than 5 years of age are caused by the disease, and this percentage is as high as 20% in sub-Saharan Africa.<xref ref-type="bibr" rid="b1-aci-2010-015">1</xref></p>
+      <p>Lumefantrine (LF), also named benflumetol and chemically (9z)-2,7-dichloro-9-[(4-chlorophenyl) methylene]-a-[(dibutylamino)methyl]-9H-fluorene-4-methanol, is an aryl alcohol antimalarial first synthesized in the 1970&#x02019;s by the Academy of Military Medical Sciences, Beijing, China and registered in China for the treatment of malaria in 1987.<xref ref-type="bibr" rid="b2-aci-2010-015">2</xref> The compound is a yellow powder that is poorly soluble in water, oils, and most organic solvents, but soluble in unsaturated fatty acids and acidified organic solvents. LF is extensively bound (&#x0003e;99%) to plasma proteins, mainly high density lipoproteins.<xref ref-type="bibr" rid="b3-aci-2010-015">3</xref> LF as a drug is commercially available only in a fixed-dose combination with artemether (Coartem<sup>&#x000ae;</sup> or Riamet<sup>&#x000ae;</sup>).<xref ref-type="bibr" rid="b4-aci-2010-015">4</xref> This combination is well tolerated and highly effective and now becoming the most recommended first-line treatment for uncomplicated <italic>falciparum</italic> malaria in African countries.</p>
+      <p>To support pharmacokinetic interaction study between artemether/LF and an antiretroviral treatment for patients co-infected with malaria and HIV, here we describe an HPLC-UV method to determine LF in human plasma. Previously, Mansor et al reported an HPLC-UV method with a narrow calibration range (25&#x02013;800 ng/mL) and requiring a large sample volume (1 mL).<xref ref-type="bibr" rid="b5-aci-2010-015">5</xref> Lindegardh and coworkers developed HPLC-UV methods to determine LF in plasma and sampling filter paper.<xref ref-type="bibr" rid="b4-aci-2010-015">4</xref>,<xref ref-type="bibr" rid="b6-aci-2010-015">6</xref> However, the recovery of LF was relatively low (60%&#x02013;75%), and the internal standards used in these methods are not commercially available. Our method is based on a previously published method with the following modifications<xref ref-type="bibr" rid="b6-aci-2010-015">6</xref>: (1) Protein precipitation utilized acetonitrile containing 0.2% perchloric acid in place of 1% acetic acid, affording an improved recovery (&#x0223c;90%). (2) Use of the gradient mobile phase water (0.1% TFA) and methanol (0.1% TFA) which are salt-free solvents, enabled column wash with a high percentage of organic solvent. (3) The internal standard halofantrine is commercially available.</p>
+    </sec>
+    <sec>
+      <title>Experimental</title>
+      <sec sec-type="materials">
+        <title>Reagents and materials</title>
+        <p>Lumefantrine (<xref ref-type="fig" rid="f1-aci-2010-015">Figure 1</xref>) and halofantrine (the internal standard, I.S.) were purchased from A.K. Scientific Inc. (Mountain View, CA, USA). Acetonitrile (MeCN), methanol (MeOH), water (H<sub>2</sub>O), Perchloric acid (HClO<sub>4</sub>), and formic acid (HCO<sub>2</sub>H) were obtained from Fisher Scientific (Fair Lawn, NJ, USA). Trifluoroacetic acid (TFA) was purchased from Sigma-Aldrich (St. Louis, MO, USA). All chemicals were of HPLC grade. Water was distilled water, if not mentioned specifically. Human plasma was purchased from Biological Specialty Co. (Colmar, PA, USA).</p>
+      </sec>
+      <sec>
+        <title>Instrumental and analytical conditions</title>
+        <p>The HPLC system consisted of Waters 1525 binary HPLC pumps, Waters 717 plus autosampler, and Waters 2487 dual &#x003bb; absorbance detector controlled by Waters Breeze software (Version 3.30 SPA). Separation was achieved on a Zorbax SB-CN HPLC column (150 &#x000d7; 3.0 mm, 3.5 &#x003bc;m, Agilent), equipped with a pre-column filter, used at room temperature. The UV/vis detector was set at 335 nm, and injection volume was 50 &#x003bc;L. The mobile phases were water with 0.1% TFA (A) and MeOH with 0.1% TFA (B) pumped at a flow rate of 0.4 mL/min. The gradient program consisted of linear segments with 68% B (0&#x02013;4 min), 68%&#x02013;75% B (4&#x02013;18 min), 75%&#x02013;95% B (18&#x02013;19 min), 95% (19&#x02013;22 min), 95%&#x02013;68% B (22&#x02013;22.5 min), and 68% B (22.5&#x02013;31 min).</p>
+      </sec>
+      <sec>
+        <title>Preparation of standard and quality control samples</title>
+        <p>Primary stock solutions of LF and I.S. were each prepared at a concentration of 1 mg/mL in MeCN-water (1:1) containing 0.5% formic acid. These primary solutions were diluted with MeCN-water (1:1) containing 0.1% formic acid to prepare working stock solutions and working solutions. The working solutions of LF were spiked to blank plasma to obtain calibration standards of 50, 100, 250, 500, 1000, 2500, 5000, 7500 and 10000 ng/mL. QC samples were spiked at 120, 900 and 9000 ng/mL by adding the working solutions into blank human plasma. Calibration standards and QC samples were prepared from separately weighted stock solutions. The stock solutions, standards, QC samples, and the I.S. working solution (100 &#x003bc;g/mL) were stored at &#x02212;70 &#x000b0;C between uses.</p>
+      </sec>
+      <sec>
+        <title>Sample preparation</title>
+        <p>To a 0.2 mL aliquot of each standard, QC, and blank plasma was added 50 &#x003bc;L I.S. (100 &#x003bc;g/mL halofantrine). The mixture was precipitated with 0.5 mL MeCN containing 0.2% HClO<sub>4</sub>. After vortexing and centrifuging, the sample was poured into a pre-conditioned Hypersep C<sub>8</sub> solid-phase extraction (SPE) cartridge (50 mg/1 cc, Thermo-Fisher) and pipet-mixed with 0.5 mL pre-loaded water. After pipet-mixing, the sample was drained into the bed and washed with water (1 mL &#x000d7; 3) and subsequently 0.5 mL MeCN-water (2:3) containing 0.1% TFA. The cartridge was then dried under vacuum (&#x0223c;8 in Hg) for 10 min followed by eluting with 0.5 mL MeOH (0.1% TFA). The eluted sample was dried at 40 &#x000b0;C with a stream of N<sub>2</sub>, reconstituted with 200 &#x003bc;L MeOH- water (68:32) containing 0.1% TFA, and transferred into an autosampler vial.</p>
+      </sec>
+      <sec>
+        <title>Method validation procedure</title>
+        <p>The method validation was conducted according to the guidelines of NIH funded AIDS Clinical Trials Group (ACTG),<xref ref-type="bibr" rid="b7-aci-2010-015">7</xref> which were developed based on Food and Drug Administration (FDA) guidelines. Calibration curves were obtained by linear regression of the peak area ratio of analyte to internal standard (Y-axis) versus the nominal analyte concentrations (X-axis) with a weighting factor of 1/x. The LLOQ was established using five samples independent of standards to determine accuracy and precision. The signal intensity of the LLOQ was &#x02265;5-fold blank response. Intra-day precision and accuracy were determined by analysis of five replicates of each QC sample (n = 5) at low (120 ng/mL), medium (900 ng/mL), and high (9000 ng/mL) concentration levels extracted with a set of standards in one batch. The same procedure was repeated on five different days with new samples to determine inter-day precision and accuracy (total: n = 25 per concentration level). Precision was reported as relative standard deviation (RSD, %) and accuracy as percent deviation from the nominal concentration (% deviation). Recovery was assessed by comparing the peak area of LF or I.S. from the normally processed plasma samples to the peak area of LF or I.S. from directly injected water-MeCN (1:1) solution with the same concentration of LF or I.S. Specificity of the assay was tested with 6 different sources of human plasma and potential concomitant drugs. The stability of LF in human plasma was evaluated at these conditions: 3 freeze-thaw cycles, storage at &#x02212;70 &#x000b0;C, room temperature storage (22 &#x000b0;C), and at different steps in the sample preparation process. Each condition was tested with QC samples at low and high concentration levels in triplicates. Fresh samples were used as reference. Stock solutions of LF and I.S. were evaluated at &#x02212;70 &#x000b0;C and room temperature (22 &#x000b0;C).</p>
+      </sec>
+      <sec sec-type="methods">
+        <title>Application to pharmacokinetic study in healthy volunteers</title>
+        <p>Plasma samples from 13 healthy volunteers were tested with this validated method. The clinical study was conducted at the Clinical and Translational Science Institute Clinical Research Center, San Francisco General Hospital. Each subject received 6 doses of Coartem (80 mg artemether and 480 mg LF) twice daily (study days 1&#x02013;4), at day 4 blood samples were collected before the sixth dose and at 0.5, 1, 2, 4, 6, 8, 12, 24, 48, 72, 96, 120, 168, 216, and 264 hr post-dose for the analysis of LF. Whole blood samples were drawn into EDTA-containing tubes and centrifuged at 2000 g for 10 min. The resulting plasma samples were stored at &#x02212;70 &#x000b0;C before analysis.</p>
+      </sec>
+    </sec>
+    <sec sec-type="results|discussion">
+      <title>Results and Discussion</title>
+      <sec>
+        <title>Internal standard selection</title>
+        <p>The ideal I.S. should possess similar behavior with the analyte in the process of sample preparation, LC separation, and detection, and it should not be potentially present in the samples. The I.S. should be eluted near the analyte but not overlap with the analyte unless different detection channels are used.<xref ref-type="bibr" rid="b8-aci-2010-015">8</xref> Efforts on selecting a close analog of LF as the I.S. were limited by commercial availability. Finally halofantrine was selected as the I.S. Halofantrine is readily available commercially and detectable at 335 nm. The recovery of the IS from sample preparation was similar with LF, with a retention time approximately 6 min less than LF. Sporadically interfering peaks were observed, but with a relative intensity less than 5% of I.S. signal at the final I.S. concentration. The I.S. concentration affects the fitting of calibration curve. Too high concentration of I.S. results in large error at lower end of the calibration curve. The I.S. concentration was selected based on its detection signal equivalent to the signal of the analyte at a concentration between the lower one-third and the middle of the calibration range in terms of magnitude. The I.S. concentration in the final injection solution was 25 &#x003bc;g/mL. Based on its UV response at 335 nm, 25 &#x003bc;g/mL I.S. was equivalent to &#x0223c;700 ng/mL LF, which was close to the middle point of the calibration curve.</p>
+      </sec>
+      <sec>
+        <title>LC optimization</title>
+        <p>Phosphate buffer is commonly used as a mobile phase component in HPLC-UV assay to maintain constant pH. However, phosphate salts tend to precipitate in the solvent line with increasing organic solvent, resulting in instrument failure. We used 0.1% TFA instead of phosphate buffer to maintain an acidic condition in order to minimize peak tailing. Initially MeCN-water (55:45) with 0.1% TFA was used as mobile phase. However, an interfering peak partially co-eluted with the I.S. (<xref ref-type="fig" rid="f2-aci-2010-015">Figure 2</xref>). This interference was eliminated by switching MeCN to MeOH. A drawback to using MeOH as a mobile phase is higher system pressure compared to MeCN. During the run, the LC system pressure ranged from 2500 to 3500 psi. A representative chromatogram of LF and the I.S. from the final method is showed in <xref ref-type="fig" rid="f3-aci-2010-015">Figure 3</xref>.</p>
+      </sec>
+      <sec>
+        <title>Sample preparation</title>
+        <p>It has been reported that over 99% LF is bound to plasma proteins.<xref ref-type="bibr" rid="b3-aci-2010-015">3</xref> Lindegardh and coworkers found protein precipitation prior to SPE increased recovery dramatically compared to SPE alone.<xref ref-type="bibr" rid="b6-aci-2010-015">6</xref> The recovery in the reported method was in the range of 60%&#x02013;75%. The recovery from liquid-liquid extraction was reportedly over 90%.<xref ref-type="bibr" rid="b9-aci-2010-015">9</xref> Loss of LF may occur at the protein precipitation or SPE step. No improvement of recovery was achieved with larger volumes of the elution solvent. Therefore, LF was expected to be lost during protein precipitation. Precipitation of plasma samples with 1% acetic acid in MeCN yielded large particles of precipitate. This may cause inefficient release of LF from the plasma proteins. Interestingly, addition of a stronger acid (0.2% perchloric acid) in MeCN generated fine particles of the precipitate, which improved the recovery significantly (up to 90%) (<xref ref-type="table" rid="t1-aci-2010-015">Table 1</xref>). In addition, a 10-min drying step was added prior to elution of LF from the SPE column as residual water could compromise the elution power of methanol.</p>
+      </sec>
+      <sec>
+        <title>Method validation</title>
+        <p>Linearity: A calibration curve was calculated and fitted by 1/x weighted regression of the peak-area ratios of LF to I.S. versus the concentrations of LF over the range of 50&#x02013;10,000 ng/mL. A weighting factor of 1/x is necessary because of the wide concentration range of the calibration curve. The mean back-calculated values of standards for 5 run days were all within the acceptable range (&#x0003c;20% for LLOQ, &#x0003c; 15% for other standards) (<xref ref-type="table" rid="t2-aci-2010-015">Table 2</xref>).</p>
+        <p>Precision and accuracy: The intra-day and inter-day precision (RSD) was all within 15% over the calibration range (<xref ref-type="table" rid="t3-aci-2010-015">Table 3</xref>). The intra- and inter-day accuracy (% dev) also met the guidelines that required &#x0003c;20% for LLOQ and &#x0003c;15% for QC samples.<xref ref-type="bibr" rid="b7-aci-2010-015">7</xref></p>
+        <p>Specificity: We tested six different sources of human plasma and 12 potential concomitant drugs: nevirapine, lopinavir, ritonavir, zidovudine, lamivudine, efavirenz, chloroquine, sulfamethoxazole, trimethoprim, artemether, dihydroartemisinin, tenofovir. No significant interfering peaks were observed during the retention times of LF and I.S. at the wavelength of detection (&#x003bb; = 335 nm), indicating high specificity and selectivity of the method (see supplemental data <xref ref-type="supplementary-material" rid="f5-aci-2010-015">Figure S1</xref> and <xref ref-type="supplementary-material" rid="f6-aci-2010-015">S2</xref>).</p>
+        <p>Stability: LF was stable in plasma at the tested conditions, and LF stock solution was stable for at least 9 months in &#x02212;70 &#x000b0;C (<xref ref-type="table" rid="t4-aci-2010-015">Table 4</xref>). The processed sample in the reconstitution solvent was stable for at least 3 days. However, the processed sample in glass tubes without reconstitution solvent was only stable for 1 day. If the extracted sample was reconstituted after 2 days, recovery dropped to approximately 60%. The lower recovery rate was most likely a result of acid-catalyzed LF degradation due to residual acid (HClO<sub>4</sub> or TFA) in the sample. It is also possible that the LF-acid salt is unstable.</p>
+      </sec>
+      <sec sec-type="methods">
+        <title>Application to pharmacokinetic study in healthy volunteers</title>
+        <p>The validated method was used to study the pharmacokinetic interaction of LF and an antiretroviral in 13 healthy volunteers. After 6 doses of Coartem<sup>&#x000ae;</sup> (480 mg LF twice daily), the plasma concentration&#x02014;time profile over the period of 0&#x02013;264 hr is shown in <xref ref-type="fig" rid="f4-aci-2010-015">Figure 4</xref>. The precision and deviation for quality controls during analysis of LF samples is showed in <xref ref-type="table" rid="t5-aci-2010-015">Table 5</xref>. The method proved to be robust and reliable. The findings of this pharmacokinetic drug interaction study will be published separately.</p>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions">
+      <title>Conclusions</title>
+      <p>An HPLC-UV method for determination of LF in human plasma was developed based on a previously published method.<xref ref-type="bibr" rid="b6-aci-2010-015">6</xref> Fine tuning of the sample preparation method improved the recovery of LF significantly. Gradient elution followed by a wash phase with a high percentage of organic solvent minimized interference from carry-over impurities. TFA (0.1%), instead of phosphate salt, added to the mobile phase minimized peak tailing. The internal standard halofantrine used is readily available from commercial sources. This method was validated based on the ACTG guidelines,<xref ref-type="bibr" rid="b7-aci-2010-015">7</xref> which are based on FDA guidelines.</p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplemental materials</title>
+      <supplementary-material content-type="local-data" id="f5-aci-2010-015">
+        <label>Figure S1.</label>
+        <caption>
+          <p>Chromatograms of different sources of human plasma. Lumefantrine at LLOQ level and the I.S. were included as reference.</p>
+        </caption>
+        <ext:resource xlink:href="aci-2010-015f5.tif" xlink:type="simple" id="d32e320" position="anchor" mimetype="image" mime-subtype="tiff">
+       <ext:resource-meta>
+         <ext:filename>aci-2010-015f5.tif</ext:filename>
+         <size units="M">8.0</size>
+       </ext:resource-meta>
+        </ext:resource>
+      </supplementary-material>
+      
+      <supplementary-material content-type="local-data" id="f6-aci-2010-015">
+        <label>Figure S2.</label>
+        <caption>
+          <p>Chromatograms of potential concomitant drugs in the method. No significant peaks observed during the retention times for LF and I.S.</p>
+        </caption>
+        <ext:resource xlink:href="aci-2010-015f6.tif" xlink:type="simple" id="d32e327" position="anchor" mimetype="image" mime-subtype="tif">
+          <ext:resource-meta>
+            <ext:filename>aci-2010-015f6.tif</ext:filename>
+            <size units="M">14</size>
+          </ext:resource-meta>
+        </ext:resource>
+      </supplementary-material>
+      
+      <supplementary-material content-type="local-data">
+        
+ <!-- Table S1, and Table S2 do not have a file level, because they are included in the text of the article.  -->
+        <table-wrap id="t6-aci-2010-015" position="anchor">
+          <label>Table S1.</label>
+          <caption>
+            <p>Matrix effects from different sources of plasma (EDTA as the antocoagulant). Plasma samples spiked with lumefantrine at 900 ng/mL.</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th valign="top" align="left" rowspan="1" colspan="1">
+                  <bold>Plasma (lot #)</bold>
+                </th>
+                <th valign="top" align="left" rowspan="1" colspan="1">
+                  <bold>Replicate</bold>
+                </th>
+                <th valign="top" align="left" rowspan="1" colspan="1">
+                  <bold>Anticoagulant</bold>
+                </th>
+                <th valign="top" align="left" rowspan="1" colspan="1">
+                  <bold>Conc. (LF) ng/mL</bold>
+                </th>
+                <th valign="top" align="left" rowspan="1" colspan="1">
+                  <bold>Theoretical conc (units) ng/mL</bold>
+                </th>
+                <th valign="top" align="left" rowspan="1" colspan="1">
+                  <bold>Mean ng/mL</bold>
+                </th>
+                <th valign="top" align="left" rowspan="1" colspan="1">
+                  <bold>SD</bold>
+                </th>
+                <th valign="top" align="left" rowspan="1" colspan="1">
+                  <bold>% CV</bold>
+                </th>
+                <th valign="top" align="left" rowspan="1" colspan="1">
+                  <bold>% Dev</bold>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">1 (23-08172)</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">1</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">EDTA</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">855</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">900</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">845</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">22.1</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">2.6%</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">&#x02212;6.1</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1">2</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">EDTA</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">861</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">900</td>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1">3</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">EDTA</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">820</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">900</td>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">2 (23-08176)</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">1</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">EDTA</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">853</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">900</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">895</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">37.6</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">4.2%</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">&#x02212;0.5</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1">2</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">EDTA</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">908</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">900</td>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1">3</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">EDTA</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">925</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">900</td>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">3 (23-08180)</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">1</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">EDTA</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">864</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">900</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">903</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">34.1</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">3.8%</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">0.3</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1">2</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">EDTA</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">918</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">900</td>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1">3</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">EDTA</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">927</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">900</td>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">4 (55-20429)</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">1</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">EDTA</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">950</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">900</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">947</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">17.2</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">1.8%</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">5.2</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1">2</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">EDTA</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">962</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">900</td>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1">3</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">EDTA</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">928</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">900</td>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">5 (23-06316)</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">1</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">EDTA</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">920</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">900</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">929</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">8.1</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">0.9%</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">3.2</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1">2</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">EDTA</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">930</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">900</td>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1">3</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">EDTA</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">936</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">900</td>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">6 (22-97035)</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">1</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">EDTA</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">899</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">900</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">939</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">36.5</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">3.9%</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">4.4</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1">2</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">EDTA</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">949</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">900</td>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1">3</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">EDTA</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">970</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">900</td>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+                <td valign="top" align="left" rowspan="1" colspan="1"/>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </supplementary-material>
+      
+      <supplementary-material content-type="local-data">
+        <table-wrap id="t7-aci-2010-015" position="anchor">
+          <label>Table S2.</label>
+          <caption>
+            <p>Partial volumes precision and accuracy for lumefantrine.</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th valign="top" align="left" colspan="4" rowspan="1">
+                  <bold>Nominal concentration: 30,000 ng/mL</bold>
+                  <hr/>
+                </th>
+              </tr>
+              <tr>
+                <th valign="top" align="left" rowspan="1" colspan="1"/>
+                <th valign="top" align="left" colspan="3" rowspan="1">
+                  <bold>Dilution</bold>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">Sample #</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">4X</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">8X</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">12X</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">&#x02003;&#x02003;1</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">7126</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">3865</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">2399</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">&#x02003;&#x02003;2</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">7755</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">4134</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">2368</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">&#x02003;&#x02003;3</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">7663</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">4177</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">2290</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">Theoretical Conc.</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">7500</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">3750</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">2500</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">Mean</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">7515</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">4059</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">2352</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">SD</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">340</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">169</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">56</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">CV %</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">4.5</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">4.2</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">2.4</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">% Dev</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">0.2</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">8.2</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">&#x02212;5.9</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">n</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">3</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">3</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">3</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </supplementary-material>
+     
+    </sec>
+    
+    
+  </body>
+  <back>
+    <ack>
+      <p>This work was supported by NIH/NIAID International Maternal Pediatric Adolescent AIDS Clinical Trials (IMPAACT) Group (grant number 1U01AI068632).</p>
+    </ack>
+    <fn-group>
+      <fn>
+        <p>
+          <bold>Disclosures</bold>
+        </p>
+        <p>This manuscript has been read and approved by all authors. This paper is unique and not under consideration by any other publication and has not been published elsewhere. The authors report no conflicts of interest.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="b1-aci-2010-015">
+        <label>1.</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guinovart</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Navia</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name>
+              <surname>Tanner</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Alonso</surname>
+              <given-names>PL</given-names>
+            </name>
+          </person-group>
+          <source>Curr Mol Med</source>
+          <year>2006</year>
+          <volume>6</volume>
+          <fpage>137</fpage>
+          <pub-id pub-id-type="pmid">16515506</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="b2-aci-2010-015">
+        <label>2.</label>
+        <mixed-citation publication-type="other">World Health Organization, Practical Chemotherapy of Malaria, W.H.O Technical Report Series No. 805. Geneva. <year>1990</year></mixed-citation>
+      </ref>
+      <ref id="b3-aci-2010-015">
+        <label>3.</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Colussi</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Parisot</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Legay</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Lefevre</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <source>Eur J Pharm Sci</source>
+          <year>1999</year>
+          <volume>9</volume>
+          <fpage>9</fpage>
+          <lpage>16</lpage>
+          <pub-id pub-id-type="pmid">10493991</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="b4-aci-2010-015">
+        <label>4.</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Blessborn</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Romsing</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Annerberg</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Pharm Biomed Analys</source>
+          <year>2007</year>
+          <volume>45</volume>
+          <fpage>282</fpage>
+          <lpage>7</lpage>
+        </mixed-citation>
+      </ref>
+      <ref id="b5-aci-2010-015">
+        <label>5.</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mansor</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Navaratnam</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Yahaya</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Nair</surname>
+              <given-names>NK</given-names>
+            </name>
+            <name>
+              <surname>Wernsdorfer</surname>
+              <given-names>WH</given-names>
+            </name>
+            <name>
+              <surname>Degen</surname>
+              <given-names>PH</given-names>
+            </name>
+          </person-group>
+          <source>J Chromatogr B</source>
+          <year>1996</year>
+          <volume>682</volume>
+          <fpage>321</fpage>
+          <lpage>5</lpage>
+        </mixed-citation>
+      </ref>
+      <ref id="b6-aci-2010-015">
+        <label>6.</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lindegardh</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Annerberg</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Blessborn</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Bergqvist</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Day</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>White</surname>
+              <given-names>NJ</given-names>
+            </name>
+          </person-group>
+          <source>J Pharm Biomed Analys</source>
+          <year>2005</year>
+          <volume>37</volume>
+          <fpage>1081</fpage>
+          <lpage>8</lpage>
+        </mixed-citation>
+      </ref>
+      <ref id="b7-aci-2010-015">
+        <label>7.</label>
+        <mixed-citation publication-type="other">ACTG guidelines for method development and validation based on (and including) FDA guidelines dated by 2001. Version 2, <year>2005</year></mixed-citation>
+      </ref>
+      <ref id="b8-aci-2010-015">
+        <label>8.</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boyd</surname>
+              <given-names>RK</given-names>
+            </name>
+          </person-group>
+          <source>Rapid Commun Mass Sp</source>
+          <year>1993</year>
+          <volume>7</volume>
+          <fpage>257</fpage>
+          <lpage>71</lpage>
+        </mixed-citation>
+      </ref>
+      <ref id="b9-aci-2010-015">
+        <label>9.</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zeng</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>J Chromatogr B</source>
+          <year>1996</year>
+          <volume>681</volume>
+          <fpage>299</fpage>
+          <lpage>306</lpage>
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="f1-aci-2010-015" position="float">
+      <label>Figure 1.</label>
+      <caption>
+        <p>Chemical structures of lumefantrine and halofantrine (the I.S.).</p>
+      </caption>
+      <ext:resource xlink:href="aci-2010-015f1">
+        <ext:resource-meta>
+          
+        </ext:resource-meta>
+      </ext:resource>
+        
+    </fig>
+    <fig id="f2-aci-2010-015" position="float">
+      <label>Figure 2.</label>
+      <caption>
+        <p>Chromatograms of lumefantrine and the I.S. with MeCN-water (55:45) containing 0.1% TFA as the mobile phase. Dash gray line represented a sample in mobile phase solvents, solid black line represented a sample in plasma. A peak interfering with the I.S. was observed from the plasma sample.</p>
+      </caption>
+      <ext:resource xlink:href="aci-2010-015f2">
+        <ext:resource-meta>
+          
+        </ext:resource-meta>
+        
+      </ext:resource>
+    </fig>
+    <fig id="f3-aci-2010-015" position="float">
+      <label>Figure 3.</label>
+      <caption>
+        <p>Representative chromatogram of lumefantrine and the I.S. with MeOH-water containing 0.1% TFA as mobile phase in the final method. Dash gray line is for blank plasma, solid black line is for an LLOQ sample in plasma.</p>
+      </caption>
+      <ext:resource xlink:href="aci-2010-015f3">
+        <ext:resource-meta>
+          
+        </ext:resource-meta>
+        
+      </ext:resource>
+    </fig>
+    <fig id="f4-aci-2010-015" position="float">
+      <label>Figure 4.</label>
+      <caption>
+        <p>Plasma concentration&#x02014;time profile of lumefantrine.</p>
+      </caption>
+      <ext:resource xlink:href="aci-2010-015f4">
+        <ext:resource-meta>
+          
+        </ext:resource-meta>
+        
+      </ext:resource>
+    </fig>
+    <table-wrap id="t1-aci-2010-015" position="float">
+      <label>Table 1.</label>
+      <caption>
+        <p>Recovery (RE) of lumefantrine and I.S. in the assay.</p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th valign="top" align="left" rowspan="3" colspan="1">
+              <bold>Concentration (ng/mL)</bold>
+            </th>
+            <th valign="top" align="left" colspan="2" rowspan="1">
+              <bold>Peak area (X10e4), n = 3</bold>
+            </th>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>RE, %</bold>
+            </th>
+          </tr>
+          <tr>
+            <th valign="top" align="left" colspan="3" rowspan="1">
+              <hr/>
+            </th>
+          </tr>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>Clean sample (in MeCN-water)</bold>
+            </th>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>Preextraction spiked</bold>
+            </th>
+            <th valign="top" align="left" rowspan="1" colspan="1"/>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Low (120)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2.55 &#x000b1; 0.04</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2.36 &#x000b1; 0.03</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">92.5</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">High (9000)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">192.3 &#x000b1; 2.2</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">161.3 &#x000b1; 0.9</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">83.9</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">I.S. (25,000)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">16.36 &#x000b1; 0.29</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">13.83 &#x000b1; 0.07</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">84.5</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="t2-aci-2010-015" position="float">
+      <label>Table 2.</label>
+      <caption>
+        <p>Inter-day average back-calculated standard concentrations (n = 5).</p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>Theoretic Conc ng/mL</bold>
+            </th>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>Mean ng/mL</bold>
+            </th>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>SD</bold>
+            </th>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>Precision (RSD, %)</bold>
+            </th>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>Accuracy (% dev)</bold>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">50</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">53.6</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">4.3</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">8.1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">7.2</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">100</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">104</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">4.3</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">4.1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">4.4</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">250</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">252</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">16.2</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">6.5</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.6</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">500</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">511</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">14.8</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2.9</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2.1</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">1000</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1020</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">15.7</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.5</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2.0</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">2500</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2504</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">44</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.8</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.2</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">5000</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">5013</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">82.8</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.7</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.3</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">7500</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">7629</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">105</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.4</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.7</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">10000</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">10146</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">105</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.0</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.5</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Slope</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.0013</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Y-intercept</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">&#x02212;0.0018</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.0064</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">R</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.9998</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.0002</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.02</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="t3-aci-2010-015" position="float">
+      <label>Table 3.</label>
+      <caption>
+        <p>Intra-day and inter-day precision (% RSD) and accuracy (% dev) for analysis of lumefantrine in human plasma.</p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th valign="top" align="left" rowspan="3" colspan="1">
+              <bold>Nominal, ng/mL</bold>
+            </th>
+            <th valign="top" align="left" colspan="4" rowspan="1">
+              <bold>Intra-day</bold>
+            </th>
+            <th valign="top" align="left" colspan="4" rowspan="1">
+              <bold>Inter-day</bold>
+            </th>
+          </tr>
+          <tr>
+            <th valign="top" align="left" colspan="8" rowspan="1">
+              <hr/>
+            </th>
+          </tr>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>50</bold>
+            </th>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>120</bold>
+            </th>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>900</bold>
+            </th>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>9000</bold>
+            </th>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>20</bold>
+            </th>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>120</bold>
+            </th>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>900</bold>
+            </th>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>9000</bold>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Mean, ng/mL</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">48.9&#x02013;57.5</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">123&#x02013;131</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">890&#x02013;957</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">9082&#x02013;9555</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">54.1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">126</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">921</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">9371</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">SD</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.83&#x02013;2.55</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2.30&#x02013;8.37</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">10.6&#x02013;32.6</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">221&#x02013;449</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">3.4</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">5.3</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">36</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">343</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">RSD, %</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.4&#x02013;5.2</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.8&#x02013;6.7</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.1&#x02013;3.7</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2.3&#x02013;4.9</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">6.3</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">4.2</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">3.9</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">3.7</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">% dev</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">&#x02212;2.2&#x02013;15</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2.3&#x02013;9.3</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">&#x02212;1.1&#x02013;6.4</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.9&#x02013;6.2</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">8.2</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">5.1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2.3</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">4.1</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">n</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">5</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">5</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">5</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">5</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">25</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">25</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">25</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">25</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="t4-aci-2010-015" position="float">
+      <label>Table 4.</label>
+      <caption>
+        <p>Stability of lumefantrine plasma samples and stocks.</p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>Storage conditions</bold>
+            </th>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>LF level (ng/mL)</bold>
+            </th>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>% Remaining</bold>
+            </th>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>% RSD</bold>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td valign="top" align="left" rowspan="2" colspan="1">3 freeze/thaw cycles</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Low (120)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">99.5</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">3.0</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">High (9000)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">102.9</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.1</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="2" colspan="1">&#x02212;70 &#x000b0;C for 9 months</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Low (120)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">99.4</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">3.8</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">High (9000)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">102.5</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">5.4</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="2" colspan="1">benchtop 6 days</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Low (120)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">100.6</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2.6</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">High (9000)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">98.9</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.8</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="2" colspan="1">dry residue 18 hr</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Low (120)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">104.8</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">7.2</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">High (9000)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">93.9</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">6.0</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="2" colspan="1">dry residue 48 hr</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Low (120)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">57.4</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">8.1</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">High (9000)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">65.7</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">17</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="2" colspan="1">in LC solvent 48 hr</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Low (120)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">92.7</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">9.3</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">High (9000)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">95.3</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">4.3</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">&#x02212;70 &#x000b0;C for 9 months</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">LF Stock solution</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">102</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.5</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">22 &#x000b0;C, 3 days</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">LF Stock solution</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">100</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2.8</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="t5-aci-2010-015" position="float">
+      <label>Table 5.</label>
+      <caption>
+        <p>Method performance during clinical sample analysis.</p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>QCs (ng/mL)</bold>
+            </th>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>Low (120)</bold>
+              <break/>
+              <bold>n = 22</bold>
+            </th>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>Medium (900)</bold>
+              <break/>
+              <bold>n = 22</bold>
+            </th>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>High (9000)</bold>
+              <break/>
+              <bold>n = 23</bold>
+            </th>
+            <th valign="top" align="left" rowspan="1" colspan="1">
+              <bold>Extra-high<xref ref-type="table-fn" rid="tfn1-aci-2010-015">*</xref> (24000)</bold>
+              <break/>
+              <bold>n = 10</bold>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Precision (% CV)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">8.1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">4.5</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">5.8</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">7.5</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Accuracy (% Dev)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.81</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">&#x02212;0.03</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">4.3</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">&#x02212;1.6</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="tfn1-aci-2010-015">
+          <label>*</label>
+          <p>Extra-high QCs were diluted by 3-fold.</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+  </floats-group>
+</article>
+
+

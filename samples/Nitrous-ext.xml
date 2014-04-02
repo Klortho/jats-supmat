@@ -1,0 +1,2059 @@
+<!-- ArticleInstanceId : 3511753, Path: /pnas/109-2012/48/preload/nxml/, Name : pnas.201211238.nxml -->
+<!DOCTYPE article SYSTEM "../dtd/NISO-supmat-extension-rec0.dtd">
+
+<!--Nitrous can be found at:  http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3511753/
+        Similar to Octopus: http://psycnet.apa.org/journals/com/124/1/38.html--> 
+
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?>
+  <?DTDIdentifier.IdentifierType public?>
+  <?SourceDTD.DTDName journalpublishing.dtd?>
+  <?SourceDTD.Version 2.3?>
+  <?ConverterInfo.XSLTName jp2nlmx2.xsl?>
+  <?ConverterInfo.Version 2?>
+  <front>
+    <?epub November-12-2012?>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Proc Natl Acad Sci U S A</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Proc. Natl. Acad. Sci. U.S.A</journal-id>
+      <journal-id journal-id-type="hwp">pnas</journal-id>
+      <journal-id journal-id-type="pmc">pnas</journal-id>
+      <journal-id journal-id-type="publisher-id">PNAS</journal-id>
+      <journal-title-group>
+        <journal-title>Proceedings of the National Academy of Sciences of the United States of America</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0027-8424</issn>
+      <issn pub-type="epub">1091-6490</issn>
+      <publisher>
+        <publisher-name>National Academy of Sciences</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">23150571</article-id>
+      <article-id pub-id-type="publisher-id">201211238</article-id>
+      <article-id pub-id-type="doi">10.1073/pnas.1211238109</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Biological Sciences</subject>
+          <subj-group>
+            <subject>Environmental Sciences</subject>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Unexpected nondenitrifier nitrous oxide reductase gene diversity and abundance in soils</article-title>
+        <alt-title alt-title-type="short">Expanded NosZ diversity</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sanford</surname>
+            <given-names>Robert A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>a</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wagner</surname>
+            <given-names>Darlene D.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>b</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wu</surname>
+            <given-names>Qingzhong</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+            <sup>c</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chee-Sanford</surname>
+            <given-names>Joanne C.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff4">
+            <sup>d</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Thomas</surname>
+            <given-names>Sara H.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+            <sup>c</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cruz-Garc&#x000ed;a</surname>
+            <given-names>Claribel</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+            <sup>c</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rodr&#x000ed;guez</surname>
+            <given-names>Gina</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+            <sup>c</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff5">
+            <sup>e</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Massol-Dey&#x000e1;</surname>
+            <given-names>Arturo</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+            <sup>e</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Krishnani</surname>
+            <given-names>Kishore K.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff6">
+            <sup>f</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ritalahti</surname>
+            <given-names>Kirsti M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff7">
+            <sup>g</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff8">
+            <sup>h</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Nissen</surname>
+            <given-names>Silke</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff7">
+            <sup>g</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff8">
+            <sup>h</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Konstantinidis</surname>
+            <given-names>Konstantinos T.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>b</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff3">
+            <sup>c</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>L&#x000f6;ffler</surname>
+            <given-names>Frank E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff7">
+            <sup>g</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff8">
+            <sup>h</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff9">
+            <sup>i</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <aff id="aff1">
+          <sup>a</sup>Department of Geology, <institution>University of Illinois</institution>, Urbana, <addr-line>IL</addr-line> 61801;
+        </aff>
+        <aff id="aff2">
+          <sup>b</sup>School of Biology and
+        </aff>
+        <aff id="aff3">
+          <sup>c</sup>School of Civil and Environmental Engineering, <institution>Georgia Institute of Technology</institution>, Atlanta, <addr-line>GA</addr-line> 30332;
+        </aff>
+        <aff id="aff4">
+          <sup>d</sup>
+          <institution>US Department of Agriculture&#x02014;Agricultural Research Service</institution>, Urbana, <addr-line>IL</addr-line> 61801;
+        </aff>
+        <aff id="aff5">
+          <sup>e</sup>Department of Biology, <institution>University of Puerto Rico,</institution> Mayag&#x000fc;ez, <country>Puerto Rico</country> 00681;
+        </aff>
+        <aff id="aff6">
+          <sup>f</sup>National Institute of Abiotic Stress Management, <institution>Indian Council of Agricultural Research</institution>, Pune 413115, <country>India</country>;
+        </aff>
+        <aff id="aff7">
+          <sup>g</sup>Department of Microbiology, <institution>University of Tennessee</institution>, Knoxville, <addr-line>TN</addr-line> 37996;
+        </aff>
+        <aff id="aff8">
+          <sup>h</sup>Biosciences Division, <institution>Oak Ridge National Laboratory</institution>, Oak Ridge, <addr-line>TN</addr-line> 37831; and
+        </aff>
+        <aff id="aff9">
+          <sup>i</sup>Department of Civil and Environmental Engineering, <institution>University of Tennessee</institution>, Knoxville, <addr-line>TN</addr-line> 37996
+        </aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="cor1">
+          <sup>1</sup>To whom correspondence should be addressed. E-mail: <email>frank.loeffler@utk.edu</email>.
+        </corresp>
+        <fn fn-type="edited-by">
+          <p>Edited by Edward F. DeLong, Massachusetts Institute of Technology, Cambridge, MA, and approved October 19, 2012 (received for review July 2, 2012)</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Author contributions: R.A.S. and F.E.L. designed research; R.A.S., Q.W., J.C.C.-S., S.H.T., G.R., K.K.K., and F.E.L. performed research; C.C.-G., A.M.-D., K.M.R., and S.N. contributed new reagents/analytic tools; R.A.S., D.D.W., Q.W., S.N., K.T.K., and F.E.L. analyzed data; and R.A.S., D.D.W., J.C.C.-S., K.M.R., and F.E.L. wrote the paper.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <day>27</day>
+        <month>11</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>12</day>
+        <month>11</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>12</day>
+        <month>11</month>
+        <year>2012</year>
+      </pub-date>
+<!-- PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>. -->
+      <volume>109</volume>
+      <issue>48</issue>
+      <fpage>19709</fpage>
+      <lpage>19714</lpage>
+      <permissions>
+        <license license-type="open-access">
+          <license-p>Freely available online through the PNAS open access option.</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:title="pdf" xlink:type="simple" xlink:href="pnas.201211238.pdf"/>
+      <abstract>
+        <p>Agricultural and industrial practices more than doubled the intrinsic rate of terrestrial N fixation over the past century with drastic consequences, including increased atmospheric nitrous oxide (N<sub>2</sub>O) concentrations. N<sub>2</sub>O is a potent greenhouse gas and contributor to ozone layer destruction, and its release from fixed N is almost entirely controlled by microbial activities. Mitigation of N<sub>2</sub>O emissions to the atmosphere has been attributed exclusively to denitrifiers possessing NosZ, the enzyme system catalyzing N<sub>2</sub>O to N<sub>2</sub> reduction. We demonstrate that diverse microbial taxa possess divergent <italic>nos</italic> clusters with genes that are related yet evolutionarily distinct from the typical <italic>nos</italic> genes of denitirifers. <italic>nos</italic> clusters with atypical <italic>nosZ</italic> occur in Bacteria and Archaea that denitrify (44% of genomes), do not possess other denitrification genes (56%), or perform dissimilatory nitrate reduction to ammonium (DNRA; (31%). Experiments with the DNRA soil bacterium <italic>Anaeromyxobacter dehalogenans</italic> demonstrated that the atypical NosZ is an effective N<sub>2</sub>O reductase, and PCR-based surveys suggested that atypical <italic>nosZ</italic> are abundant in terrestrial environments. Bioinformatic analyses revealed that atypical <italic>nos</italic> clusters possess distinctive regulatory and functional components (e.g., Sec vs. Tat secretion pathway in typical <italic>nos</italic>), and that previous <italic>nosZ</italic>-targeted PCR primers do not capture the atypical <italic>nosZ</italic> diversity. Collectively, our results suggest that nondenitrifying populations with a broad range of metabolisms and habitats are potentially significant contributors to N<sub>2</sub>O consumption. Apparently, a large, previously unrecognized group of environmental <italic>nosZ</italic> has not been accounted for, and characterizing their contributions to N<sub>2</sub>O consumption will advance understanding of the ecological controls on N<sub>2</sub>O emissions and lead to refined greenhouse gas flux models.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>nitrogen cycle</kwd>
+        <kwd>climate change</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <p>Fossil fuel combustion, agricultural practices (e.g., the cultivation of legumes promoting microbial N<sub>2</sub> fixation, manure application), and the conversion of nonreactive N<sub>2</sub> to ammonium in the Haber&#x02013;Bosch process are the main causes of the increased input of fixed (reactive) nitrogen (N) into the environment (<xref ref-type="bibr" rid="r1">1</xref>). This anthropogenic contribution to the N imbalance has a series of environmental consequences, and particularly troubling are climate change concerns stemming from the release of N<sub>2</sub>O gas into the atmosphere. N<sub>2</sub>O is a greenhouse gas with a global warming potential 310 times greater than that of the equivalent amount of CO<sub>2</sub> (<xref ref-type="bibr" rid="r2">2</xref>
+      <xref ref-type="bibr" rid="r3"/>&#x02013;<xref ref-type="bibr" rid="r4">4</xref>) and promotes ozone destruction in the stratosphere (<xref ref-type="bibr" rid="r5">5</xref>
+      <xref ref-type="bibr" rid="r6"/>
+      <xref ref-type="bibr" rid="r7"/>&#x02013;<xref ref-type="bibr" rid="r8">8</xref>). Global measurements demonstrate that atmospheric N<sub>2</sub>O has increased steadily over the past 250 y (<xref ref-type="bibr" rid="r9">9</xref>), indicating that current global sources exceed global sinks [(<xref ref-type="bibr" rid="r10">10</xref>); World Meteorological Organization, <ext-link ext-link-type="uri" xlink:href="http://www.wmo.int/pages/mediacentre/press_releases/documents/GHG_bull_6_en.pdf">www.wmo.int/pages/mediacentre/press_releases/documents/GHG_bull_6_en.pdf</ext-link>]. The major sources for atmospheric N<sub>2</sub>O are biotic and coupled abiotic processes occurring in soil, sediment, and subsurface ecosystems (<xref ref-type="bibr" rid="r11">11</xref>
+      <xref ref-type="bibr" rid="r12"/>
+      <xref ref-type="bibr" rid="r13"/>&#x02013;<xref ref-type="bibr" rid="r14">14</xref>). Diverse microbial populations of complete denitrifiers (NO<sub>3</sub>
+      <sup>&#x02212;</sup>/NO<sub>2</sub>
+      <sup>&#x02212;</sup> &#x02192; N<sub>2</sub>), incomplete denitrifiers (NO<sub>3</sub>
+      <sup>&#x02212;</sup>/NO<sub>2</sub>
+      <sup>&#x02212;</sup> &#x02192; N<sub>2</sub>O), nitrate reducers (NO<sub>3</sub>
+      <sup>&#x02212;</sup> &#x02192; NO<sub>2</sub>
+      <sup>&#x02212;</sup>), ammonifiers [i.e., microorganisms performing dissimilatory nitrate reduction to ammonium (DNRA)] (NO<sub>3</sub>
+      <sup>&#x02212;</sup>/NO<sub>2</sub>
+      <sup>&#x02212;</sup> &#x02192; NH<sub>4</sub>
+      <sup>+</sup>), and nitrosifyers (NH<sub>4</sub>
+      <sup>+</sup> &#x02192; NO<sub>2</sub>
+      <sup>&#x02212;</sup>) contribute to N<sub>2</sub>O release (<xref ref-type="bibr" rid="r15">15</xref>
+      <xref ref-type="bibr" rid="r16"/>
+      <xref ref-type="bibr" rid="r17"/>
+      <xref ref-type="bibr" rid="r18"/>
+      <xref ref-type="bibr" rid="r19"/>
+      <xref ref-type="bibr" rid="r20"/>&#x02013;<xref ref-type="bibr" rid="r21">21</xref>), and additional N<sub>2</sub>O emissions result from coupled microbial&#x02013;abiotic processes (chemodenitrification). For example, ferric iron-reducing bacteria generate ferrous iron, which reacts chemically with nitrite to produce N<sub>2</sub>O (<xref ref-type="bibr" rid="r22">22</xref>
+      <xref ref-type="bibr" rid="r23"/>&#x02013;<xref ref-type="bibr" rid="r24">24</xref>). Contemporary greenhouse gas models presume that N<sub>2</sub>O-to-N<sub>2</sub> reduction (i.e., the final step of the denitrification pathway) is the major attenuation process controlling N<sub>2</sub>O flux to the atmosphere. Denitrification <italic>sensu stricto</italic> (i.e., complete denitrification) is a process catalyzed by microorganisms that possess the enzymatic machinery including Nar and/or Nap (NO<sub>3</sub>
+      <sup>&#x02212;</sup> &#x02192; NO<sub>2</sub>
+      <sup>&#x02212;</sup>), Nir (NO<sub>2</sub>
+      <sup>&#x02212;</sup> &#x02192; NO), Nor (NO &#x02192; N<sub>2</sub>O), and Nos (N<sub>2</sub>O &#x02192; N<sub>2</sub>) for the stepwise reduction of NO<sub>3</sub>
+      <sup>&#x02212;</sup> to N<sub>2</sub> (<xref ref-type="bibr" rid="r21">21</xref>). Attempts to predict N<sub>2</sub>O emissions based on denitrifier <italic>nosZ</italic> gene abundance and expression revealed an incongruity between the predicted and the actual N<sub>2</sub>O emissions, suggesting the existence of an unaccounted N<sub>2</sub>O sink (<xref ref-type="bibr" rid="r25">25</xref>
+      <xref ref-type="bibr" rid="r26"/>
+      <xref ref-type="bibr" rid="r27"/>&#x02013;<xref ref-type="bibr" rid="r28">28</xref>). To explore the basis of this discrepancy, we screened 126 bacterial and 7 archaeal genomes containing <italic>nosZ</italic> and found a broad distribution of <italic>nosZ</italic> genes across 16 taxonomic groups of Bacteria and the Archaea. This analysis revealed uncharacterized (novel) <italic>nosZ</italic> genes encoding functional NosZ (N<sub>2</sub>O reduction to N<sub>2</sub>) in diverse taxonomic groups, far exceeding the known <italic>nosZ</italic> diversity of complete denitrifiers. Thus, our study expands the current understanding of the nitrogen cycle and provides enhanced means to monitor and model N<sub>2</sub>O emissions into the atmosphere.
+    </p>
+    <sec id="s1">
+      <title>Results and Discussion</title>
+      <sec>
+        <title>Expanded NosZ Diversity and Prevalence in Taxonomically Diverse Populations.</title>
+        <p>To date, N<sub>2</sub>O-to-N<sub>2</sub> reduction in the environment has been attributed exclusively to denitrifying microorganisms expressing the typical Z-type NosZ (<xref ref-type="bibr" rid="r29">29</xref>, <xref ref-type="bibr" rid="r30">30</xref>). Typical <italic>nosZ</italic> genes (77 sequences) were found on 75 genomes belonging to the Alpha-, Beta-, and Gammaproteobacteria harboring complete sets of denitrification genes. Ten genomes harboring a typical <italic>nosZ</italic> lacked <italic>nirS</italic> or <italic>nirK</italic> homologs, corroborating previous observations that some microorganisms with a typical <italic>nosZ</italic> may not denitrify (<xref ref-type="bibr" rid="r21">21</xref>, <xref ref-type="bibr" rid="r30">30</xref>). Interestingly, bioinformatic sequence analyses identified bacteria with phylogenetically distinct, atypical <italic>nosZ</italic> genes in diverse microbial taxa abundant in terrestrial and marine environments. The NosZ phylogeny in <xref ref-type="fig" rid="fig01">Fig. 1</xref> displays the broad diversity of organisms with regard to both taxonomic affiliation and predicted <italic>N</italic>-respiration metabolism. Of 136 NosZ protein sequences, 77 represented the typical NosZ encoded on the genomes of well-characterized complete denitrifiers (e.g., <italic>Bradyrhizobium japonicum</italic>). A separate cluster with robust bootstrapping support comprised 55 atypical NosZ sequences, which were distributed across genomes of 13 bacterial and 2 archaeal phyla (<xref ref-type="fig" rid="fig01">Fig. 1</xref>). Fewer than half of these atypical NosZ (i.e., 24 sequences) resided on genomes carrying <italic>nirK</italic> or <italic>nirS</italic>, which are hallmark genes of the denitrification process. Remarkably, atypical <italic>nosZ</italic> genes were found on 15 genomes possessing <italic>nrfA</italic> but lacking <italic>nirK</italic> or <italic>nirS</italic>, on 16 genomes lacking any known type of nitrite reductase (i.e., not possessing <italic>nrf</italic>, <italic>nor</italic>, or <italic>nir</italic> genes), and 2 genomes with both <italic>nrf</italic> and <italic>nir</italic> genes. The latter observation reveals that complete denitrification and ammonification pathways may be encoded on the same genome, contrasting with the prevailing view of pathway incompatibility (<xref ref-type="bibr" rid="r31">31</xref>). Both pathways coexist in the genomes of <italic>Opitutus terrae</italic> and <italic>Marivirga tractuosa</italic> possessing atypical <italic>nosZ</italic> genes, and in <italic>Shewanella loihica</italic> with a typical <italic>nos</italic>Z gene, indicating that some organisms are capable of nitrate reduction to both ammonium and gaseous products. Importantly, these analyses demonstrate that taxonomically diverse microbes possess atypical <italic>nosZ</italic> genes, including the thermophilic Aquificae and the deep-branching Chloroflexi phyla (<xref ref-type="fig" rid="fig01">Fig. 1</xref>), indicating that N<sub>2</sub>O-to-N<sub>2</sub> reduction in soils, sediments, and other habitats is not limited to the activity of complete denitrifiers harboring the typical <italic>nosZ</italic>.</p>
+        <fig id="fig01" fig-type="featured" position="float">
+          <label>Fig. 1.</label>
+          <caption>
+            <p>Bootstrapped neighbor-joining phylogeny of 136 NosZ sequences representing 133 genomes. Branches with bootstrap support &#x0003c;50% are indicated by open circles. The typical NosZ clade is composed of sequences with an N-terminal Tat motif and associated primarily with functionally characterized soil denitrifiers of the <italic>Proteobacteria</italic>. The atypical NosZ is distributed among Bacteria and Archaea, and has been characterized in <italic>A. dehalogenans</italic>, <italic>W. succinogenes</italic>, and <italic>G. thermodenitrificans</italic> (bold font). <italic>nosZ</italic> occurs as a single-copy gene on all genomes, except for <italic>Pseudomonas brassicacearum</italic> and <italic>Sulfurimonas denitrificans</italic>, which both have two <italic>nosZ</italic> loci. Also indicated is the presence of nitrite respiratory genes <italic>nirS</italic>/<italic>nirK</italic> (denitrification) and <italic>nrfA</italic> (DNRA ammonification). Four NosZ within the halophilic Euryarchaeota formed a discrete cluster and did not group with either the atypical or the typical NosZ. The scale bar at the top left corresponds to the mean number of amino acid substitutions per site.</p>
+          </caption>
+          <graphic id="gra1" xlink:href="pnas.1211238109fig01"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Evidence That Atypical <italic>nosZ</italic> Genes Encode N<sub>2</sub>O Reductases.</title>
+        <p>Observations with the eukaryotic host-associated bacterial species <italic>Wolinella succinogenes</italic> and <italic>Campylobacter fetus</italic> provided the first evidence that the atypical NosZ are functional, as both these species cannot denitrify but grow with N<sub>2</sub>O as electron acceptor (<xref ref-type="bibr" rid="r32">32</xref>, <xref ref-type="bibr" rid="r33">33</xref>). Subsequent biochemical and genetic studies corroborated functionality as N<sub>2</sub>O reductases; however, the diversity and abundance of atypical <italic>nosZ</italic> were not explored (<xref ref-type="fig" rid="fig01">Fig. 1</xref>). Of environmental significance are <italic>Anaeromyxobacter</italic> spp., which are distributed in many soil ecosystems based on their detection in and/or isolation from arid, forest, tropical, and compost soils (<xref ref-type="bibr" rid="r34">34</xref>
+          <xref ref-type="bibr" rid="r35"/>&#x02013;<xref ref-type="bibr" rid="r36">36</xref>). The atypical NosZ of <italic>Anaeromyxobacter dehalogenans</italic> shares only 33% amino acid identity with the typical Z-type NosZ of the well-characterized denitrifier <italic>B. japonicum</italic> (<xref ref-type="bibr" rid="r37">37</xref>, <xref ref-type="bibr" rid="r38">38</xref>). To verify the physiological function of this atypical NosZ as an N<sub>2</sub>O reductase, growth experiments with the nondenitrifying species <italic>A. dehalogenans</italic> were conducted. Consistent with the lack of <italic>nir</italic> genes associated with the denitrification pathway and the presence of <italic>nrfA</italic>, <italic>Anaeromyxobacter</italic> strains reduced nitrate and nitrite stoichiometrically to ammonium (<ext-link ext-link-type="uri" xlink:href="http://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1211238109/-/DCSupplemental/sapp.pdf" xlink:show="new">
+            <italic>SI Appendix</italic>, Fig. S1
+          </ext-link>) (<xref ref-type="bibr" rid="r35">35</xref>). Growth also occurred with N<sub>2</sub>O as electron acceptor (<xref ref-type="fig" rid="fig02">Fig. 2</xref>), indicating that the atypical <italic>Anaeromyxobacter</italic>-type <italic>nosZ</italic> does encode a respiratory terminal N<sub>2</sub>O reductase, which is consistent with NosZ activity observed in <italic>Wolinella</italic>, <italic>Campylobacter</italic>, and <italic>Geobacillus</italic> (<xref ref-type="bibr" rid="r32">32</xref>, <xref ref-type="bibr" rid="r33">33</xref>, <xref ref-type="bibr" rid="r39">39</xref>, <xref ref-type="bibr" rid="r40">40</xref>). Acetate-fed <italic>A. dehalogenans</italic> strain 2CP-C cultures produced 2.85 &#x000b1; 0.44 and 4.08 &#x000b1; 1.22 &#x000d7; 10<sup>8</sup> cells per micromole of N<sub>2</sub>O reduced, demonstrating that N<sub>2</sub>O reduction was linked to energy conservation (<ext-link ext-link-type="uri" xlink:href="http://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1211238109/-/DCSupplemental/sapp.pdf" xlink:show="new">
+            <italic>SI Appendix</italic>, Table S1
+          </ext-link>). Compared with the true denitrifier <italic>Pseudomonas stutzeri</italic> strain DCP-Ps1, the cell yield of strain 2CP-C was about 1.5-fold higher [6.4 mg (dry weight) vs. 4.3 mg/mmol N<sub>2</sub>O], indicating that the <italic>Anaeromyxobacter</italic> NosZ enzyme is involved in energy conservation and may operate with greater efficiency than the respiratory machinery of the complete denitrifier. It also is well documented that complete denitrifiers exhibit inhibition of N<sub>2</sub>O respiration in the presence of nitrate (<xref ref-type="bibr" rid="r41">41</xref>, <xref ref-type="bibr" rid="r42">42</xref>), but <italic>Anaeromyxobacter</italic> cultures amended with 1 mM nitrate did not show diminished N<sub>2</sub>O reduction rates. Consistent with these physiological observations, the bioinformatics analysis revealed distinct features of the <italic>nos</italic> cluster with atypical NosZ (see below).
+        </p>
+        <fig id="fig02" fig-type="figure" position="float">
+          <label>Fig. 2.</label>
+          <caption>
+            <p>Growth of <italic>A. dehalogenans</italic> strain 2CP-C with N<sub>2</sub>O as the sole electron acceptor. The medium was amended with acetate as electron donor, and the vessels were inoculated with acetate/N<sub>2</sub>O-grown 2CP-C cells that had consumed all N<sub>2</sub>O. The data points represent the averages of triplicate cultures, with error bars showing the SD. In control vessels without N<sub>2</sub>O, cell numbers did not increase. No N<sub>2</sub>O reduction occurred in control cultures that received no inoculum. &#x025cf;, N<sub>2</sub>O; &#x025a0;, dinitrogen; &#x025b2;, cells = OD<sub>600</sub>
+              <sub>nm</sub>; <bold>&#x025cb;</bold>, N<sub>2</sub>O, no cells; &#x025b3;, cells = OD<sub>600</sub>
+              <sub>nm</sub>, no N<sub>2</sub>O.
+            </p>
+          </caption>
+          <graphic id="gra2" xlink:href="pnas.1211238109fig02"/>
+        </fig>
+        <p>A genetic system for <italic>Anaeromyxobacter</italic> is not available to elucidate the detailed function(s) of individual components of the atypical <italic>nos</italic> cluster; however, multiple independent lines of evidence support that the atypical NosZ catalyzes N<sub>2</sub>O reduction. Querying sequences of typical <italic>nosZ</italic> sequences against the available strain 2CP-C genome revealed that only Adeh_2402 (ABC82172), the gene encoding the atypical NosZ, yielded a robust match. In fact, only the atypical NosZ, but no other oxidoreductases or cytochromes encoded on the strain 2CP-C genome, shared the key characteristic amino acid residues (<ext-link ext-link-type="uri" xlink:href="http://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1211238109/-/DCSupplemental/sapp.pdf" xlink:show="new">
+            <italic>SI Appendix</italic>, Fig. S2
+          </ext-link>). The atypical <italic>nosZ</italic> also is part of a <italic>nos</italic> operon, which does not appear to be missing any key functional component compared with typical <italic>nos</italic> clusters (<xref ref-type="fig" rid="fig03">Fig. 3</xref>). Finally, the atypical NosZ of <italic>Geobacillus thermodenitrificans</italic> and the nondenitrifying rumen symbiont <italic>W. succinogenes</italic> have been demonstrated to reduce N<sub>2</sub>O (<xref ref-type="bibr" rid="r33">33</xref>, <xref ref-type="bibr" rid="r40">40</xref>) and show relatively high amino acid identity to the <italic>A. dehalogenans</italic> NosZ (39% and 53%, respectively), indicating that the latter homolog encodes the key N<sub>2</sub>O reductase on the <italic>A. dehalogenans</italic> genomes.
+        </p>
+        <fig id="fig03" fig-type="figure" position="float">
+          <label>Fig. 3.</label>
+          <caption>
+            <p>Comparison of <italic>nos</italic> clusters carrying the atypical <italic>nosZ</italic> with the characterized <italic>nos</italic> cluster of the complete denitrifier <italic>B. japonicum</italic> strain USDA110, which harbors a typical <italic>nosZ</italic>. <italic>nos</italic> clusters of <italic>Anaeromyxobacter</italic> sp. strain Fw109-5, three <italic>A. dehalogenans</italic> strains, <italic>O. terrae</italic>, <italic>D. tiedjei</italic>, <italic>G. thermodenitrificans</italic>, four representatives of the <italic>Desulfitobacterium</italic> genus, <italic>G. aurantiaca</italic>, <italic>W. succinogenes</italic>, and <italic>Dechloromonas aromatica</italic> harbor the atypical <italic>nosZ</italic> and encode predicted iron&#x02013;sulfur-binding proteins (labeled &#x0201c;4Fe-4S&#x0201d; or &#x0201c;Fe-S&#x0201d;), Rieske iron&#x02013;sulfur proteins (S), <italic>b</italic>-type cytochromes (cy-b), or <italic>c</italic>-type cytochromes (cy-c). The gene encoding a protein with up to four predicted transmembrane-spanning regions (TM) is found in all atypical, but none of the typical, <italic>nos</italic> clusters. Accessory genes (<italic>nosD</italic>, <italic>nosF</italic>, <italic>nosL</italic>, and <italic>nosY</italic>) are generally conserved across <italic>nos</italic> clusters with both typical and atypical <italic>nosZ</italic>. Noncolored genes in the <italic>A. dehalogenans</italic> and <italic>O. terrae</italic> operons have no orthologs in any other known <italic>nos</italic> cluster. <italic>nosR</italic> and <italic>nosX</italic> are associated exclusively with typical <italic>nos</italic> clusters. <italic>W. succinogenes</italic> produces a unique NosZ with an additional C-terminal c-type cytochrome domain. The scale bar indicates the mean number of amino acid substitutions per site.</p>
+          </caption>
+          <graphic id="gra3" xlink:href="pnas.1211238109fig03"/>
+        </fig>
+        <p>Mature NosZ are located in the periplasm or are membrane associated (<xref ref-type="bibr" rid="r30">30</xref>), and the typical and atypical NosZ differ in regard to the secretion pathway used to deliver the protein across the cytoplasmic membrane. All typical NosZ possess the twin-arginine translocation (Tat) signal peptide with the characteristic [RRx(F|L)] motif (<xref ref-type="bibr" rid="r43">43</xref>). In contrast, the atypical NosZ, except those of the <italic>Chloroflexi</italic>, possess an N-terminal Sec-type signal peptide (<xref ref-type="bibr" rid="r44">44</xref>). Additional differences between typical and atypical NosZ proteins occur in two of the seven conserved histidine residues involved in binding of the catalytic copper center (Cu<sub>Z</sub>) (<xref ref-type="bibr" rid="r30">30</xref>, <xref ref-type="bibr" rid="r45">45</xref>). Among the 77 typical NosZ, the Cu<sub>Z</sub>-binding motifs associated with the first two histidines, DxHHxH, and the last histidine, EPHD, exhibited 100% conservation (<ext-link ext-link-type="uri" xlink:href="http://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1211238109/-/DCSupplemental/sapp.pdf" xlink:show="new">
+            <italic>SI Appendix</italic>, Fig. S2
+          </ext-link>). Fewer conserved residues were found in the Cu<sub>Z</sub>-binding motifs of atypical NosZ (i.e., DxHH and EPH), suggesting structural and possibly mechanistic differences that may explain the increased growth efficiency observed in <italic>A. dehalogenans</italic> strain 2CP-C.
+        </p>
+      </sec>
+      <sec>
+        <title>Genomic Context of <italic>nosZ</italic> Genes in Nondenitrifying Populations.</title>
+        <p>The genomic loci encoding NosZ are part of the <italic>nos</italic> cluster, which includes genes encoding accessory proteins required for NosZ maturation and function. The <italic>Anaeromyxobacter nos</italic> clusters comprise 10 or 11 genes and share the 4 NosZ maturation genes <italic>nosD</italic>, <italic>nosF</italic>, <italic>nosY</italic>, and <italic>nosL</italic> with the denitrifier-characteristic <italic>nos</italic> clusters, comprising only 6&#x02013;8 genes (<xref ref-type="fig" rid="fig03">Fig. 3</xref>). All <italic>nos</italic> clusters with the atypical <italic>nosZ</italic> lack <italic>nosR</italic> and <italic>nosX</italic>, which have been implicated in NosZ expression (<xref ref-type="bibr" rid="r37">37</xref>, <xref ref-type="bibr" rid="r46">46</xref>, <xref ref-type="bibr" rid="r47">47</xref>) and electron transfer to NosZ (<xref ref-type="bibr" rid="r30">30</xref>), respectively, in complete denitrifiers. Distinctive features of the <italic>Anaeromyxobacter nos</italic> clusters included four genes upstream of <italic>nosZ</italic>, which encode proteins with two 4Fe-4S iron&#x02013;sulfur motifs (<bold>C</bold>xx<bold>C</bold>xx<bold>C</bold>xxx<bold>CP</bold>), a 2Fe-2S Rieske iron&#x02013;sulfur motif (<bold>C</bold>x<bold>H</bold>&#x02026;<bold>CPCH</bold>), two <italic>b</italic>-type cytochrome domains [pfam0003(2<bold>|</bold>3)], and five <italic>c</italic>-type cytochrome (<bold>C</bold>xx<bold>CH</bold>) motifs, respectively, suggesting they serve electron transport functions (<xref ref-type="fig" rid="fig03">Fig. 3</xref>). Structurally similar <italic>nos</italic> clusters were encountered in <italic>Desulfitobacterium</italic> spp. and <italic>Desulfomonile tiedjei</italic>; however, the presence and organization of genes encoding electron transfer proteins were variable in other <italic>nos</italic> clusters with atypical <italic>nosZ</italic>. For example, the <italic>nos</italic> cluster of the Epsilonproteobacterium <italic>W. succinogenes</italic>, a bovine rumen symbiont (<xref ref-type="bibr" rid="r33">33</xref>), produces a NosZ with a <italic>c</italic>-type cytochrome domain near the C terminus, and genes with electron transfer functions are located downstream of <italic>nosZ</italic>. Another unique feature of all <italic>nos</italic> clusters with the atypical <italic>nosZ</italic> was a gene encoding a transmembrane protein of unknown function typically located immediately downstream of <italic>nosZ</italic> (<xref ref-type="fig" rid="fig03">Fig. 3</xref>).</p>
+      </sec>
+      <sec>
+        <title>Current PCR Primers Underestimate <italic>nosZ</italic> Abundance and Activity.</title>
+        <p>Alignment of multiple <italic>nosZ</italic> sequences that included both typical Z-type and atypical <italic>nosZ</italic> genes revealed sequence divergence (i.e., mismatches) at sites targeted by previously designed <italic>nosZ</italic>-specific PCR primers that had been used to estimate the abundance and activity of complete denitrifiers (<xref ref-type="bibr" rid="r48">48</xref>
+          <xref ref-type="bibr" rid="r49"/>
+          <xref ref-type="bibr" rid="r50"/>
+          <xref ref-type="bibr" rid="r51"/>
+          <xref ref-type="bibr" rid="r52"/>&#x02013;<xref ref-type="bibr" rid="r53">53</xref>) (<ext-link ext-link-type="uri" xlink:href="http://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1211238109/-/DCSupplemental/sapp.pdf" xlink:show="new">
+            <italic>SI Appendix</italic>, Fig. S3
+          </ext-link>). PCR assays confirmed that commonly used <italic>nosZ</italic>-targeted primer sets including Nos661F/Nos1773R (<xref ref-type="bibr" rid="r52">52</xref>), NosZ-F/nosZ1622R (<xref ref-type="bibr" rid="r51">51</xref>, <xref ref-type="bibr" rid="r53">53</xref>), nosZ1F/nosZ1R, and nosZ2F/nosZ2R (<xref ref-type="bibr" rid="r49">49</xref>) are not comprehensive and fail to amplify the atypical <italic>nosZ</italic> genes. Conserved sequence features distinguished the atypical and typical <italic>nosZ</italic> genes and are suitable for designing PCR primer sets that selectively amplify atypical <italic>nosZ</italic> genes. Based on the <italic>nosZ</italic> sequences from five available <italic>Anaeromyxobacter</italic> genomes, we designed primers NosZ-912F and NosZ-1853R to amplify an &#x0223c;880 bp&#x02013;long <italic>nosZ</italic> fragment (<ext-link ext-link-type="uri" xlink:href="http://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1211238109/-/DCSupplemental/sapp.pdf" xlink:show="new">
+            <italic>SI Appendix</italic>, Table S2
+          </ext-link>). This primer pair, designed to target the <italic>Anaeromyxobacter nosZ</italic>, did not amplify the typical <italic>nosZ</italic> of <italic>P. stutzeri</italic> or the atypical <italic>nosZ</italic> of <italic>Desulfitobacterium</italic> spp. and <italic>W. succinogenes</italic>.
+        </p>
+      </sec>
+      <sec>
+        <title>Environmental Distribution of <italic>Anaeromyxobacter</italic> spp. with Atypical <italic>nosZ</italic>.</title>
+        <p>To assess the prevalence of <italic>Anaeromyxobacter</italic> in natural environments, we collected 145 soil samples from different agricultural sites located in the Illinois Corn Belt. Using an <italic>Anaeromyxobacter</italic> 16S rRNA gene-targeted, genus-specific primer set (<xref ref-type="bibr" rid="r36">36</xref>), we found that 140 of these samples tested positive, indicating the common distribution of <italic>Anaeromyxobacter</italic> spp. across a range of texturally distinct agricultural soils (<ext-link ext-link-type="uri" xlink:href="http://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1211238109/-/DCSupplemental/sapp.pdf" xlink:show="new">
+            <italic>SI Appendix</italic>, Fig. S4
+          </ext-link>). Further analysis performed with 77 soil samples collected from two Illinois field sites (Dekalb and Havana) with contrasting soil textures and drainage characteristics demonstrated the abundance of <italic>Anaeromyxobacter</italic> 16S rRNA genes along with the presence of the atypical <italic>Anaeromyxobacter</italic>-type <italic>nosZ</italic> gene. Between 1 &#x000d7; 10<sup>5</sup> and 3 &#x000d7; 10<sup>7</sup>
+          <italic>Anaeromyxobacter</italic> cells per gram of soil were enumerated using quantitative real-time PCR (qPCR), and the <italic>Anaeromyxobacter</italic>-type <italic>nosZ</italic> gene was detected using direct and nested PCR in 62 (81%) of the agricultural soil samples (<ext-link ext-link-type="uri" xlink:href="http://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1211238109/-/DCSupplemental/sapp.pdf" xlink:show="new">
+            <italic>SI Appendix</italic>, Fig. S5
+          </ext-link>). The abundance of <italic>Anaeromyxobacter</italic> 16S rRNA genes showed a statistically significant correlation with the presence of the atypical <italic>Anaeromyxobacter</italic>-type <italic>nosZ</italic> gene (<xref ref-type="fig" rid="fig04">Fig. 4</xref>), corroborating that the direct/nested PCR specifically amplified <italic>Anaeromyxobacter</italic>-type <italic>nosZ</italic> gene fragments, and supporting the hypothesis that nondenitrifiers with the atypical <italic>nosZ</italic> represent an important and heretofore unrecognized group contributing to N<sub>2</sub>O consumption in soils. PCR amplicons obtained from three Illinois soils (Havana, Urbana, and Dekalb) with <italic>A. dehalogenans-</italic>specific <italic>nosZ</italic> primers were cloned and sequenced. Amino acid sequences inferred from 11 distinct <italic>nosZ</italic> fragments (&#x0223c;900 bp) shared high similarity with NosZ of <italic>A. dehalogenans</italic> strain 2CP-C (<ext-link ext-link-type="uri" xlink:href="http://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1211238109/-/DCSupplemental/sapp.pdf" xlink:show="new">
+            <italic>SI Appendix</italic>, Fig. S6
+          </ext-link>), ranging from 74% to 94% identity (77&#x02013;91% pairwise nucleotide identity). Among the atypical <italic>nosZ</italic> amplicons retrieved from the three sites, nine other sequences had high similarity (&#x0003e;72% amino acid identity) to the NosZ identified in <italic>Gemmatimonas aurantiaca</italic>, suggesting a wider range of atypical <italic>nosZ</italic> homologs is present in these soils. The abundance of complete denitrifiers in soils ranges from 10<sup>5</sup> to 10<sup>7</sup> cells per gram (<xref ref-type="bibr" rid="r49">49</xref>), similar to the numbers of <italic>Anaeromyxobacter</italic> cells we quantified in the agricultural soils. Considering that <italic>nos</italic> clusters with atypical <italic>nosZ</italic> genes occur in nondenitrifying (and some denitrifying) genera common to soil ecosystems, and that our primers targeted only a subset of the atypical <italic>nosZ</italic> genes, the relative abundance of atypical NosZ may in fact exceed that of typical Z-type NosZ. In support of this hypothesis, additional common soil bacteria, including ammonifying <italic>Desulfitobacterium</italic> spp. and denitrifying <italic>Bacillus, Geobacillus</italic>, and <italic>Dechloromonas</italic> spp., also harbor atypical <italic>nosZ</italic> genes (<xref ref-type="fig" rid="fig01">Fig. 1</xref>) (<xref ref-type="bibr" rid="r50">50</xref>).
+        </p>
+        <fig id="fig04" fig-type="figure" position="float">
+          <label>Fig. 4.</label>
+          <caption>
+            <p>Correlation of <italic>Anaeromyxobacter</italic> spp. abundance with the relative detection of atypical <italic>Anaeromyxobacter nosZ</italic> genes in Dekalb and Havana spatial variogram soil core samples. Mean 16S rRNA gene copy numbers per gram of soil are plotted in each <italic>nosZ</italic> relative abundance group. Kruskal&#x02013;Wallis one-way ANOVA demonstrated significant differences between negative (&#x02212;, no <italic>nosZ</italic> amplicons obtained) and positive (+, <italic>nosZ</italic> amplicons obtained in direct PCR) PCR results (**<italic>P</italic> &#x0003c; 0.0001), and between positive and low target gene abundance [(+), <italic>nosZ</italic> amplicons obtained with nested PCR] results (*<italic>P</italic> &#x0003c; 0.05). No significant statistical relationship (ns) was observed between the abundance of detected <italic>Anaeromyxobacter</italic> populations and samples that tested negative for <italic>nosZ</italic> or required nested PCR for <italic>nosZ</italic> detection. Error bars represent the SD.</p>
+          </caption>
+          <graphic id="gra4" xlink:href="pnas.1211238109fig04"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Conclusions and Future Perspectives.</title>
+        <p>All complete denitrifiers are facultative aerobes and represent an ecophysiologically homogeneous group that switches from oxygen respiration to denitrification when soils become anoxic following rain events. The nondenitrifying N<sub>2</sub>O reducers with atypical NosZ are ecophysiologically more diverse and occupy a much broader range of habitats, including anoxic, microaerophilic, oxic, psychrophilic, piezophilic, thermophilic, and halophilic environments. These findings indicate that microbial populations with atypical <italic>nosZ</italic> genes, including nondenitrifying <italic>Anaeromyxobacter</italic> spp., are potential contributors to N<sub>2</sub>O reduction in soils and sediments, as well as in other habitats where N<sub>2</sub>O sources (e.g., chemodenitrification, nitrification) exist. These findings further demonstrate that the combined contributions of both complete denitrifier and nondenitrifier N<sub>2</sub>O reducers must be quantified to obtain a meaningful measure of the catalysts involved in N<sub>2</sub>O reduction. Because the currently applied molecular tools used to estimate <italic>nosZ</italic> gene activity are not comprehensive and miss the contributions of microbes carrying an atypical <italic>nosZ</italic> gene, current assessments of <italic>nosZ</italic> transcripts would underestimate the actual activity. The environmental <italic>nosZ</italic> sequences reported here will aid the design of refined PCR tools to comprehensively assess and measure the abundance and activity of microbes controlling N<sub>2</sub>O flux.</p>
+        <p>N<sub>2</sub>O is a potent greenhouse gas that destroys the ozone layer and therefore affects global warming and climate change. Obviously, the processes that affect (i.e., control) N<sub>2</sub>O flux must be understood, and substantial efforts have elucidated N<sub>2</sub>O sources to generate refined N<sub>2</sub>O emission models (<xref ref-type="bibr" rid="r4">4</xref>, <xref ref-type="bibr" rid="r54">54</xref>, <xref ref-type="bibr" rid="r55">55</xref>). To date, complete denitrifiers have been considered the key functional guild that controls N<sub>2</sub>O emissions from soil and sediments to the atmosphere (<xref ref-type="bibr" rid="r28">28</xref>, <xref ref-type="bibr" rid="r56">56</xref>
+          <xref ref-type="bibr" rid="r57"/>&#x02013;<xref ref-type="bibr" rid="r58">58</xref>). Our results imply that the analysis of the typical denitrifier <italic>nosZ</italic> provides an incomplete picture and is insufficient to account for or accurately predict N<sub>2</sub>O flux. The discovery of functional, atypical <italic>nosZ</italic> genes from Bacteria and Archaea from a variety of habitats, including agricultural soils, indicates that a much broader group of microbes contributes to N<sub>2</sub>O turnover. This heretofore unrecognized diversity broadens our understanding of the ecological controls of N<sub>2</sub>O consumption, and the contributions of microbes with atypical <italic>nosZ</italic> genes should be considered in monitoring regimes and future greenhouse gas flux models.
+        </p>
+      </sec>
+    </sec>
+    <sec sec-type="materials|methods" id="s2">
+      <title>Materials and Methods</title>
+      <p>Details of all methods used in this study are described in the <ext-link ext-link-type="uri" xlink:href="http://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1211238109/-/DCSupplemental/sapp.pdf" xlink:show="new">
+          <italic>SI Appendix, Materials and Methods</italic>
+        </ext-link>. The <ext-link ext-link-type="uri" xlink:href="http://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1211238109/-/DCSupplemental/sapp.pdf" xlink:show="new">
+          <italic>SI Appendix</italic>
+        </ext-link> is divided into three sections: (<italic>i</italic>) organisms, culture conditions, growth yield measurements and analytical procedures; (<italic>ii</italic>) molecular techniques including DNA extraction, primer design and PCR protocols; and (<italic>iii</italic>) computational analyses and methodologies. Additional references provide further information about procedures and analytical techniques.
+      </p>
+    </sec>
+   
+    <sec sec-type="supplementary-material">
+      
+      <title>Supplementary Material</title>
+      
+      <supplementary-material id="PMC_1" content-type="local-data">
+        <caption>
+          <title>Supporting Information</title>
+        </caption>
+        
+        <ext:resource mimetype="text" mime-subtype="html" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3511753/bin/supp_109_48_19709__index.html">
+          <ext:resource-meta>
+            <ext:filename> supp_109_48_19709__index.html</ext:filename>
+            <ext:format>HTML</ext:format>
+          </ext:resource-meta>
+            
+        <ext:resource xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3511753/bin/1211238109_sapp.pdf"  mimetype="application" mime-subtype="PDF"> 
+          <ext:resource-meta>
+            <ext:filename>1211238109_sapp.pdf</ext:filename>
+            <ext:format>PDF</ext:format>
+            <size units="MB">1.6</size>
+          </ext:resource-meta>
+         
+          <ext:item id="S1">
+            <label>S1 Materials and Methods</label>
+          </ext:item>
+          
+          
+          <ext:item id="F1">
+            <!-- The triangle and square in the caption are not tagged appropriately. -->
+            <label>Figure S1</label>
+            <caption>
+              <p>Nitrate reduction by <italic>Anaeromyxobacter dehalogenans </italic> strain 2CP-C. Cultures
+                were amended with acetate as electron donor and received inocula from acetate/nitrategrown
+                cultures that had consumed all nitrate. The data points represent the averages of
+                triplicate vessels, with error bars showing the standard deviation. The ammonia
+                concentrations were corrected for ammonia present in the medium and transferred with the
+                inoculum. , nitrate; , nitrite; , ammonia.
+              </p>
+            </caption>
+          </ext:item>
+          
+          <ext:item id="F2">
+            <label> Figure S2</label>
+            <caption>
+              <p><italic>Anaeromyxobacter NosZ </italic>aligned with experimentally characterized NosZ and
+                NirK protein sequences. Conserved histidine residues of the beta-propeller domain
+                implicated in CuZ-center coordination are highlighted in red. Residues involved in binding
+                the CuA-center of the C-terminal cupredoxin domain are highlighted in green. Calciumbinding
+                residues, involved in NosZ dimerization, are highlighted in cyan. Included in the
+                alignment are the genetically and/or biochemically characterized Z-type (typical) NosZ,
+                sp|Q89XJ6, sp|AAD43473, sp|Q01710, and sp|Q59105 from <italic>Bradyrhizobium japonicum</italic>
+                USDA110, <italic>Rhodobacter sphaeroides</italic> subsp. <italic>denitrificans</italic>, <italic>Pseudomonas aeruginosa</italic>, and
+                <italic>Ralstonia eutropha</italic> H16, respectively. NosZ with solved crystal structures, 1FWX, 2IWF,
+                and 3SBP, are from <italic>Paracoccus denitrificans</italic>, <italic>Achromobacter cycloclastes</italic>, and
+                <italic>Pseudomonas stutzeri</italic>, respectively. Highlighted in yellow are the atypical NosZ from
+                <italic>Anaeromyxobacter</italic> sp. strain Fw109-5 (Anae109_0244), <italic>Anaeromyxobacter dehalogenans</italic>
+                strain 2CP-1 (A2cp1_1556), strain K (AnaeK_1461), and strain 2CP-C (Adeh_2402), as
+                well as the characterized atypical NosZ from <italic>Wolinella succinogenes</italic> (CAG26676) and
+                <italic>Geobacillus thermodenitrificans</italic> (GTNG_1734). To highlight the sequence uniqueness of
+                NosZ, a region of the characterized NirK (sp|P25006) from <italic>Achromobacter cycloclastes</italic>,
+                which exhibited matches to NosZ sequences in BLAST, is included in the alignment
+                (highlighted in gray). Amino acid conservation is indicated by symbols below the
+                alignments: * 100% identity; : similar physicochemical properties.
+                
+              </p>
+            </caption>
+            
+          </ext:item>
+          
+          <ext:item id="F3">
+            <label>Figure S3</label>
+            <caption>
+              <p>Alignment of selected typical and atypical <italic>nosZ</italic> sequences with previously
+                developed denitrifier-specific <italic>nosZ</italic> gene-targeted primers. Primer sequences are shown
+                on the top line with specific primer names shown above the arrows, which designate
+                primer direction. Highlighted in gray are nucleotide mismatches within <italic>nosZ</italic> sequences
+                with the respective primers. Multiple mismatches occur with atypical <italic>nosZ</italic> gene
+                sequences suggesting that the previously developed primers would not amplify these
+                genes.</p>
+            </caption>
+            
+          </ext:item>
+          
+          <ext:item id="F4">
+            <label>Figure S4</label>
+            <caption><p>Figure S4. Detection of Anaeromyxobacter spp. based on PCR amplification of 16S rRNA
+              gene fragments with primer pair 60F and 461R (Table S2). Samples were collected over a
+              range of major soil regions across the state of Illinois. Values represent the number of
+              samples yielding Anaeromyxobacter dehalogenans 16S rRNA gene amplicons per total
+              number of soil samples in each sampling group locale. The filled black circles represent
+              the eight sampling locations.</p>
+            </caption>
+            
+          </ext:item>
+          
+          <ext:item id="F5">
+            <label>Figure S5</label>
+            <caption><p>Abundance of <italic>Anaeromyxobacter</italic> spp. and presence of the <italic>Anaeromyxobacter
+              nosZ</italic> in soils collected from two field sites with distinct soil textures and drainage
+              characteristics located in the Illinois cornbelt. Soil cores were collected using a spatial
+              variogram approach (see Methods for details) along three transects with the 10 cm
+              samples each analyzed in triplicate (r1, r2, and r3). With direct PCR, <italic>nosZ</italic> amplicons of
+              the correct size were obtained from 33 samples (score “+”), and nested PCR yielded <italic>nosZ</italic>
+              amplicons from an additional 29 samples (score “(+)”). A positive score was assigned
+              when a band of the correct size was obtained in ethidium bromide-stained agarose gels.
+              In 12 of the samples, the <italic>Anaeromyxobacter nosZ</italic> gene was not detected (score “-“).
+              <italic>Anaeromyxobacter</italic> cell numbers were determined by 16S rRNA gene-targeted qPCR with
+              a genus specific primer set (Table S2). ND=not detected.
+              
+            </p></caption>
+            
+          </ext:item>
+          
+          <ext:item id="F6">
+            <label>Figure S6</label>
+            <caption><p>Affiliation of environmental <italic>nosZ</italic> amplicons with atypical <italic>nosZ</italic> genes identified in sequenced bacterial genomes. The neighbor-joining tree(Pearson-correction) is based on alignment of 300-320 amino acid residues of atypical <italic>NosZ</italic> (bold)inferred from <italic>nosZ</italic> amplicons obtained from agricultural soils in Dekalb (Dek),Havana (Hav), and Urbana (Urb) in the state of Illinois. The <italic>nosZ</italic> gene sequences were amplified with primers 912F/1853R that targeted <italic>nosZ</italic> from <italic>Anaeromyxobacter dehalogenans</italic>. The sequences were aligned with reference sequences retrieved from GenBank, and GenBank accession numbers are listed in parentheses. Numbers above the branches represent branch length values. The scale bar corresponds to the mean number of nucleotide substitutions per site.
+              
+            </p></caption>
+            
+          </ext:item>
+          
+          <ext:item id="F7">
+            <label>Figure S7</label>
+            <caption><p>Gel electrophoresis of PCR-amplified <italic>nosZ</italic> sequences (~880 bp) from select
+              <italic>Anaeromyxobacter dehalogenans</italic> strains. The amplicons were obtained with primer pair
+              912F/1853R that was designed to target <italic>nosZ</italic> of <italic>Anaeromyxobacter dehalogenans</italic> strain
+              2CP-C and closely related strains, including strains DCP18, R, and K. Genomic DNA from
+              <italic>Pseudomonas stutzeri</italic> strain DCP-Ps1 served as a control demonstrating that its typical
+              <italic>nosZ</italic> gene was not amplified with these primers. Left lane, 1-kb ladder; lane 2, strain
+              DCP-Ps1; lane 3, strain 2CP-C; lane 3, strain DCP18; lane 4, strain R; lane 5, strain K;
+              lane 6, no template DNA (negative control).
+            </p></caption>
+          </ext:item>
+       
+          <ext:item id="T1">
+            <label>Table S1.</label>
+            <caption><p>Cell yields associated with growth-linked N2O reduction by strain 2CP-C.
+              All values represent averages and standard deviations from triplicate cultures. Using 16S
+              rRNA gene-targeted primers 2CPC112F and 2CPC227R (<xref rid="T2" ref-type="table">Table S2</xref>) specific for
+              <italic>Anaeromyxobacter</italic> spp., qPCR was used to quantify the increase in cell number attributed
+              to growth with different electron donors and N2O.
+            </p>
+            </caption>
+            
+          </ext:item>
+          
+          <ext:item id="T2">
+            <label>Table S2.</label>
+            <caption><p>Primers used in this study for polymerase chain reaction (PCR) and quantitative
+              real-time PCR (qPCR).   
+            </p>
+              
+            </caption>
+            
+          </ext:item>
+          
+          <ext:item id="T3">
+            <label>Table S3.</label>
+            <caption>
+              <p>Summary of the NosZ-encoding gene loci, the NosZ accession numbers, the
+                host organisms, and the accession numbers of the corresponding genome sequences.
+              </p>
+            </caption>
+          </ext:item>
+          
+        </ext:resource>
+       
+        </ext:resource> 
+   
+      </supplementary-material>
+    </sec>
+    
+  </body>
+  
+  
+  
+  
+  <back>
+    <ack>
+      <p>This research was supported by the US Department of Energy, Office of Biological and Environmental Research, Genomic Science Program, Award DE-SC0006662.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="conflict">
+        <p>The authors declare no conflict of interest.</p>
+      </fn>
+      <fn fn-type="other">
+        <p>This article is a PNAS Direct Submission.</p>
+      </fn>
+      <fn fn-type="other">
+        <p>Data deposition: The sequences reported in this paper have been deposited in the GenBank database (accession nos. <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="GU185838.1" xlink:show="new">GU185838.1</ext-link>&#x02013;<ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="GU185857.1" xlink:show="new">GU185857.1</ext-link>).</p>
+      </fn>
+      <fn fn-type="supplementary-material">
+        <p>This article contains supporting information online at <ext-link ext-link-type="uri" xlink:href="http://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1211238109/-/DCSupplemental" xlink:show="new">www.pnas.org/lookup/suppl/doi:10.1073/pnas.1211238109/-/DCSupplemental</ext-link>.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <ref id="r1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Galloway</surname>
+              <given-names>JN</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Nitrogen cycles: Past, present, and future</article-title>
+          <source>Biogeochemistry</source>
+          <year>2004</year>
+          <volume>70</volume>
+          <issue>2</issue>
+          <fpage>153</fpage>
+          <lpage>226</lpage>
+        </element-citation>
+      </ref>
+      <ref id="r2">
+        <label>2</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Finlayson-Pitts</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name>
+              <surname>Pitts</surname>
+              <given-names>JN</given-names>
+            </name>
+          </person-group>
+          <source>Chemistry of the Upper and Lower Atmosphere</source>
+          <year>2000</year>
+          <publisher-loc>San Diego</publisher-loc>
+          <publisher-name>Academic</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="r3">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lashof</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Ahuja</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>Relative contributions of greenhouse gas emissions to global warming</article-title>
+          <source>Nature</source>
+          <year>1990</year>
+          <volume>344</volume>
+          <issue>5</issue>
+          <fpage>529</fpage>
+          <lpage>531</lpage>
+        </element-citation>
+      </ref>
+      <ref id="r4">
+        <label>4</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Forster</surname>
+              <given-names>PV</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Changes in Atmospheric Constituents and in Radiative Forcing</source>
+          <year>2007</year>
+          <publisher-loc>Cambridge, UK</publisher-loc>
+          <publisher-name>Cambridge Univ Press</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="r5">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cicerone</surname>
+              <given-names>RJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Changes in stratospheric ozone</article-title>
+          <source>Science</source>
+          <year>1987</year>
+          <volume>237</volume>
+          <issue>4810</issue>
+          <fpage>35</fpage>
+          <lpage>42</lpage>
+          <pub-id pub-id-type="pmid">17813621</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r6">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Crutzen</surname>
+              <given-names>PJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of nitrogen oxides on atmospheric ozone content</article-title>
+          <source>Q J R Meteorol Soc</source>
+          <year>1970</year>
+          <volume>96</volume>
+          <issue>408</issue>
+          <fpage>320</fpage>
+          <lpage>325</lpage>
+        </element-citation>
+      </ref>
+      <ref id="r7">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ravishankara</surname>
+              <given-names>AR</given-names>
+            </name>
+            <name>
+              <surname>Daniel</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Portmann</surname>
+              <given-names>RW</given-names>
+            </name>
+          </person-group>
+          <article-title>Nitrous oxide (N<sub>2</sub>O): The dominant ozone-depleting substance emitted in the 21st century</article-title>
+          <source>Science</source>
+          <year>2009</year>
+          <volume>326</volume>
+          <issue>5949</issue>
+          <fpage>123</fpage>
+          <lpage>125</lpage>
+          <pub-id pub-id-type="pmid">19713491</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r8">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Dukarevich</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>EI</given-names>
+            </name>
+            <name>
+              <surname>Yen</surname>
+              <given-names>MR</given-names>
+              <suffix>Jr</suffix>
+            </name>
+            <name>
+              <surname>Saier</surname>
+              <given-names>MH</given-names>
+              <suffix>Jr</suffix>
+            </name>
+          </person-group>
+          <article-title>Membrane porters of ATP-binding cassette transport systems are polyphyletic</article-title>
+          <source>J Membr Biol</source>
+          <year>2009</year>
+          <volume>231</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>10</lpage>
+          <pub-id pub-id-type="pmid">19806386</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r9">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Machida</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Nakazawa</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Fujii</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Aoki</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Watanabe</surname>
+              <given-names>O</given-names>
+            </name>
+          </person-group>
+          <article-title>Increase in the atmospheric nitrous oxide concentration during the last 250 years</article-title>
+          <source>Geophys Res Lett</source>
+          <year>1995</year>
+          <volume>22</volume>
+          <issue>21</issue>
+          <fpage>2921</fpage>
+          <lpage>2924</lpage>
+        </element-citation>
+      </ref>
+      <ref id="r10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bouwman</surname>
+              <given-names>AF</given-names>
+            </name>
+            <name>
+              <surname>Van der Hoek</surname>
+              <given-names>KM</given-names>
+            </name>
+            <name>
+              <surname>Olivier</surname>
+              <given-names>JGJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Uncertainties in the global source distribution of nitrous oxide</article-title>
+          <source>J Geophys Res</source>
+          <year>1995</year>
+          <volume>100</volume>
+          <issue>D2</issue>
+          <fpage>2785</fpage>
+          <lpage>2800</lpage>
+        </element-citation>
+      </ref>
+      <ref id="r11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bremner</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Blackmer</surname>
+              <given-names>AM</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of acetylene and soil water content on emission of nitrous oxide from soil</article-title>
+          <source>Nature</source>
+          <year>1979</year>
+          <volume>280</volume>
+          <issue>5271</issue>
+          <fpage>380</fpage>
+          <lpage>381</lpage>
+        </element-citation>
+      </ref>
+      <ref id="r12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McMahon</surname>
+              <given-names>PB</given-names>
+            </name>
+            <name>
+              <surname>Dennehy</surname>
+              <given-names>KF</given-names>
+            </name>
+          </person-group>
+          <article-title>N<sub>2</sub>O emissions from a nitrogen-enriched river</article-title>
+          <source>Environ Sci Technol</source>
+          <year>1999</year>
+          <volume>33</volume>
+          <issue>1</issue>
+          <fpage>21</fpage>
+          <lpage>25</lpage>
+        </element-citation>
+      </ref>
+      <ref id="r13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ronen</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Magaritz</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Almon</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Contaminated aquifers are a forgotten component of the global N<sub>2</sub>O budget</article-title>
+          <source>Nature</source>
+          <year>1988</year>
+          <volume>335</volume>
+          <issue>6185</issue>
+          <fpage>57</fpage>
+          <lpage>59</lpage>
+        </element-citation>
+      </ref>
+      <ref id="r14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bouwman</surname>
+              <given-names>AF</given-names>
+            </name>
+            <name>
+              <surname>Boumans</surname>
+              <given-names>LJM</given-names>
+            </name>
+            <name>
+              <surname>Batjes</surname>
+              <given-names>NH</given-names>
+            </name>
+          </person-group>
+          <article-title>Emissions of N<sub>2</sub>O and NO from fertilized fields: Summary of available measurement data</article-title>
+          <source>Global Biogeochem Cycles</source>
+          <year>2002</year>
+          <volume>16</volume>
+          <issue>4</issue>
+          <fpage>1058</fpage>
+          <lpage>1071</lpage>
+        </element-citation>
+      </ref>
+      <ref id="r15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mahne</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Tiedje</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <article-title>Criteria and methodology for identifying respiratory denitrifiers</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>1995</year>
+          <volume>61</volume>
+          <issue>3</issue>
+          <fpage>1110</fpage>
+          <lpage>1115</lpage>
+          <pub-id pub-id-type="pmid">16534960</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r16">
+        <label>16</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Megonigal</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>Hines</surname>
+              <given-names>ME</given-names>
+            </name>
+            <name>
+              <surname>Visscher</surname>
+              <given-names>PT</given-names>
+            </name>
+          </person-group>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Schlesinger</surname>
+              <given-names>WH</given-names>
+            </name>
+          </person-group>
+          <article-title>Anaerobic metabolism: Linkages to trace gases and aerobic processes</article-title>
+          <source>Biogeochemistry</source>
+          <year>2004</year>
+          <publisher-loc>Oxford, UK</publisher-loc>
+          <publisher-name>Elsevier-Pergamon</publisher-name>
+          <fpage>317</fpage>
+          <lpage>474</lpage>
+        </element-citation>
+      </ref>
+      <ref id="r17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Poth</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Dinitrogen production from nitrite by a <italic>Nitrosomonas</italic> isolate</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>1986</year>
+          <volume>52</volume>
+          <issue>4</issue>
+          <fpage>957</fpage>
+          <lpage>959</lpage>
+          <pub-id pub-id-type="pmid">16347192</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stremi&#x00144;ska</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Felgate</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Rowley</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Richardson</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Baggs</surname>
+              <given-names>EM</given-names>
+            </name>
+          </person-group>
+          <article-title>Nitrous oxide production in soil isolates of nitrate-ammonifying bacteria</article-title>
+          <source>Environ Microbiol Rep</source>
+          <year>2012</year>
+          <volume>4</volume>
+          <issue>1</issue>
+          <fpage>66</fpage>
+          <lpage>71</lpage>
+        </element-citation>
+      </ref>
+      <ref id="r19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takaya</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>Dissimilatory nitrate reduction metabolisms and their control in fungi</article-title>
+          <source>J Biosci Bioeng</source>
+          <year>2002</year>
+          <volume>94</volume>
+          <issue>6</issue>
+          <fpage>506</fpage>
+          <lpage>510</lpage>
+          <pub-id pub-id-type="pmid">16233342</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r20">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wrage</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Velthof</surname>
+              <given-names>GL</given-names>
+            </name>
+            <name>
+              <surname>van Beusichem</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Oenema</surname>
+              <given-names>O</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of nitrifier denitrification in the production of nitrous oxide</article-title>
+          <source>Soil Biol Biochem</source>
+          <year>2001</year>
+          <volume>33</volume>
+          <issue>12</issue>
+          <fpage>1723</fpage>
+          <lpage>1732</lpage>
+        </element-citation>
+      </ref>
+      <ref id="r21">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zumft</surname>
+              <given-names>WG</given-names>
+            </name>
+          </person-group>
+          <article-title>Cell biology and molecular basis of denitrification</article-title>
+          <source>Microbiol Mol Biol Rev</source>
+          <year>1997</year>
+          <volume>61</volume>
+          <issue>4</issue>
+          <fpage>533</fpage>
+          <lpage>616</lpage>
+          <pub-id pub-id-type="pmid">9409151</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r22">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Coby</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Picardal</surname>
+              <given-names>FW</given-names>
+            </name>
+          </person-group>
+          <article-title>Inhibition of NO<sub>3</sub>
+            <sup>&#x02212;</sup> and NO<sub>2</sub>
+            <sup>&#x02212;</sup> reduction by microbial Fe(III) reduction: Evidence of a reaction between NO<sub>2</sub>
+            <sup>&#x02212;</sup> and cell surface-bound Fe<sup>2+</sup>
+          </article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>2005</year>
+          <volume>71</volume>
+          <issue>9</issue>
+          <fpage>5267</fpage>
+          <lpage>5274</lpage>
+          <pub-id pub-id-type="pmid">16151113</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r23">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cooper</surname>
+              <given-names>DC</given-names>
+            </name>
+            <name>
+              <surname>Picardal</surname>
+              <given-names>FW</given-names>
+            </name>
+            <name>
+              <surname>Schimmelmann</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Coby</surname>
+              <given-names>AJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Chemical and biological interactions during nitrate and goethite reduction by <italic>Shewanella putrefaciens</italic> 200</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>2003</year>
+          <volume>69</volume>
+          <issue>6</issue>
+          <fpage>3517</fpage>
+          <lpage>3525</lpage>
+          <pub-id pub-id-type="pmid">12788758</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r24">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rakshit</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Matocha</surname>
+              <given-names>CJ</given-names>
+            </name>
+            <name>
+              <surname>Coyne</surname>
+              <given-names>MS</given-names>
+            </name>
+          </person-group>
+          <article-title>Nitrite reduction by siderite</article-title>
+          <source>Soil Sci Soc Am J</source>
+          <year>2008</year>
+          <volume>72</volume>
+          <issue>4</issue>
+          <fpage>1070</fpage>
+          <lpage>1077</lpage>
+        </element-citation>
+      </ref>
+      <ref id="r25">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Henderson</surname>
+              <given-names>SL</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Changes in denitrifier abundance, denitrification gene mRNA levels, nitrous oxide emissions, and denitrification in anoxic soil microcosms amended with glucose and plant residues</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>2010</year>
+          <volume>76</volume>
+          <issue>7</issue>
+          <fpage>2155</fpage>
+          <lpage>2164</lpage>
+          <pub-id pub-id-type="pmid">20154105</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r26">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smith</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Policy and technological constraints to implementation of greenhouse gas mitigation options in agriculture</article-title>
+          <source>Agric Ecosyst Environ</source>
+          <year>2007</year>
+          <volume>118</volume>
+          <issue>1-4</issue>
+          <fpage>6</fpage>
+          <lpage>28</lpage>
+        </element-citation>
+      </ref>
+      <ref id="r27">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morales</surname>
+              <given-names>SE</given-names>
+            </name>
+            <name>
+              <surname>Cosart</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Holben</surname>
+              <given-names>WE</given-names>
+            </name>
+          </person-group>
+          <article-title>Bacterial gene abundances as indicators of greenhouse gas emission in soils</article-title>
+          <source>ISME J</source>
+          <year>2010</year>
+          <volume>4</volume>
+          <issue>6</issue>
+          <fpage>799</fpage>
+          <lpage>808</lpage>
+          <pub-id pub-id-type="pmid">20182521</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r28">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wallenstein</surname>
+              <given-names>MD</given-names>
+            </name>
+            <name>
+              <surname>Myrold</surname>
+              <given-names>DD</given-names>
+            </name>
+            <name>
+              <surname>Firestone</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Voytek</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Environmental controls on denitrifying communities and denitrification rates: Insights from molecular methods</article-title>
+          <source>Ecol Appl</source>
+          <year>2006</year>
+          <volume>16</volume>
+          <issue>6</issue>
+          <fpage>2143</fpage>
+          <lpage>2152</lpage>
+          <pub-id pub-id-type="pmid">17205893</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r29">
+        <label>29</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zumft</surname>
+              <given-names>WG</given-names>
+            </name>
+            <name>
+              <surname>K&#x000f6;rner</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Bothe</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Ferguson</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>Newton</surname>
+              <given-names>WE</given-names>
+            </name>
+          </person-group>
+          <article-title>Nitrous oxide reductases</article-title>
+          <source>Biology of the nitrogen cycle</source>
+          <year>2007</year>
+          <publisher-loc>Amsterdam</publisher-loc>
+          <publisher-name>Elsevier</publisher-name>
+          <fpage>67</fpage>
+          <lpage>81</lpage>
+        </element-citation>
+      </ref>
+      <ref id="r30">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zumft</surname>
+              <given-names>WG</given-names>
+            </name>
+            <name>
+              <surname>Kroneck</surname>
+              <given-names>PMH</given-names>
+            </name>
+          </person-group>
+          <article-title>Respiratory transformation of nitrous oxide (N<sub>2</sub>O) to dinitrogen by Bacteria and Archaea</article-title>
+          <source>Adv Microb Physiol</source>
+          <year>2007</year>
+          <volume>52</volume>
+          <issue>4</issue>
+          <fpage>107</fpage>
+          <lpage>227</lpage>
+          <pub-id pub-id-type="pmid">17027372</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r31">
+        <label>31</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Tiedje</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <source>Ecology of Denitrification and Dissimiatory Nitrate Reduction to Ammonium</source>
+          <year>1988</year>
+          <publisher-loc>New York</publisher-loc>
+          <publisher-name>Wiley</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="r32">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Payne</surname>
+              <given-names>WJ</given-names>
+            </name>
+            <name>
+              <surname>Grant</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Shapleigh</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Hoffman</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Nitrogen oxide reduction in <italic>Wolinella succinogenes</italic> and <italic>Campylobacter</italic> species</article-title>
+          <source>J Bacteriol</source>
+          <year>1982</year>
+          <volume>152</volume>
+          <issue>2</issue>
+          <fpage>915</fpage>
+          <lpage>918</lpage>
+          <pub-id pub-id-type="pmid">7130133</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r33">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Simon</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Einsle</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Kroneck</surname>
+              <given-names>PMH</given-names>
+            </name>
+            <name>
+              <surname>Zumft</surname>
+              <given-names>WG</given-names>
+            </name>
+          </person-group>
+          <article-title>The unprecedented <italic>nos</italic> gene cluster of <italic>Wolinella succinogenes</italic> encodes a novel respiratory electron transfer pathway to cytochrome <italic>c</italic> nitrous oxide reductase</article-title>
+          <source>FEBS Lett</source>
+          <year>2004</year>
+          <volume>569</volume>
+          <issue>1-3</issue>
+          <fpage>7</fpage>
+          <lpage>12</lpage>
+          <pub-id pub-id-type="pmid">15225600</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r34">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Petrie</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>North</surname>
+              <given-names>NN</given-names>
+            </name>
+            <name>
+              <surname>Dollhopf</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Balkwill</surname>
+              <given-names>DL</given-names>
+            </name>
+            <name>
+              <surname>Kostka</surname>
+              <given-names>JE</given-names>
+            </name>
+          </person-group>
+          <article-title>Enumeration and characterization of iron(III)-reducing microbial communities from acidic subsurface sediments contaminated with uranium(VI)</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>2003</year>
+          <volume>69</volume>
+          <issue>12</issue>
+          <fpage>7467</fpage>
+          <lpage>7479</lpage>
+          <pub-id pub-id-type="pmid">14660400</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r35">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sanford</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Cole</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Tiedje</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization and description of <italic>Anaeromyxobacter dehalogenans</italic> gen. nov., sp. nov., an aryl-halorespiring facultative anaerobic myxobacterium</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>2002</year>
+          <volume>68</volume>
+          <issue>2</issue>
+          <fpage>893</fpage>
+          <lpage>900</lpage>
+          <pub-id pub-id-type="pmid">11823233</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r36">
+        <label>36</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thomas</surname>
+              <given-names>SH</given-names>
+            </name>
+            <name>
+              <surname>Padilla-Crespo</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Jardine</surname>
+              <given-names>PM</given-names>
+            </name>
+            <name>
+              <surname>Sanford</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>L&#x000f6;ffler</surname>
+              <given-names>FE</given-names>
+            </name>
+          </person-group>
+          <article-title>Diversity and distribution of <italic>Anaeromyxobacter</italic> strains in a uranium-contaminated subsurface environment with a nonuniform groundwater flow</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>2009</year>
+          <volume>75</volume>
+          <issue>11</issue>
+          <fpage>3679</fpage>
+          <lpage>3687</lpage>
+          <pub-id pub-id-type="pmid">19346346</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r37">
+        <label>37</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Philippot</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>Denitrifying genes in bacterial and Archaeal genomes</article-title>
+          <source>Biochim Biophys Acta</source>
+          <year>2002</year>
+          <volume>1577</volume>
+          <issue>3</issue>
+          <fpage>355</fpage>
+          <lpage>376</lpage>
+          <pub-id pub-id-type="pmid">12359326</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r38">
+        <label>38</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Velasco</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Mesa</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Delgado</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Bedmar</surname>
+              <given-names>EJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular characterization of <italic>nosRZDFYLX</italic> genes coding for denitrifying nitrous oxide reductase of <italic>Bradyrhizobium japonicum</italic></article-title>
+          <source>Antonie van Leeuwenhoek</source>
+          <year>2004</year>
+          <volume>85</volume>
+          <issue>3</issue>
+          <fpage>229</fpage>
+          <lpage>235</lpage>
+          <pub-id pub-id-type="pmid">15028871</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r39">
+        <label>39</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kern</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Simon</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Electron transport chains and bioenergetics of respiratory nitrogen metabolism in <italic>Wolinella succinogenes</italic> and other <italic>Epsilonproteobacteria</italic></article-title>
+          <source>Biochim Biophys Acta</source>
+          <year>2009</year>
+          <volume>1787</volume>
+          <issue>6</issue>
+          <fpage>646</fpage>
+          <lpage>656</lpage>
+          <pub-id pub-id-type="pmid">19171117</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r40">
+        <label>40</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>X</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The <italic>nos</italic> gene cluster from gram-positive bacterium <italic>Geobacillus thermodenitrificans</italic> NG80-2 and functional characterization of the recombinant NosZ</article-title>
+          <source>FEMS Microbiol Lett</source>
+          <year>2008</year>
+          <volume>289</volume>
+          <issue>1</issue>
+          <fpage>46</fpage>
+          <lpage>52</lpage>
+          <pub-id pub-id-type="pmid">19054093</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r41">
+        <label>41</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Richardson</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Felgate</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Watmough</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Thomson</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Baggs</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Mitigating release of the potent greenhouse gas N<sub>2</sub>O from the nitrogen cycle&#x02014;could enzymic regulation hold the key?</article-title>
+          <source>Trends Biotechnol</source>
+          <year>2009</year>
+          <volume>27</volume>
+          <issue>7</issue>
+          <fpage>388</fpage>
+          <lpage>397</lpage>
+          <pub-id pub-id-type="pmid">19497629</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r42">
+        <label>42</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Blackmer</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Bremner</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <article-title>Inhibitory effect of nitrate on reduction of N<sub>2</sub>O to N<sub>2</sub> by soil microorganisms</article-title>
+          <source>Soil Biol Biochem</source>
+          <year>1978</year>
+          <volume>10</volume>
+          <issue>3</issue>
+          <fpage>187</fpage>
+          <lpage>191</lpage>
+        </element-citation>
+      </ref>
+      <ref id="r43">
+        <label>43</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berks</surname>
+              <given-names>BC</given-names>
+            </name>
+            <name>
+              <surname>Palmer</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Sargent</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Protein targeting by the bacterial twin-arginine translocation (Tat) pathway</article-title>
+          <source>Curr Opin Microbiol</source>
+          <year>2005</year>
+          <volume>8</volume>
+          <issue>2</issue>
+          <fpage>174</fpage>
+          <lpage>181</lpage>
+          <pub-id pub-id-type="pmid">15802249</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r44">
+        <label>44</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>den Blaauwen</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Driessen</surname>
+              <given-names>AJM</given-names>
+            </name>
+          </person-group>
+          <article-title>Sec-dependent preprotein translocation in bacteria</article-title>
+          <source>Arch Microbiol</source>
+          <year>1996</year>
+          <volume>165</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>8</lpage>
+          <pub-id pub-id-type="pmid">8639021</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r45">
+        <label>45</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zumft</surname>
+              <given-names>WG</given-names>
+            </name>
+          </person-group>
+          <article-title>Biogenesis of the bacterial respiratory Cu<sub>A</sub>, Cu-S enzyme nitrous oxide reductase</article-title>
+          <source>J Mol Microbiol Biotechnol</source>
+          <year>2005</year>
+          <volume>10</volume>
+          <issue>2-4</issue>
+          <fpage>154</fpage>
+          <lpage>166</lpage>
+          <pub-id pub-id-type="pmid">16645312</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r46">
+        <label>46</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cuypers</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Viebrock-Sambale</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Zumft</surname>
+              <given-names>WG</given-names>
+            </name>
+          </person-group>
+          <article-title>NosR, a membrane-bound regulatory component necessary for expression of nitrous oxide reductase in denitrifying <italic>Pseudomonas stutzeri</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>1992</year>
+          <volume>174</volume>
+          <issue>16</issue>
+          <fpage>5332</fpage>
+          <lpage>5339</lpage>
+          <pub-id pub-id-type="pmid">1644760</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r47">
+        <label>47</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Honisch</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>Zumft</surname>
+              <given-names>WG</given-names>
+            </name>
+          </person-group>
+          <article-title>Operon structure and regulation of the <italic>nos</italic> gene region of <italic>Pseudomonas stutzeri</italic>, encoding an ABC-type ATPase for maturation of nitrous oxide reductase</article-title>
+          <source>J Bacteriol</source>
+          <year>2003</year>
+          <volume>185</volume>
+          <issue>6</issue>
+          <fpage>1895</fpage>
+          <lpage>1902</lpage>
+          <pub-id pub-id-type="pmid">12618453</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r48">
+        <label>48</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Geets</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Real-time PCR assay for the simultaneous quantification of nitrifying and denitrifying bacteria in activated sludge</article-title>
+          <source>Appl Microbiol Biotechnol</source>
+          <year>2007</year>
+          <volume>75</volume>
+          <issue>1</issue>
+          <fpage>211</fpage>
+          <lpage>221</lpage>
+          <pub-id pub-id-type="pmid">17256118</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r49">
+        <label>49</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Henry</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Bru</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Stres</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Hallet</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Philippot</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>Quantitative detection of the nosZ gene, encoding nitrous oxide reductase, and comparison of the abundances of 16S rRNA, <italic>narG, nirK</italic>, and <italic>nosZ</italic> genes in soils</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>2006</year>
+          <volume>72</volume>
+          <issue>8</issue>
+          <fpage>5181</fpage>
+          <lpage>5189</lpage>
+          <pub-id pub-id-type="pmid">16885263</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r50">
+        <label>50</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jones</surname>
+              <given-names>CM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Phenotypic and genotypic heterogeneity among closely related soil-borne N<sub>2</sub>- and N<sub>2</sub> O-producing <italic>Bacillus</italic> isolates harboring the <italic>nosZ</italic> gene</article-title>
+          <source>FEMS Microbiol Ecol</source>
+          <year>2011</year>
+          <volume>76</volume>
+          <issue>3</issue>
+          <fpage>541</fpage>
+          <lpage>552</lpage>
+          <pub-id pub-id-type="pmid">21348884</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r51">
+        <label>51</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kloos</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Mergel</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Rosch</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Bothe</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Denitrification within the genus <italic>Azospirillum</italic> and other associative bacteria</article-title>
+          <source>Aust J Plant Physiol</source>
+          <year>2001</year>
+          <volume>28</volume>
+          <issue>9</issue>
+          <fpage>991</fpage>
+          <lpage>998</lpage>
+        </element-citation>
+      </ref>
+      <ref id="r52">
+        <label>52</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Scala</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Kerkhof</surname>
+              <given-names>LJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Nitrous oxide reductase (<italic>nosZ</italic>) gene-specific PCR primers for detection of denitrifiers and three <italic>nosZ</italic> genes from marine sediments</article-title>
+          <source>FEMS Microbiol Lett</source>
+          <year>1998</year>
+          <volume>162</volume>
+          <issue>1</issue>
+          <fpage>61</fpage>
+          <lpage>68</lpage>
+          <pub-id pub-id-type="pmid">9595664</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r53">
+        <label>53</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Throb&#x000e4;ck</surname>
+              <given-names>IN</given-names>
+            </name>
+            <name>
+              <surname>Enwall</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Jarvis</surname>
+              <given-names>&#x000c5;</given-names>
+            </name>
+            <name>
+              <surname>Hallin</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Reassessing PCR primers targeting <italic>nirS, nirK</italic> and <italic>nosZ</italic> genes for community surveys of denitrifying bacteria with DGGE</article-title>
+          <source>FEMS Microbiol Ecol</source>
+          <year>2004</year>
+          <volume>49</volume>
+          <issue>3</issue>
+          <fpage>401</fpage>
+          <lpage>417</lpage>
+          <pub-id pub-id-type="pmid">19712290</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r54">
+        <label>54</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Farquharson</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Baldock</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Concepts in modelling N<sub>2</sub>O emissions from land use</article-title>
+          <source>Plant Soil</source>
+          <year>2008</year>
+          <volume>309</volume>
+          <issue>1-2</issue>
+          <fpage>147</fpage>
+          <lpage>167</lpage>
+        </element-citation>
+      </ref>
+      <ref id="r55">
+        <label>55</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Canfield</surname>
+              <given-names>DE</given-names>
+            </name>
+            <name>
+              <surname>Glazer</surname>
+              <given-names>AN</given-names>
+            </name>
+            <name>
+              <surname>Falkowski</surname>
+              <given-names>PG</given-names>
+            </name>
+          </person-group>
+          <article-title>The evolution and future of Earth&#x02019;s nitrogen cycle</article-title>
+          <source>Science</source>
+          <year>2010</year>
+          <volume>330</volume>
+          <issue>6001</issue>
+          <fpage>192</fpage>
+          <lpage>196</lpage>
+          <pub-id pub-id-type="pmid">20929768</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r56">
+        <label>56</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Conrad</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Soil microorganisms as controllers of atmospheric trace gases (H<sub>2</sub>, CO, CH<sub>4</sub>, OCS, N<sub>2</sub>O, and NO)</article-title>
+          <source>Microbiol Rev</source>
+          <year>1996</year>
+          <volume>60</volume>
+          <issue>4</issue>
+          <fpage>609</fpage>
+          <lpage>640</lpage>
+          <pub-id pub-id-type="pmid">8987358</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r57">
+        <label>57</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>&#x0010c;uhel</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Insights into the effect of soil pH on N<sub>2</sub>O and N<sub>2</sub> emissions and denitrifier community size and activity</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>2010</year>
+          <volume>76</volume>
+          <issue>6</issue>
+          <fpage>1870</fpage>
+          <lpage>1878</lpage>
+          <pub-id pub-id-type="pmid">20118356</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="r58">
+        <label>58</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McSwiney</surname>
+              <given-names>CP</given-names>
+            </name>
+            <name>
+              <surname>Robertson</surname>
+              <given-names>PG</given-names>
+            </name>
+          </person-group>
+          <article-title>Nonlinear response of N<sub>2</sub>O flux to incremental fertilizer addition in a continuous maize (<italic>Zea mays</italic> L.) cropping system</article-title>
+          <source>Glob Change Biol</source>
+          <year>2005</year>
+          <volume>11</volume>
+          <issue>2</issue>
+          <fpage>1712</fpage>
+          <lpage>1719</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+

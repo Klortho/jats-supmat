@@ -1,0 +1,40 @@
+<!DOCTYPE article SYSTEM "../dtd/NISO-supmat-extension-rec0.dtd">
+<article>
+    <!-- http://www.nature.com/nature/journal/v497/n7449/full/nature12131.html -->
+    <front>
+        <journal-meta></journal-meta>
+        <article-meta>
+           <title-group>
+                <article-title>Atmospheric confinement of jet streams on Uranus and Neptune</article-title>
+            </title-group>
+                   <pub-date></pub-date>
+            
+            <uri xlink:href="http://www.nature.com/nature/journal/v497/n7449/full/nature12131.html"/>
+        </article-meta>
+    </front>
+    <body>
+        <!-- article text -->
+        <fig id="Fig4"><!--references supplementary material--></fig>
+        <!-- article text -->
+        
+        <sec>
+            <title>Supplementary Information</title>
+            <supplementary-material id="S1" rid="Fig4">
+            <object-id pub-id-type="doi">doi:10.1038/nature12131</object-id>
+            <label>1</label>
+            <caption>
+                <title>Supplementary Information (228 KB)</title>
+                <p>This file contains Supplementary Text and Data 1-2, Supplementary Table 1, Supplementary Figure 1 and additional references.</p>
+            </caption>
+            <ext:resource xlink:href="http://www.nature.com/nature/journal/v497/n7449/extref/nature12131-s1.pdf" id="file1" mimetype="application" mime-subtype="pdf">
+                <ext:resource-meta>
+                    <ext:filename>nature12131-s1.pdf</ext:filename>
+                    <ext:format>PDF</ext:format>
+                    <size units="KB">228</size>
+                </ext:resource-meta>
+            </ext:resource>
+        </supplementary-material>
+        </sec>
+    </body>
+</article>
+

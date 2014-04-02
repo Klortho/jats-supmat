@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article SYSTEM "../dtd/NISO-supmat-extension-rec0.dtd">
+<article dtd-version="1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ext="http://jats.nlm.nih.gov/extensions/ext">
+    
+    <!--Book:  http://www.ncbi.nlm.nih.gov/books/NBK22203/
+        
+        Object: http://www.ncbi.nlm.nih.gov/books/NBK22203/figure/fibrillin_fig/?report=objectonly -->
+    
+    
+    <front>
+        <journal-meta></journal-meta>
+        <article-meta>
+            <article-id pub-id-type="doi">10.1029/NBK22203</article-id>
+                 <title-group>
+                    <article-title></article-title>
+                </title-group>
+                <pub-date></pub-date>
+            
+        </article-meta>
+    </front>
+    
+    <body>
+         <p>Marfan syndrome is a connective tissue disorder, so affects many structures, including the skeleton, lungs, eyes, heart and blood vessels. The disease is characterized by unusually long limbs, and is believed to have affected Abraham Lincoln. </p>
+        <p>Marfan syndrome is an autosomal dominant disorder that has been linked to the FBN1 gene on chromosome 15. FBN1 encodes a protein called fibrillin, which is essential for the formation of elastic fibres found in connective tissue. Without the structural support provided by fibrillin, many tissues are weakened, which can have severe consequences, for example, ruptures in the walls of major arteries. 
+       </p>
+        <fig id="F1" xml:lang="en">
+           <caption> 
+               <title>The fibrillin protein</title>
+               <p>
+               The fibrillin protein, mutated in Marfan syndrome, has about 60 domains, 47 of which bind calcium and have similarity to epidermal growth factor (EGF). In this figure, two of these domains are shown with one calcium ion associated with each domain.
+               </p> 
+               <p>To see the <ext-link xlink:href="http://www.ncbi.nlm.nih.gov/books/NBK22203/figure/fibrillin_fig/?report=objectonly"> interactive version</ext-link> of this figure requires <ext-link xlink:href="http://www.ncbi.nlm.nih.gov/Structure/CN3D/cn3d.shtml">Cn3D</ext-link>, a three-dimensional structure viewer.</p>
+           </caption> 
+            <ext:summary>Contains two objects, a thumbnail image and higher resolution image of the fibrillin protein mutation. </ext:summary>
+                      
+           <alternatives>
+            <ext:resource mimetype="image" mime-subtype="jpg">
+                <ext:resource-meta>
+                    <ext:filename>fibrillin.jpg</ext:filename>
+                    <ext:format>JPG</ext:format>
+                </ext:resource-meta>
+            </ext:resource>
+                <ext:resource xlink:href="http://www.ncbi.nlm.nih.gov/books/NBK22203/bin/fib.prt">
+                    <ext:resource-meta>
+                        <ext:rendering-application>
+                        <ext:platform>
+                            <ext:software>
+                                <ext:software-name>CnD3</ext:software-name>
+                                <ext-link>http://www.ncbi.nlm.nih.gov/Structure/CN3D/cn3d.shtml</ext-link>
+                            </ext:software>
+                        </ext:platform>
+                    </ext:rendering-application>
+                    </ext:resource-meta>
+                </ext:resource>
+            
+           </alternatives>
+        </fig>
+        
+        <p>Beta blockers have been used to control some of the cardiovascular symptoms of Marfan syndrome; however, they are not effective against the skeletal and ocular problems, which can also be serious. A related disease has been found in mice, and it is hoped that the study of mouse fibrillin synthesis and secretion, and connective tissue formation, will further our understanding Marfan syndrome in humans. 
+        </p>
+                
+    </body>
+    
+</article>

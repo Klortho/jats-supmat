@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article SYSTEM "../dtd/NISO-supmat-extension-rec0.dtd">
+<article dtd-version="1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ext="http://jats.nlm.nih.gov/extensions/ext">
+    
+    <!-- this article is at: http://psycnet.apa.org/journals/com/124/1/38.html -->
+    
+    <front>
+        <journal-meta></journal-meta>
+        <article-meta>
+            <title-group>
+                <article-title></article-title>
+            </title-group>
+            <pub-date></pub-date>
+        </article-meta>
+    </front>
+    <body>
+        <!-- article text -->
+        <fig id="F1"/>
+        <fig id="F2"/>
+        <fig id="F3"/>
+        <fig id="F4"/>
+               
+        <supplementary-material id="SupMat">
+         
+            <ext:resource xlink:href="http://supp.apa.org/psycarticles/supplemental/com_124_1_38/com_124_1_38_supp.html" mimetype="text" mime-subtype="html">
+                <ext:resource-meta>
+                    <ext:filename>com_124_1_38_supp.html</ext:filename>
+                    <ext:format>HTML</ext:format>
+                </ext:resource-meta>
+                <ext:resource xlink:href="http://supp.apa.org/...Supplementary_Table_1.doc" mimetype="application" mime-subtype="msword">
+                    <ext:resource-meta>
+                        <ext:filename>Huffard_Supplmentary_Table_1.doc</ext:filename>
+                        <ext:format>DOC</ext:format>
+                        <size units="KB">43</size>
+                    </ext:resource-meta>
+                    <ext:item>
+                        <label> Supplmentary Table 1</label>
+                        <caption>
+                            <p>Agonistic behaviors, definitions, and sample sizes (where recorded) documented for <italic>Abdopus aculeatus</italic> throughout all observations.   Mating attempts here refer to those that elicited aggressive interactions. MMA = number of times observed during male-male aggression; MFA = number of times observed during male-female aggression; NQ = not quantified in this study.  Quantified behaviors are listed in approximate order of increasing risk of injury or indication of stress. </p>
+                        </caption>
+                    </ext:item>
+                </ext:resource>    
+             
+                <ext:resource xlink:href="http://supp.apa.org/psycarticles/...Huffard_Abdopus_fight.mpg" mimetype="video" mime-subtype="mpeg">
+                    <ext:resource-meta>
+                        <ext:filename>Huffard_Abdopus_fight.mpg</ext:filename>
+                        <ext:format>MPG</ext:format>
+                        <size units="KB">2912</size>
+                    </ext:resource-meta>
+                
+                    <ext:item>
+                        <label> Supplemental Movie 1</label>
+                    </ext:item>  
+                </ext:resource>  
+            </ext:resource>
+            <permissions> 
+                <copyright-statement>This content was submitted by the author as supplemental material for an article published in APA’s PsycARTICLES. The content is presented as the author submitted it. APA assumes no liability for errors or omissions and makes no warranties of any kind. APA assumes no responsibility for any reader’s use of the materials. All questions regarding the supplemental data should be directed to the corresponding author of the published article.
+                    
+                    The reader is expected to respect the intellectual property of the author and the copyright of the American Psychological Association (APA). The content should not be reused without permission from the author and APA.
+                </copyright-statement> 
+            </permissions>
+        </supplementary-material>
+   </body>
+</article>

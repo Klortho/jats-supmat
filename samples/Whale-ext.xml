@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article SYSTEM "../dtd/NISO-supmat-extension-rec0.dtd"> 
+<!-- this article is at: http://www.sciencedirect.com/science/article/pii/S0960982211002910 -->
+<article xmlns:xlink="http://www.w3.org/1999/xlink" article-type="sample"
+  xmlns:ext="http://jats.nlm.nih.gov/extensions/ext">
+  <front>
+    <journal-meta/>
+    <article-meta>
+      <title-group>
+        <article-title></article-title>
+      </title-group>
+      <pub-date></pub-date>
+</article-meta>
+  </front>
+  <body>
+    <fig id="F1"/>
+    <fig id="F2"/>
+    <fig id="F3"/>
+    <sec id="experimental-procedures">
+      <title>Experimental Procedures</title>
+    </sec>
+    <sec>
+      <title>Supplemental Information</title>
+        <supplementary-material id="S1">
+      <label>Document S1</label>
+      <caption>
+        <title>Two Figures, Table S2, Supplemental Experimental Procedures, and
+          Acknowledgments.</title>
+      </caption>
+      <ext:resource
+        xlink:href="http://download.cell.com/current-biology/mmcs/....PIIS0960982211002910.mmc1.pdf" mimetype="application" mime-subtype="pdf">
+        <ext:resource-meta>
+          <ext:filename>PIIS0960982211002910.mmc1.pdf</ext:filename>
+          <ext:format>PDF</ext:format>
+          <size units="KB">204</size>
+        </ext:resource-meta>
+        <ext:item rid="F1" id="piece1">
+          <label>Figure S1</label>
+          <caption>
+            <title>Map of the Western and Central South Pacific Region (Related to Figure 1)</title>
+            <p>Circles represent the location of the breeding areas of the populations included in
+              this study. Recordings for the eastern Australian population were made further south
+              on their migratory corridor (arrow).</p>
+          </caption>
+        </ext:item>
+        <ext:item rid="F2 F3" id="piece2">
+          <label>Figure S2</label>
+          <caption>
+            <title>Example Spectrographs of the Evolution of Themes from One Song Type into Another
+              (Related to Figures 2 and 3)</title>
+            <p>Theme 61 from the Light Blue song type evolved from the Blue song theme 29 through
+              the addition of two sounds on the end of the long unit and the splitting of each of
+              the three smaller units into two. Theme 36 from the Dark Red song evolved into the
+              Light Red song theme 38. The &#x02018;ratchet&#x02019; sound (a series of squeaks)
+              from the second half of theme 36 became a series of trills through the merging of the
+              squeaks. These became closer to the ascending units (which have increased in
+              frequency), and thus now start the phrase instead of ending it. The Dark Red song
+              theme 37b (and to some extent 37a) evolved into the Light Red song theme 39. The
+              ascending units were similar with the high units becoming slightly shorter in duration
+              and more birdlike in theme 39.</p>
+          </caption>
+        </ext:item>
+        <ext:item rid="F1" id="piece3">
+          <label>Table S2</label>
+          <caption>
+            <title>Sample Sizes for Number of Singers and Total Number of Song Cycles for Each
+              Location and Year (Related to Figure 1)</title>
+          </caption>
+        </ext:item>
+        <ext:item rid="experimental-procedures" id="piece4">
+          <caption>
+            <title>Supplemental Experimental Procedures</title>
+          </caption>
+        </ext:item>
+        <ext:item rid="acknowledgments" id="piece5">
+          <caption>
+            <title>Acknowledgments</title>
+          </caption>
+        </ext:item>
+      </ext:resource>
+    </supplementary-material>
+   
+    <supplementary-material id="S2">
+      <label>Document S2</label>
+      <caption>
+        <title>Table S1</title>
+      </caption>
+      <ext:resource id="tableS1"
+        xlink:href="http://download.cell.com/current-biology...PIIS0960982211002910.mmc2.xls" mimetype="application" mime-subtype="msexcel" >
+        <ext:resource-meta>
+          <ext:filename>mmc2.xls</ext:filename>
+          <ext:format>XLS</ext:format>
+          <size units="KB">37</size>
+        </ext:resource-meta>
+        <ext:item rid="F1">
+          <label>Table S1</label>
+          <caption>
+            <title>Description of Typical Units Used in Each Theme (Related to Figure 1)</title>
+          </caption>
+        </ext:item>
+      </ext:resource>
+    </supplementary-material>
+   
+      <supplementary-material id="S3" rid="F2">
+      <label>Audio S1</label>
+      <caption>
+        <title>Audio of the Blue Song Type Presented in Figure 2</title>
+      </caption>
+      <ext:resource  id="audioS1"
+        xlink:href="http://download.cell.com/current-biology....PIIS0960982211002910.mmc3.mp3" mimetype="audio" mime-subtype="mpeg">
+        <ext:resource-meta>
+          <ext:filename>mmc3.mp3</ext:filename>
+          <ext:format>MP3</ext:format>
+          <size units="KB">4570</size>
+        </ext:resource-meta>
+      </ext:resource>
+    </supplementary-material></sec>
+  </body>
+  <back>
+    <ack id="acknowledgments">
+      <title>Acknowledgment</title>
+    </ack>
+  </back>
+</article>

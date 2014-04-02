@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article SYSTEM "../dtd/NISO-supmat-extension-rec0.dtd">
+<article dtd-version="1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ext="http://jats.nlm.nih.gov/extensions/ext">
+    <front>
+        <journal-meta></journal-meta>
+        <article-meta>
+            <article-id pub-id-type="pmid">21620133</article-id>
+            <article-id pub-id-type="publisher-id">S0092-8674(11)00537-X</article-id>
+            <article-id pub-id-type="doi">10.1016/j.cell.2011.05.011</article-id>
+            <title-group>
+                <article-title></article-title>
+            </title-group>
+            <pub-date></pub-date>
+            <ext:summary>An MP4 file with Movie S1 and a MOV file with Movie S2</ext:summary>
+        </article-meta>
+    </front>
+    
+    <body>
+        
+        <!-- there should be a lot of article content here - but all we have put in a fig so we have
+            an @id to use an @rid in supplementary-material -->
+        
+        <fig id="figure1">
+            <!-- this would be the information about figure 1 - needed to make link via @id -->
+        </fig>
+        
+       <sec>
+           <title>Supplemental Information</title>
+           
+           <supplementary-material xml:lang="en"  rid="figure1">
+           <label>Movie S1.</label>
+           <caption xml:lang="en">
+               <title>Clock and Wavefront Model for Vertegrate Segmentatioin, Related to Figure 1.                   
+               </title>
+               <p>This model proposes that the production of somites during embryogenesis results from a molecular oscillator (called the clock) traveling along the embryonic axis. Segment formation is triggered during a defined (permissive) phase of the oscillation, while the oscillator is constantly displaced posteriorly by a maturation wave (the wavefront), hence ensuring the spacing of the response to the oscillator.</p>
+           </caption>
+            
+           <ext:resource mimetype="Video" mime-subtype="MP4">
+               <ext:resource-meta>
+                   <ext:filename>mmc1.mp4</ext:filename>
+                       <ext:format>MP4</ext:format>
+                       <size units="MB">2.4</size>
+               </ext:resource-meta>
+          </ext:resource>
+     </supplementary-material> 
+     
+    <supplementary-material xml:lang="en" rid="figure1">
+         <label>Movie S2</label>
+         <caption xml:lang="en">
+             <title>
+                 Imaging Clock Oscillations in teh Mouse Embryo, Related to Figure 1.</title>
+             <p>The periodic, anterior-traveling waves of cyclic gene expression can be seen in the presomitic mesoderm (PSM) of a transgenic mouse embryo. The transgene expresses a destabilized yellow fluorescent protein (YFP) from the cyclic promoter of the <italic>Lunatic Fringe (Lfng)</italic> gene, an oscillating component of the mouse segmentation clock. See Aulehla et al., 2008 for additional details.</p>
+             
+         </caption>
+         
+        <ext:resource mimetype="Video" mime-subtype="MOV">
+            <ext:resource-meta>
+                <ext:filename>mmc2.mov</ext:filename>
+                <ext:format>MOV</ext:format>
+                <size units="MB">7.8</size>
+            </ext:resource-meta>
+        </ext:resource>
+    </supplementary-material>   
+      </sec>
+    </body>
+</article>

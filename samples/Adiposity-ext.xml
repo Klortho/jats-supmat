@@ -1,0 +1,754 @@
+<!-- ArticleInstanceId : 2805500, Path: /jcem/95-2010/1/preload/nxml/, Name : 6994.nxml -->
+<!DOCTYPE article SYSTEM "../dtd/NISO-supmat-extension-rec0.dtd">
+
+<!--Adiposity can be found at:  http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2805500/
+        Similar to Octopus: http://psycnet.apa.org/journals/com/124/1/38.html--> 
+
+
+<article article-type="research-article" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ext="http://jats.nlm.nih.gov/extensions/ext">
+  <?DTDIdentifier.IdentifierValue -//CJSART//DTD CADMUS ARTICLE//EN?>
+  <?DTDIdentifier.IdentifierType public?>
+  <?SourceDTD.DTDName cjsartx.dtd?>
+  <?SourceDTD.Version 1.2?>
+  <?ConverterInfo.XSLTName cjs2nlm.xsl?>
+  <?ConverterInfo.Version 1?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">J Clin Endocrinol Metab</journal-id>
+      <journal-title-group><journal-title>The Journal of Clinical Endocrinology and Metabolism</journal-title></journal-title-group>
+      <issn pub-type="ppub">0021-972X</issn>
+      <issn pub-type="epub">1945-7197</issn>
+      <publisher>
+        <publisher-name>The Endocrine Society</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="publisher-id">6994</article-id>
+      <article-id pub-id-type="doi">10.1210/jc.2009-1064</article-id>
+      <article-id pub-id-type="pmid">19906786</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Article</subject>
+          <subj-group>
+            <subject>3</subject>
+            <subject>8</subject>
+            <subject>9</subject>
+            <subj-group>
+              <subject>Endocrine Care</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Unraveling the Directional Link between Adiposity and Inflammation: A Bidirectional Mendelian Randomization Approach</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Welsh</surname>
+            <given-names>Paul</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Polisecki</surname>
+            <given-names>Eliana</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Robertson</surname>
+            <given-names>Michele</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jahn</surname>
+            <given-names>Sabine</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Buckley</surname>
+            <given-names>Brendan M.</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>de Craen</surname>
+            <given-names>Anton J. M.</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ford</surname>
+            <given-names>Ian</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jukema</surname>
+            <given-names>J. Wouter</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Macfarlane</surname>
+            <given-names>Peter W.</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Packard</surname>
+            <given-names>Chris J.</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Stott</surname>
+            <given-names>David J.</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Westendorp</surname>
+            <given-names>Rudi G. J.</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shepherd</surname>
+            <given-names>James</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hingorani</surname>
+            <given-names>Aroon D.</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Smith</surname>
+            <given-names>George Davey</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schaefer</surname>
+            <given-names>Ernst</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sattar</surname>
+            <given-names>Naveed</given-names>
+          </name>
+        </contrib>
+        <aff id="N0x1aacad0N0x3a17210">Division of Cardiovascular and Medical Sciences (P.W., P.W.M., C.J.P., D.J.S., J.S., N.S.), University of Glasgow, Glasgow G12 8QQ, United Kingdom; Cardiovascular Research Laboratory, Lipid Metabolism Laboratory (E.P., E.S., S.J.), Jean Mayer United States Department of Agriculture Human Nutrition Research Center on Aging, Tufts University, Boston, Massachusetts 02111; Robertson Centre for Biostatistics (M.R., I.F.), University of Glasgow, Glasgow G12 8QQ, United Kingdom; Department of Pharmacology and Therapeutics (B.M.B), University College Cork, Cork, Ireland; Departments of Gerontology and Geriatrics (A.J.M.d.C., R.G.J.W.) and Cardiology (J.W.J.), Leiden University Medical Centre, 2300 RA Leiden, The Netherlands; Division of Population Sciences (A.D.H.), Department of Epidemiology and Public Health, University College London, London WC1E 6BT, United Kingdom; and Medical Research Council Centre for Causal Analyses in Translational Epidemiology (G.D.S.), Department of Social Medicine, University of Bristol, Bristol BS8 1TH, United Kingdom</aff>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Address all correspondence and requests for reprints to: Prof. Naveed Sattar, British Heart Foundation Glasgow Cardiovascular Research Centre, University of Glasgow, 126 University Place, Glasgow G12 8TA, Scotland, United Kingdom. E-mail: <email>nsattar&#x00040;clinmed.gla.ac.uk</email>.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <month>1</month>
+        <year>2010</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>11</day>
+        <month>11</month>
+        <year>2009</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>1</day>
+        <month>1</month>
+        <year>2011</year>
+      </pub-date>
+<!-- PMC Release delay is 12 months and 0 days and was based on the //ART/@DATE. -->
+      <volume>95</volume>
+      <issue>1</issue>
+      <fpage>93</fpage>
+      <lpage>99</lpage>
+      <history>
+        <date date-type="received">
+          <day>19</day>
+          <month>5</month>
+          <year>2009</year>
+        </date>
+        <date date-type="accepted">
+          <day>16</day>
+          <month>10</month>
+          <year>2009</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright &#x000a9; 2010 by The Endocrine Society </copyright-statement>
+        <copyright-year>2010</copyright-year>
+      </permissions>
+      <self-uri xlink:title="pdf" xlink:href="zeg00110000093.pdf"/>
+      <abstract>
+        <p>
+          <bold>Context:</bold> Associations between adiposity and circulating inflammation markers are assumed to be causal, although the direction of the relationship has not been proven.
+        </p>
+        <p>
+          <bold>Objective:</bold> The aim of the study was to explore the causal direction of the relationship between adiposity and inflammation using a bidirectional Mendelian randomization approach.
+        </p>
+        <p>
+          <bold>Methods:</bold> In the PROSPER study of 5804 elderly patients, we related C-reactive protein (<italic>CRP</italic>) single nucleotide polymorphisms (SNPs) (rs1800947 and rs1205) and adiposity SNPs (<italic>FTO</italic> and <italic>MC4R</italic>) to body mass index (BMI) as well as circulating levels of CRP and leptin. We gave each individual two allele scores ranging from zero to 4, counting each pair of alleles related to CRP levels or BMI.
+        </p>
+        <p>
+          <bold>Results:</bold> With increasing <italic>CRP</italic> allele score, there was a stepwise decrease in CRP levels (<italic>P</italic> for trend &#x0003c; 0.0001) and a 1.98 mg/liter difference between extremes of the allele score distribution, but there was no associated change in BMI or leptin levels (<italic>P</italic> &#x02265; 0.89). By contrast, adiposity allele score was associated with 1) an increase in BMI (1.2 kg/m<sup>2</sup> difference between extremes; <italic>P</italic> for trend 0.002); 2) an increase in circulating leptin (5.77 ng/ml difference between extremes; <italic>P</italic> for trend 0.0027); and 3) increased CRP levels (1.24 mg/liter difference between extremes; <italic>P</italic> for trend 0.002).
+        </p>
+        <p>
+          <bold>Conclusions:</bold> Greater adiposity conferred by <italic>FTO</italic> and <italic>MC4R</italic> SNPs led to higher CRP levels, with no evidence for any reverse pathway. Future studies should extend our findings to other circulating inflammatory parameters. This study illustrates the potential power of Mendelian randomization to dissect directions of causality between intercorrelated metabolic factors.
+        </p>
+      </abstract>
+      <abstract abstract-type="PRECIS">
+        <p>SNPs FTO and MC4R (rs9939609 and rs17782313) are associated with body mass index in the elderly and cause elevated circulating C-reactive protein levels, with no evidence for the reverse pathway.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <p>Recent research efforts have focused on identifying genetic polymorphisms associated with vascular disease end-points as well as intermediate phenotypes associated with higher vascular risk (<xref rid="B1" ref-type="bibr">1</xref>,<xref rid="B2" ref-type="bibr">2</xref>). Germline genetic variation is generally unrelated to lifestyle, socioeconomic, and environmental variables that generate confounding in conventional epidemiological approaches (<xref rid="B3" ref-type="bibr">3</xref>,<xref rid="B4" ref-type="bibr">4</xref>,<xref rid="B5" ref-type="bibr">5</xref>). Single nucleotide polymorphisms (SNPs) in the C-reactive protein (CRP) gene have been identified that influence CRP concentration (<xref rid="B6" ref-type="bibr">6</xref>). For instance, on meta-analysis, <italic>CRP</italic> SNP rs1800934 (G &#x0003e; C) and rs1205 (C &#x0003e; T) variants are associated with a per allele decrease of 0.35 mg/liter (95% confidence intervals, 0.41, 0.28 mg/liter) and 0.38 mg/liter (95% confidence intervals, 0.50, 0.25 mg/liter) of circulating CRP, respectively (<xref rid="B6" ref-type="bibr">6</xref>). More recently, SNPs in <italic>FTO</italic> and <italic>MC4R</italic> have been described that are robustly associated with body mass index (BMI) (<xref rid="B1" ref-type="bibr">1</xref>). For instance, the rs9939609 (T &#x0003e; A) variant in <italic>FTO</italic> is associated with a 0.36 kg/m<sup>2</sup> (range, 0.34&#x02013;0.46 kg/m<sup>2</sup>) per-allele increase in BMI (<xref rid="B7" ref-type="bibr">7</xref>). Similar but quantitatively weaker results have been described for <italic>MC4R</italic> SNP rs17782313 (T &#x0003e; C) being associated with BMI (<xref rid="B8" ref-type="bibr">8</xref>). Both of these <italic>FTO</italic> and <italic>MC4R</italic> SNPs may increase BMI specifically by increasing appetite and calorific intake (<xref rid="B9" ref-type="bibr">9</xref>,<xref rid="B10" ref-type="bibr">10</xref>,<xref rid="B11" ref-type="bibr">11</xref>,<xref rid="B12" ref-type="bibr">12</xref>).</p>
+    <p>These SNPs, which are now widely accepted to be robustly associated with the phenotypes outlined, may help provide insight into the causal relationships between obesity and CRP that cannot be addressed by traditional observational approaches (<xref rid="B13" ref-type="bibr">13</xref>,<xref rid="B14" ref-type="bibr">14</xref>). Specifically, it has been widely reported in cross-sectional studies that CRP is strongly associated with BMI, waist circumference, and waist-hip ratio (<xref rid="B15" ref-type="bibr">15</xref>). Indeed, recent prospective evidence shows this to be a relationship independent of physical fitness (<xref rid="B16" ref-type="bibr">16</xref>). In explaining this relationship, it is usually assumed that endocrinologically active visceral adipose tissue releases proinflammatory cytokines such as IL-6 and TNF&#x003b1; into the circulation, resulting in a low-grade hepatic acute phase response and, hence, CRP production (<xref rid="B17" ref-type="bibr">17</xref>). Although this mainstream belief is reasonable, it is also possible that CRP or generalized inflammation itself may exacerbate deposition of metabolically active fat deposits (<xref rid="B18" ref-type="bibr">18</xref>); in this regard, the potential physiological roles of CRP are still being debated (<xref rid="B19" ref-type="bibr">19</xref>,<xref rid="B20" ref-type="bibr">20</xref>,<xref rid="B21" ref-type="bibr">21</xref>). The two directions of causality are not necessarily mutually exclusive, and there may be an element of both pathways playing a role in a potential positive feedback loop, but, as far as we are aware, this possibility lacks detailed and direct study. Intercorrelation between adiposity and inflammation precludes elucidation of the casual direction of the relationship using conventional epidemiological tools (<xref rid="B22" ref-type="bibr">22</xref>).</p>
+    <p>In the PROSPER (PROspective Study of Pravastatin in the Elderly at Risk) study of 5804 older men and women (<xref rid="B23" ref-type="bibr">23</xref>), we have measured both CRP and adiposity-associated genetic variants (<italic>FTO</italic> and <italic>MC4R</italic>) in blood samples taken at baseline, and we have used the principles of Mendelian randomization (MR) (<xref rid="B3" ref-type="bibr">3</xref>) to explore the nature and causal direction of the links between CRP and adiposity. Although an elderly cohort (70&#x02013;82 yr old), where it might be expected that illness leading to lower BMI is a stronger phenomenon than in younger cohorts (<xref rid="B24" ref-type="bibr">24</xref>,<xref rid="B25" ref-type="bibr">25</xref>) and the associations of common genetic variants with BMI may be weaker, we also have measures of leptin in PROSPER, an adipokine that correlates well with percentage fat mass (<xref rid="B26" ref-type="bibr">26</xref>). Finally, the use of an elderly population allows us to examine whether <italic>FTO</italic> and <italic>MC4R</italic> are associated with adiposity in the elderly as they are in younger populations (<xref rid="B9" ref-type="bibr">9</xref>,<xref rid="B10" ref-type="bibr">10</xref>,<xref rid="B11" ref-type="bibr">11</xref>,<xref rid="B12" ref-type="bibr">12</xref>,<xref rid="B27" ref-type="bibr">27</xref>).</p>
+    <sec>
+      <title>Subjects and Methods</title>
+      <sec>
+        <title>Participants</title>
+        <p>The protocol of PROSPER (<xref rid="B23" ref-type="bibr">23</xref>) and the methods and outcomes of the main trial have been published (<xref rid="B28" ref-type="bibr">28</xref>).</p>
+        <p>Between December 15, 1997, and May 7, 1999, we screened 23,770 individuals and randomized 5804 from Scotland, Ireland, and The Netherlands. Men and women aged 70&#x02013;82 yr were recruited if they had either preexisting vascular disease (coronary, cerebral, or peripheral) or raised risk of such disease because of smoking, hypertension, or diabetes. Their plasma total cholesterol had to be between 4.0 and 9.0 mmol/liter and their fasting triglyceride concentrations less than 6.0 mmol/liter. All subjects were given a clinical examination at baseline before randomization, which included drawing of venous blood samples, measurement of weight, height, and BMI (weight/height<sup>2</sup>) among other clinical parameters by health professionals. The institutional ethics review boards of all centers approved the protocol, and all participants gave written informed consent. The protocol was consistent with the Declaration of Helsinki. Participants were randomly assigned to receive either pravastatin 40 mg daily or matching placebo. All data were processed and analyzed at the Robertson Centre for Biostatistics, University of Glasgow (Glasgow, UK).</p>
+      </sec>
+      <sec>
+        <title>Genotyping</title>
+        <p>Genotyping of <italic>FTO</italic> rs9939609 &#x0005b;intronic nucleotide substitution T &#x0003e; A; reported minor allele frequency, 0.44 (<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/projects/SNP/">http://www.ncbi.nlm.nih.gov/projects/SNP/</ext-link>)&#x0005d; and <italic>MC4R</italic> rs17782313 &#x0005b;nucleotide substitution (188kb downstream of the melanocortin 4 receptor gene) T &#x0003e; C; reported minor allele frequency, 0.38&#x0005d; as well as <italic>CRP</italic> rs1800947 (nucleotide substitution G &#x0003e; C; allele change CTG &#x0003e; CTC; protein position 184 residue change Leu &#x0003e; Leu; reported minor allele frequency, 0.08) and rs1205 (untranslated region-3&#x02032;nucleotide change C &#x0003e; T; reported minor allele frequency, 0.46) nucleotide changes were carried out using real-time PCR with TaqMan SNP Genotyping Assays from Applied Biosystems (Foster City, CA) in the collaborating laboratory at Tufts University (Boston, MA) (<xref rid="B6" ref-type="bibr">6</xref>,<xref rid="B7" ref-type="bibr">7</xref>,<xref rid="B8" ref-type="bibr">8</xref>).</p>
+      </sec>
+      <sec>
+        <title>Laboratory variables</title>
+        <p>All analyses were performed on blood samples drawn at baseline, before participants received study medicine. CRP was measured by automated particle-enhanced immunoturbidimetric assay (Roche UK, Welwyn Garden City, UK) (<xref rid="B29" ref-type="bibr">29</xref>). The relevant laboratory participates in a national external quality control for high-sensitivity CRP. The method has a lower limit of sensitivity of 0.1 mg/liter and interassay and intraassay coefficients of variation of 3%. Leptin was measured by an in-house RIA validated thoroughly against the commercially available Linco Research Co. (St. Charles, MO) assay (<xref rid="B30" ref-type="bibr">30</xref>). The intra- and interassay coefficients of variation were below 7% and below 10%, respectively. The detection limit of the assay was 0.5 ng/ml. Samples were processed blinded to their identity.</p>
+      </sec>
+      <sec>
+        <title>Statistical analysis</title>
+        <p>The distributions of CRP and leptin were positively skewed; therefore, a logarithmic transformation was used. Observed genotype frequencies were compared with those expected under Hardy-Weinberg equilibrium (HWE) using a &#x003c7;<sup>2</sup> test. Baseline characteristics were compared between the levels of SNPs, or allele scores from a test for trend to give a <italic>P</italic> value, and where a significant (<italic>P</italic> &#x0003c; 0.05) trend was found using allele scores, pairwise comparisons between individual data points were calculated between a score of 0 and the other levels of the score. Relationships between log CRP, log leptin, and BMI were assessed through the use of the Pearson correlation coefficient. To increase the power of our observations, we assigned every individual a score based on genotype of <italic>MC4R</italic> and <italic>FTO</italic>, such that AA &#x0003d; 0 (most common genotype), AB &#x0003d; 1, and BB &#x0003d; 2 (least common genotype). By then combining scores for <italic>MC4R</italic> and <italic>FTO</italic>, every individual had an overall allele score ranging from zero (most common) to 4 (least common). This process was repeated for <italic>CRP</italic> SNPs so that each individual was assigned an allele score ranging from zero to 4. The assumption of linear disequilibrium was tested between the <italic>CRP</italic> SNPs and adiposity SNPs, respectively. Where any evidence of linear disequilibrium existed, a sensitivity analysis was carried out to validate the simple allele score model, weighting the allele score according to the effect size of each SNP, using the &#x003b2; coefficient from a regression analysis.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Results</title>
+      <p>As a continuous variable, log CRP levels were positively correlated with BMI after adjusting for age, sex, and smoking status (r &#x0003d; 0.252; <italic>P</italic> &#x0003c; 0.0001). After similar adjustment, log leptin was positively correlated with BMI as well as log CRP (r &#x0003d; 0.658, <italic>P</italic> &#x0003c; 0.0001; and r &#x0003d; 0.303, <italic>P</italic> &#x0003c; 0.0001, respectively).</p>
+      <p>Considering the SNPs of interest, the polymorphism frequency is displayed in Table 1<xref rid="T1" ref-type="table"/>. None of the four SNPs showed strong evidence of departure from HWE: rs1800447, HWE &#x0003d; 0.043, <italic>P</italic> &#x0003d; 0.84; rs1205, HWE &#x0003d; 3.615, <italic>P</italic> &#x0003d; 0.06; <italic>FTO</italic>, HWE &#x0003d; 1.790, <italic>P</italic> &#x0003d; 0.18; and <italic>MC4R</italic>, HWE &#x0003d; 0.463, <italic>P</italic> &#x0003d; 0.50. The <italic>CRP</italic> SNPs rs1800947 and rs1205 were in moderate (<xref rid="B31" ref-type="bibr">31</xref>) linkage disequilibrium: r<sup>2</sup> &#x0003d; 0.36, <italic>P</italic> &#x0003c; 0.0001; whereas <italic>FTO</italic> and <italic>MC4R</italic> were not in linkage disequilibrium: r<sup>2</sup> &#x0003d; 0.00096, <italic>P</italic> &#x0003d; 0.94.
+      </p>
+      <p>As expected, <italic>CRP</italic> polymorphisms rs1800947 and rs1205 were associated with circulating levels of CRP (1.76 and 1.2 mg/liter difference in circulating levels, respectively, comparing homozygotes; both <italic>P</italic> for trend &#x0003c;0.0001) (Supplementary Table 1, published as supplemental data on The Endocrine Society&#x02019;s Journals Online web site at <ext-link ext-link-type="uri" xlink:href="http://jcem.endojournals.org">http://jcem.endojournals.org</ext-link>). However, neither polymorphism showed any association with BMI (<italic>P</italic> for trend &#x02265; 0.78) or with leptin (<italic>P</italic> for trend &#x02265; 0.69). There was weak evidence of an association for the <italic>FTO</italic> variant with higher BMI (0.4 kg/m<sup>2</sup> comparing homozygotes; <italic>P</italic> for trend &#x0003d; 0.06), and there was some evidence of an association of <italic>FTO</italic> with leptin (1 ng/ml difference in levels comparing homozygotes; <italic>P</italic> for trend &#x0003d; 0.02) (Supplementary Table 1). The <italic>MC4R</italic> variant showed a somewhat more robust association with BMI (0.6 kg/m<sup>2</sup> comparing homozygotes; <italic>P</italic> for trend &#x0003d; 0.0017) and weak evidence of an association with leptin (1.3 ng/ml difference in levels comparing homozygotes; <italic>P</italic> for trend &#x0003d; 0.06) (Supplementary Table 2). Both <italic>FTO</italic> and <italic>MC4R</italic> showed associations with circulating levels of CRP (0.34 mg/liter difference in circulating levels for both SNPs comparing homozygotes; both <italic>P</italic> for trend &#x02264; 0.04).</p>
+      <sec>
+        <title>Allele score data</title>
+        <p>We analyzed the allele scores for <italic>CRP</italic> SNPs and adiposity SNPs to increase the power of our observations. Data for CRP and leptin levels as well as BMI were summarized and analyzed by allele score for both <italic>CRP-</italic> and adiposity-associated SNPs (Table 2<xref rid="T2" ref-type="table"/>). <italic>CRP</italic> allele score demonstrated a decrease in CRP levels with each increment in allele score. Indeed, participants with a score of 4 (n &#x0003d; 20) had on average a 2 mg/liter lower circulating CRP level compared with those with a score of zero (n &#x0003d; 2615) &#x0005b;3.45 (<sc>sd</sc> &#x000b1; 3.02 mg/liter) <italic>vs.</italic> 1.47 mg/liter (<sc>sd</sc> &#x000b1; 2.67 mg/liter) <italic>P</italic> for trend &#x0003c; 0.0001&#x0005d;. However, the <italic>CRP</italic> SNP allele score demonstrated no association with BMI (<italic>P</italic> for trend &#x0003d; 0.89) or leptin (<italic>P</italic> for trend &#x0003d; 0.98). Given linkage disequilibrium between the <italic>CRP</italic> SNPs, we performed a sensitivity analysis to validate the simple allele score approach for these <italic>CRP</italic> SNPs. Each allele was weighted by its &#x003b2;-coefficient in a regression analysis. Using this approach, the <italic>p</italic> for trend across weighted <italic>CRP</italic> allele score for CRP levels was &#x0003c; 0.0001 (directly comparable to simple allele count in Table 2<xref rid="T2" ref-type="table"/>). Likewise, weighted <italic>CRP</italic> allele scores for BMI and leptin gave nearly identical results as per simple allele scores (data not shown).
+        </p>
+        <p>Adiposity-associated allele score was associated with on average a 1.2 kg/m<sup>2</sup> difference comparing zero (n &#x0003d; 1310) to 4 (n &#x0003d; 46) &#x0005b;26.62 kg/m<sup>2</sup> (<sc>sd</sc> &#x000b1; 4.14 kg/m<sup>2</sup>) <italic>vs.</italic> 27.89 kg/m<sup>2</sup> (<sc>sd</sc> &#x000b1; 4.25 kg/m<sup>2</sup>); <italic>P</italic> for trend &#x0003d; 0.002&#x0005d;, and the score was also associated with on average an increase of 5.77 ng/ml in leptin levels &#x0005b;12.77 ng/ml (<sc>sd</sc> &#x000b1; 2.42 ng/ml) <italic>vs.</italic> 18.54 (<sc>sd</sc> &#x000b1; 2.06); <italic>P</italic> for trend &#x0003d; 0.0027&#x0005d;, although this was mainly due to a large increase in levels for a score of 4 (n &#x0003d; 46) <italic>vs.</italic> 3 (n &#x0003d; 422). Adiposity allele score was additionally associated with CRP levels, such that those with a score of 4 relative to zero had on average a 1.2 mg/liter higher circulating CRP &#x0005b;2.91 mg/liter (<sc>sd</sc> &#x000b1; 3.07 mg/liter) <italic>vs.</italic> 4.15 mg/liter (<sc>sd</sc> &#x000b1; 2.64 mg/liter); <italic>P</italic> for trend &#x0003d; 0.002&#x0005d;.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Discussion</title>
+      <p>Using a contemporary approach that exploits SNPs related to two different parameters enabled us to tease out causal directions between CRP and adiposity. This approach shows clearly that those genetic variants which lead to higher BMI are associated with increased CRP and leptin levels, whereas genetic variants that give rise to elevated CRP levels do not, in this study, predict higher BMI or leptin. Given that the genetic variants are theoretically unrelated to confounding factors and are not subject to reverse causality, our observations are less likely to be confounded by other factors, such as social class or smoking, which would be the case in conventional epidemiological approaches (<xref rid="B3" ref-type="bibr">3</xref>,<xref rid="B4" ref-type="bibr">4</xref>,<xref rid="B5" ref-type="bibr">5</xref>). Our work extends genetic epidemiological studies showing that SNPs associated with elevated circulating levels of CRP are not associated with insulin resistance or diabetes risk (<xref rid="B32" ref-type="bibr">32</xref>). Together with the present findings, this suggests that increased circulating CRP is a consequence of an adverse metabolic profile and is not a cause of it.</p>
+      <p>A further interesting finding in this study is that the <italic>FTO</italic> and <italic>MC4R</italic> variants are associated with adiposity, not just in the very young (<xref rid="B9" ref-type="bibr">9</xref>,<xref rid="B11" ref-type="bibr">11</xref>) and the middle-aged (<xref rid="B10" ref-type="bibr">10</xref>,<xref rid="B27" ref-type="bibr">27</xref>) but also in elderly participants at elevated vascular risk in the present study. This finding suggests that these associations may be remarkably robust throughout life. Recent evidence has suggested that these polymorphisms may be associated with higher body fat due to an associated increased calorific intake (<xref rid="B9" ref-type="bibr">9</xref>,<xref rid="B10" ref-type="bibr">10</xref>,<xref rid="B11" ref-type="bibr">11</xref>,<xref rid="B12" ref-type="bibr">12</xref>). This is a lifestyle pattern that one may anticipate remains evident throughout life on the population scale. That noted, the associations between <italic>FTO</italic> and <italic>MC4R</italic> and BMI are perhaps weaker in the present population than reported previously in younger populations, although this is somewhat speculative, and requires confirmation in larger general population studies. Lesser effect of <italic>FTO</italic> and <italic>MC4R</italic> on adiposity in later life could be expected at older ages because comorbidities are a more important influence on BMI in the elderly. In this study, associations of SNPs with leptin generally validated our findings with regard to BMI.</p>
+      <p>The bidirectional MR approach we have used here illustrates a useful method for exploring the direction of causality between two tightly correlated biological pathways. Both casual and reverse causality pathways can be examined (<xref rid="B33" ref-type="bibr">33</xref>). Clearly, scientific and clinical experiments examining the consequences of exogenous administration of inflammatory factors (<xref rid="B34" ref-type="bibr">34</xref>) are possible, but such experiments are generally short-term, whereas <italic>in vitro</italic> studies are not easily extrapolated to <italic>in vivo</italic> conditions. By contrast, genetic variants are stable over the life course, not (theoretically) subject to external confounding or reverse causation (<xref rid="B5" ref-type="bibr">5</xref>), and data from large populations can be obtained inexpensively.</p>
+      <p>Some limitations and strengths of the study require consideration. Pleiotropy of genetic variants is a potential source of residual confounding in MR studies unless all biological pathways have been examined and excluded as potential sources of bias or been fully adjusted for (<xref rid="B3" ref-type="bibr">3</xref>). <italic>FTO</italic> and <italic>MC4R</italic> could have pleiotropic effects on other metabolic systems independent of their influence on BMI, and as such we cannot exclude the possibility that these genetic variants influence circulating levels of CRP independently of their effects on BMI. However, the effects on downstream risk factors that are thought to be causally influenced by BMI, such as blood pressure (<xref rid="B35" ref-type="bibr">35</xref>), metabolic risk factors (<xref rid="B36" ref-type="bibr">36</xref>), and bone mineral density (<xref rid="B37" ref-type="bibr">37</xref>) are as predicted from the observational associations of BMI with these phenotypes. Furthermore, when multiple genetic variants are associated with a downstream phenotype to the degree predicted by their influence on BMI, although they are unlikely to have the same pleiotropic effects, this provides evidence against spurious associations, as has been demonstrated with respect to BMI and bone mineral density (<xref rid="B38" ref-type="bibr">38</xref>).</p>
+      <p>We combined genetic information from separate <italic>CRP</italic> SNPs; a previous meta-analysis showed that both rs1800947 and rs1205 were independently related to CRP concentrations (<xref rid="B6" ref-type="bibr">6</xref>). In common with our study, variant alleles for both the rs1800947 and rs1205 SNPs were associated with lower CRP levels in this meta-analysis (<xref rid="B6" ref-type="bibr">6</xref>), which reassures that our results are externally valid. Although the two measured <italic>CRP</italic> SNPs are in moderate linkage disequilibrium, they maintain independent effects on CRP levels, and our sensitivity analysis, as above, validated the use of a simple allele score approach. Although BMI is a rather indirect indicator of adiposity, especially in the elderly, we used leptin as a supplementary biochemical measure of percentage fat mass and were reassured to note that this parameter was also associated with the adiposity allele score, although it must be noted that the strength of the association of leptin with the allele score was largely driven by leptin levels in the double homozygote (allele score 4) group. Finally, although we only measured CRP and not other markers of inflammation, much of the relevant literature has concentrated on CRP as a possible causal agent in vascular and metabolic disease (<xref rid="B19" ref-type="bibr">19</xref>,<xref rid="B20" ref-type="bibr">20</xref>,<xref rid="B21" ref-type="bibr">21</xref>), whereas other recent work diminishes this possibility (<xref rid="B32" ref-type="bibr">32</xref>,<xref rid="B37" ref-type="bibr">37</xref>,<xref rid="B39" ref-type="bibr">39</xref>,<xref rid="B40" ref-type="bibr">40</xref>,<xref rid="B41" ref-type="bibr">41</xref>). Our findings now extend these observations by showing that CRP does not lead to adiposity <italic>per se</italic> but is caused by it. This observation in turn casts further doubt on CRP as a causal agent in insulin resistance or type 2 diabetes (<xref rid="B32" ref-type="bibr">32</xref>).</p>
+      <p>In conclusion, using a bidirectional genetic approach that limits confounding, our data support the hypothesis that elevated CRP levels are generated by greater adiposity, with no evidence that elevations in CRP levels <italic>per se</italic> contribute to fat deposition. This extends findings showing that elevated circulating CRP levels do not cause insulin resistance (<xref rid="B32" ref-type="bibr">32</xref>). Clearly, future studies should extend our findings to other inflammation parameters. Finally, the future use of this methodology could likewise help to disentangle directions of associations between many other risk pathways.</p>
+    </sec>
+    
+   
+    <sec sec-type="supplementary-material">
+      <title>Supplementary Material</title>
+      
+      <supplementary-material id="PMC_1" content-type="local-data">
+        <caption>
+          <title>[Supplemental Data]</title>
+        </caption>
+        <ext:resource xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2805500/bin/jc.2009-1064_index.html" mimetype="text" mime-subtype="html">
+          <ext:resource-meta>
+            <ext:filename>jc.2009-1064_index.html</ext:filename>
+            <ext:format>HTML</ext:format>
+          </ext:resource-meta>
+        
+          <ext:resource xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2805500/bin/jc.2009-1064_1.pdf" xlink:role="associated-file" mimetype="application" mime-subtype="pdf">
+            <ext:resource-meta>
+              <ext:filename>pdf</ext:filename>
+              <ext:format>application</ext:format>
+              <size units="KB">10.7</size>
+            </ext:resource-meta>
+            <ext:item>
+              <label>Table S1</label>
+              <caption><title>
+                Baseline characteristics of PROSPER population by CRP SNPs.
+              </title></caption>
+            </ext:item>
+            
+            <ext:item>
+              <label>Table S2</label>
+              <caption><title>Baseline characteristics of PROSPER population by adiposity SNPs.</title></caption>
+            </ext:item>
+            
+          </ext:resource>
+        </ext:resource>
+        
+      </supplementary-material>
+    </sec>
+  </body>
+  
+  
+  
+  
+  
+  <back>
+    <ref-list>
+      <ref id="B1">
+        <mixed-citation publication-type="journal">
+          <bold>Li S, Loos RJ</bold> 2008 Progress in the genetics of common obesity: size matters. Curr Opin Lipidol 19:113&#x02013;121
+        </mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation publication-type="journal">
+          <bold>Smith GD, Timpson N, Ebrahim S</bold> 2008 Strengthening causal inference in cardiovascular epidemiology through Mendelian randomization. Ann Med 40:524&#x02013;541
+        </mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation publication-type="journal">
+          <bold>Davey Smith G, Ebrahim S</bold> 2003 &#x02018;Mendelian randomization&#x02019;: can genetic epidemiology contribute to understanding environmental determinants of disease? Int J Epidemiol 32:1&#x02013;22
+        </mixed-citation>
+      </ref>
+      <ref id="B4">
+        <mixed-citation publication-type="journal">
+          <bold>Lawlor DA, Harbord RM, Sterne JA, Timpson N, Davey Smith G</bold> 2008 Mendelian randomization: using genes as instruments for making causal inferences in epidemiology. Stat Med 27:1133&#x02013;1163
+        </mixed-citation>
+      </ref>
+      <ref id="B5">
+        <mixed-citation publication-type="journal">
+          <bold>Smith GD, Lawlor DA, Harbord R, Timpson N, Day I, Ebrahim S</bold> 2007 Clustered environments and randomized genes: a fundamental distinction between conventional and genetic epidemiology. PLoS Med 4:e352
+        </mixed-citation>
+      </ref>
+      <ref id="B6">
+        <mixed-citation publication-type="journal">
+          <bold>Verzilli C, Shah T, Casas JP, Chapman J, Sandhu M, Debenham SL, Boekholdt MS, Khaw KT, Wareham NJ, Judson R, Benjamin EJ, Kathiresan S, Larson MG, Rong J, Sofat R, Humphries SE, Smeeth L, Cavalleri G, Whittaker JC, Hingorani AD</bold> 2008 Bayesian meta-analysis of genetic association studies with different sets of markers. Am J Hum Genet 82:859&#x02013;872
+        </mixed-citation>
+      </ref>
+      <ref id="B7">
+        <mixed-citation publication-type="journal">
+          <bold>Frayling TM, Timpson NJ, Weedon MN, Zeggini E, Freathy RM, Lindgren CM, Perry JR, Elliott KS, Lango H, Rayner NW, Shields B, Harries LW, Barrett JC, Ellard S, Groves CJ, Knight B, Patch AM, Ness AR, Ebrahim S, Lawlor DA, Ring SM, Ben-Shlomo Y, Jarvelin MR, Sovio U, Bennett AJ, Melzer D, Ferrucci L, Loos RJ, Barroso I, Wareham NJ, Karpe F, Owen KR, Cardon LR, Walker M, Hitman GA, Palmer CN, Doney AS, Morris AD, Smith GD, Hattersley AT, McCarthy MI</bold> 2007 A common variant in the FTO gene is associated with body mass index and predisposes to childhood and adult obesity. Science 316:889&#x02013;894
+        </mixed-citation>
+      </ref>
+      <ref id="B8">
+        <mixed-citation publication-type="journal">
+          <bold>Loos RJ, Lindgren CM, Li S, Wheeler E, Zhao JH, Prokopenko I, Inouye M, Freathy RM, Attwood AP, Beckmann JS, Berndt SI, Jacobs KB, Chanock SJ, Hayes RB, Bergmann S, Bennett AJ, Bingham SA, Bochud M, Brown M, Cauchi S, Connell JM, Cooper C, Smith GD, Day I, Dina C, De S, Dermitzakis ET, Doney AS, Elliott KS, Elliott P, Evans DM, Sadaf Farooqi I, Froguel P, Ghori J, Groves CJ, Gwilliam R, Hadley D, Hall AS, <italic>et al</italic>.</bold> 2008 Common variants near MC4R are associated with fat mass, weight and risk of obesity. Nat Genet 40:768&#x02013;775
+        </mixed-citation>
+      </ref>
+      <ref id="B9">
+        <mixed-citation publication-type="journal">
+          <bold>Cecil JE, Tavendale R, Watt P, Hetherington MM, Palmer CN</bold> 2008 An obesity-associated FTO gene variant and increased energy intake in children. N Engl J Med 359:2558&#x02013;2566
+        </mixed-citation>
+      </ref>
+      <ref id="B10">
+        <mixed-citation publication-type="journal">
+          <bold>Qi L, Kraft P, Hunter DJ, Hu FB</bold> 2008 The common obesity variant near MC4R gene is associated with higher intakes of total energy and dietary fat, weight change and diabetes risk in women. Hum Mol Genet 17:3502&#x02013;3508
+        </mixed-citation>
+      </ref>
+      <ref id="B11">
+        <mixed-citation publication-type="journal">
+          <bold>Timpson NJ, Emmett PM, Frayling TM, Rogers I, Hattersley AT, McCarthy MI, Davey Smith G</bold> 2008 The fat mass- and obesity-associated locus and dietary intake in children. Am J Clin Nutr 88:971&#x02013;978
+        </mixed-citation>
+      </ref>
+      <ref id="B12">
+        <mixed-citation publication-type="journal">
+          <bold>Wardle J, Llewellyn C, Sanderson S, Plomin R</bold> 2009 The FTO gene and measured food intake in children. Int J Obes (Lond) 33:42&#x02013;45
+        </mixed-citation>
+      </ref>
+      <ref id="B13">
+        <mixed-citation publication-type="journal">
+          <bold>Hingorani A, Humphries S</bold> 2005 Nature&#x02019;s randomised trials. Lancet 366:1906&#x02013;1908
+        </mixed-citation>
+      </ref>
+      <ref id="B14">
+        <mixed-citation publication-type="journal">
+          <bold>Hingorani AD, Shah T, Casas JP</bold> 2006 Linking observational and genetic approaches to determine the role of C-reactive protein in heart disease risk. Eur Heart J 27:1261&#x02013;1263
+        </mixed-citation>
+      </ref>
+      <ref id="B15">
+        <mixed-citation publication-type="journal">
+          <bold>Welsh P, Woodward M, Rumley A, Lowe G</bold> 2008 Associations of plasma pro-inflammatory cytokines, fibrinogen, viscosity and C-reactive protein with cardiovascular risk factors and social deprivation: the fourth Glasgow MONICA study. Br J Haematol 141:852&#x02013;861
+        </mixed-citation>
+      </ref>
+      <ref id="B16">
+        <mixed-citation publication-type="journal">
+          <bold>Hamer M, Steptoe A</bold> 2009 Prospective study of physical fitness, adiposity, and inflammatory markers in healthy middle-aged men and women. Am J Clin Nutr 89:85&#x02013;89
+        </mixed-citation>
+      </ref>
+      <ref id="B17">
+        <mixed-citation publication-type="journal">
+          <bold>W&#x000e4;rnberg J, Nova E, Moreno LA, Romeo J, Mesana MI, Ruiz JR, Ortega FB, Sj&#x000f6;str&#x000f6;m M, Bueno M, Marcos A</bold> 2006 Inflammatory proteins are related to total and abdominal adiposity in a healthy adolescent population: the AVENA Study. Am J Clin Nutr 84:505&#x02013;512
+        </mixed-citation>
+      </ref>
+      <ref id="B18">
+        <mixed-citation publication-type="journal">
+          <bold>Rogge MM</bold> 2002 The case for an immunologic cause of obesity. Biol Res Nurs 4:43&#x02013;53
+        </mixed-citation>
+      </ref>
+      <ref id="B19">
+        <mixed-citation publication-type="journal">
+          <bold>Pepys MB, Hawkins PN, Kahan MC, Tennent GA, Gallimore JR, Graham D, Sabin CA, Zychlinsky A, de Diego J</bold> 2005 Proinflammatory effects of bacterial recombinant human C-reactive protein are caused by contamination with bacterial products, not by C- reactive protein itself. Circ Res 97:e97&#x02013;e103
+        </mixed-citation>
+      </ref>
+      <ref id="B20">
+        <mixed-citation publication-type="journal">
+          <bold>Casas JP, Shah T, Hingorani AD, Danesh J, Pepys MB</bold> 2008 C- reactive protein and coronary heart disease: a critical review. J Intern Med 264:295&#x02013;314
+        </mixed-citation>
+      </ref>
+      <ref id="B21">
+        <mixed-citation publication-type="journal">
+          <bold>Hingorani AD, Shah T, Casas JP, Humphries SE, Talmud PJ</bold> 2009 C-reactive protein and coronary heart disease: predictive test or therapeutic target? Clin Chem 55:239&#x02013;255
+        </mixed-citation>
+      </ref>
+      <ref id="B22">
+        <mixed-citation publication-type="journal">
+          <bold>Phillips AN, Smith GD</bold> 1991 How independent are &#x0201c;independent&#x0201d; effects? Relative risk estimation when correlated exposures are measured imprecisely. J Clin Epidemiol 44:1223&#x02013;1231
+        </mixed-citation>
+      </ref>
+      <ref id="B23">
+        <mixed-citation publication-type="journal">
+          <bold>Shepherd J, Blauw GJ, Murphy MB, Cobbe SM, Bollen EL, Buckley BM, Ford I, Jukema JW, Hyland M, Gaw A, Lagaay AM, Perry IJ, Macfarlane PW, Meinders AE, Sweeney BJ, Packard CJ, Westendorp RG, Twomey C, Stott DJ</bold> 1999 The design of a prospective study of Pravastatin in the Elderly at Risk (PROSPER). PROSPER Study Group. PROspective Study of Pravastatin in the Elderly at Risk. Am J Cardiol 84:1192&#x02013;1197
+        </mixed-citation>
+      </ref>
+      <ref id="B24">
+        <mixed-citation publication-type="journal">
+          <bold>Hardy R, Kuh D</bold> 2006 Commentary: BMI and mortality in the elderly&#x02014;a life course perspective. Int J Epidemiol 35:179&#x02013;180
+        </mixed-citation>
+      </ref>
+      <ref id="B25">
+        <mixed-citation publication-type="journal">
+          <bold>Micozzi MS, Harris TM</bold> 1990 Age variations in the relation of body mass indices to estimates of body fat and muscle mass. Am J Phys Anthropol 81:375&#x02013;379
+        </mixed-citation>
+      </ref>
+      <ref id="B26">
+        <mixed-citation publication-type="journal">
+          <bold>Shimizu H, Shimomura Y, Hayashi R, Ohtani K, Sato N, Futawatari T, Mori M</bold> 1997 Serum leptin concentration is associated with total body fat mass, but not abdominal fat distribution. Int J Obes Relat Metab Disord 21:536&#x02013;541
+        </mixed-citation>
+      </ref>
+      <ref id="B27">
+        <mixed-citation publication-type="journal">
+          <bold>Hubacek JA, Bohuslavova R, Kuthanova L, Kubinova R, Peasey A, Pikhart H, Marmot MG, Bobak M</bold> 2008 The FTO gene and obesity in a large Eastern European Population sample: the HAPIEE study. Obesity (Silver Spring) 16:2764&#x02013;2766
+        </mixed-citation>
+      </ref>
+      <ref id="B28">
+        <mixed-citation publication-type="journal">
+          <bold>Shepherd J, Blauw GJ, Murphy MB, Bollen EL, Buckley BM, Cobbe SM, Ford I, Gaw A, Hyland M, Jukema JW, Kamper AM, Macfarlane PW, Meinders AE, Norrie J, Packard CJ, Perry IJ, Stott DJ, Sweeney BJ, Twomey C, Westendorp RG</bold> 2002 Pravastatin in elderly individuals at risk of vascular disease (PROSPER): a randomised controlled trial. Lancet 360:1623&#x02013;1630
+        </mixed-citation>
+      </ref>
+      <ref id="B29">
+        <mixed-citation publication-type="journal">
+          <bold>Sattar N, Murray HM, McConnachie A, Blauw GJ, Bollen EL, Buckley BM, Cobbe SM, Ford I, Gaw A, Hyland M, Jukema JW, Kamper AM, Macfarlane PW, Murphy MB, Packard CJ, Perry IJ, Stott DJ, Sweeney BJ, Twomey C, Westendorp RG, Shepherd J</bold> 2007 C-reactive protein and prediction of coronary heart disease and global vascular events in the Prospective Study of Pravastatin in the Elderly at Risk (PROSPER). Circulation 115:981&#x02013;989
+        </mixed-citation>
+      </ref>
+      <ref id="B30">
+        <mixed-citation publication-type="journal">
+          <bold>Welsh P, Murray HM, Buckley BM, de Craen AJ, Ford I, Jukema JW, Macfarlane PW, Packard CJ, Stott DJ, Westendorp RG, Shepherd J, Sattar N</bold> 2009 Leptin predicts diabetes but not cardiovascular disease: results from a large prospective study in an elderly population. Diabetes Care 32:308&#x02013;310
+        </mixed-citation>
+      </ref>
+      <ref id="B31">
+        <mixed-citation publication-type="journal">
+          <bold>Sieh W, Yu CE, Bird TD, Schellenberg GD, Wijsman EM</bold> 2007 Accounting for linkage disequilibrium among markers in linkage analysis: impact of haplotype frequency estimation and molecular haplotypes for a gene in a candidate region for Alzheimer&#x02019;s disease. Hum Hered 63:26&#x02013;34
+        </mixed-citation>
+      </ref>
+      <ref id="B32">
+        <mixed-citation publication-type="journal">
+          <bold>Brunner EJ, Kivim&#x000e4;ki M, Witte DR, Lawlor DA, Davey Smith G, Cooper JA, Miller M, Lowe GD, Rumley A, Casas JP, Shah T, Humphries SE, Hingorani AD, Marmot MG, Timpson NJ, Kumari M</bold> 2008 Inflammation, insulin resistance, and diabetes&#x02014;Mendelian randomization using CRP haplotypes points upstream. PLoS Med 5:e155
+        </mixed-citation>
+      </ref>
+      <ref id="B33">
+        <mixed-citation publication-type="journal">
+          <bold>Drenos F, Talmud PJ, Casas JP, Smeeth L, Palmen J, Humphries SE, Hingorani AD</bold> 2009 Integrated associations of genotypes with multiple blood biomarkers linked to coronary heart disease risk. Hum Mol Genet 18:2305&#x02013;2316
+        </mixed-citation>
+      </ref>
+      <ref id="B34">
+        <mixed-citation publication-type="journal">
+          <bold>Birjmohun RS, Bisoendial RJ, van Leuven SI, Ackermans M, Zwinderman A, Kastelein JJ, Stroes ES, Sauerwein HP</bold> 2007 A single bolus infusion of C-reactive protein increases gluconeogenesis and plasma glucose concentration in humans. Metabolism 56:1576&#x02013;1582
+        </mixed-citation>
+      </ref>
+      <ref id="B35">
+        <mixed-citation publication-type="journal">
+          <bold>Timpson NJ, Harbord R, Davey Smith G, Zacho J, Tybjaerg- Hansen A, Nordestgaard BG</bold> 2009 Does greater adiposity increase blood pressure and hypertension risk? Mendelian randomization using the FTO/MC4R genotype. Hypertension 54:84&#x02013;90
+        </mixed-citation>
+      </ref>
+      <ref id="B36">
+        <mixed-citation publication-type="journal">
+          <bold>Freathy RM, Timpson NJ, Lawlor DA, Pouta A, Ben-Shlomo Y, Ruokonen A, Ebrahim S, Shields B, Zeggini E, Weedon MN, Lindgren CM, Lango H, Melzer D, Ferrucci L, Paolisso G, Neville MJ, Karpe F, Palmer CN, Morris AD, Elliott P, Jarvelin MR, Smith GD, McCarthy MI, Hattersley AT, Frayling TM</bold> 2008 Common variation in the FTO gene alters diabetes-related metabolic traits to the extent expected given its effect on BMI. Diabetes 57:1419&#x02013;1426
+        </mixed-citation>
+      </ref>
+      <ref id="B37">
+        <mixed-citation publication-type="journal">
+          <bold>Timpson NJ, Lawlor DA, Harbord RM, Gaunt TR, Day IN, Palmer LJ, Hattersley AT, Ebrahim S, Lowe GD, Rumley A, Davey Smith G</bold> 2005 C-reactive protein and its role in metabolic syndrome: Mendelian randomisation study. Lancet 366:1954&#x02013;1959
+        </mixed-citation>
+      </ref>
+      <ref id="B38">
+        <mixed-citation publication-type="journal">
+          <bold>Timpson NJ, Sayers A, Davey-Smith G, Tobias JH</bold> 2009 How does body fat influence bone mass in childhood? A Mendelian randomisation approach. J Bone Miner Res 24:522&#x02013;533
+        </mixed-citation>
+      </ref>
+      <ref id="B39">
+        <mixed-citation publication-type="journal">
+          <bold>Pepys MB</bold> 2008 C-reactive protein is neither a marker nor a mediator of atherosclerosis. Nat Clin Pract Nephrol 4:234&#x02013;235
+        </mixed-citation>
+      </ref>
+      <ref id="B40">
+        <mixed-citation publication-type="journal">
+          <bold>Tennent GA, Hutchinson WL, Kahan MC, Hirschfield GM, Gallimore JR, Lewin J, Sabin CA, Dhillon AP, Pepys MB</bold> 2008 Transgenic human CRP is not pro-atherogenic, pro-atherothrombotic or pro-inflammatory in apoE &#x02212;/&#x02212; mice. Atherosclerosis 196:248&#x02013;255
+        </mixed-citation>
+      </ref>
+      <ref id="B41">
+        <mixed-citation publication-type="journal">
+          <bold>Davey Smith G, Lawlor DA, Harbord R, Timpson N, Rumley A, Lowe GD, Day IN, Ebrahim S</bold> 2005 Association of C-reactive protein with blood pressure and hypertension: life course confounding and Mendelian randomization tests of causality. Arterioscler Thromb Vasc Biol 25:1051&#x02013;1056
+        </mixed-citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn>
+        <p>The leptin and CRP assays and analysis were supported by the Stroke Association. The genotyping analyses were supported by Grant R01 HL74753 from the National Institutes of Health and Contract 53-1950-5-003 from the Agricultural Research Service of the U.S. Department of Agriculture.</p>
+      </fn>
+      <fn>
+        <p>Disclosure Summary: No conflict of interest is declared.</p>
+      </fn>
+      <fn>
+        <p>
+          <bold>First Published Online November 11, 2009</bold>
+        </p>
+      </fn>
+      <fn>
+        <p>Abbreviations: BMI, Body mass index; CRP, C-reactive protein; HWE, Hardy-Weinberg equilibrium; MR, Mendelian randomization; SNP, single nucleotide polymorphism.</p>
+      </fn>
+    </fn-group>
+  </back>
+  <floats-group>
+    <table-wrap position="float" id="T1">
+      <label>Table 1</label>
+      <caption>
+        <p>Frequency of <italic>CRP</italic> and adiposity SNPs in PROSPER cohort</p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th colspan="1" rowspan="2" align="center" valign="bottom">Genotype</th>
+            <th colspan="3" rowspan="1" align="center" valign="bottom">
+              <italic>FTO</italic> rs9939609 (n &#x0003d; 5724) <hr/>
+            </th>
+            <th colspan="3" rowspan="1" align="center" valign="bottom">
+              <italic>MC4R</italic> rs17782313 (n &#x0003d; 5748) <hr/>
+            </th>
+          </tr>
+          <tr>
+            <th colspan="1" rowspan="1" align="center" valign="bottom">TT</th>
+            <th colspan="1" rowspan="1" align="center" valign="bottom">TA</th>
+            <th colspan="1" rowspan="1" align="center" valign="bottom">AA</th>
+            <th colspan="1" rowspan="1" align="center" valign="bottom">TT</th>
+            <th colspan="1" rowspan="1" align="center" valign="bottom">TC</th>
+            <th colspan="1" rowspan="1" align="center" valign="bottom">CC</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">CRP rs1800947</td>
+            <td colspan="6" rowspan="1" align="char" char="." valign="top"/>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">&#x02003;GG</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">1116</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">1330</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">401</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">1734</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">986</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">140</td>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">&#x02003;GC</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">875</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">1137</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">344</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">1425</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">806</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">134</td>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">&#x02003;CC</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">192</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">247</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">82</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">319</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">182</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">22</td>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="2" align="left" valign="top"/>
+            <td colspan="3" rowspan="1" align="center" valign="top">
+              <bold>
+                <italic>FTO</italic> rs9939609 (n &#x0003d; 5734)
+              </bold>
+              <hr/>
+            </td>
+            <td colspan="3" rowspan="1" align="center" valign="top">
+              <italic>MC4R</italic> rs17782313 (n &#x0003d; 5759) <hr/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">CRP rs1205</td>
+            <td colspan="6" rowspan="1" align="char" char="." valign="top"/>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">&#x02003;CC</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">987</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">1255</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">367</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">1602</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">890</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">127</td>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">&#x02003;CT</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">962</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">1156</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">354</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">1470</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">876</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">136</td>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">&#x02003;TT</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">239</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">308</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">106</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">413</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">212</td>
+            <td colspan="1" rowspan="1" align="char" char="." valign="top">33</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap position="float" id="T2">
+      <label>Table 2</label>
+      <caption>
+        <p>CRP, BMI, and leptin distribution by CRP and adiposity allele score</p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th colspan="1" rowspan="1" align="left" valign="bottom"/>
+            <th colspan="1" rowspan="1" align="center" valign="bottom">CRP (mg/liter)</th>
+            <th colspan="1" rowspan="1" align="center" valign="bottom">BMI (kg/m<sup>2</sup>)</th>
+            <th colspan="1" rowspan="1" align="center" valign="bottom">Leptin (ng/ml)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">Low CRP polymorphisms</td>
+            <td colspan="3" rowspan="1" align="char" char="." valign="top"/>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">&#x02003;0 (n &#x0003d; 2615)</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">3.45 (3.02)</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">26.82 (4.24)</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">13.32 (2.44)</td>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">&#x02003;1 (n &#x0003d; 2033)</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">3.15 (2.98)<xref rid="TFN2-1" ref-type="table-fn">a</xref></td>
+            <td colspan="1" rowspan="1" align="center" valign="top">26.87 (4.16)</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">13.35 (2.41)</td>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">&#x02003;2 (n &#x0003d; 894)</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">2.40 (3.19)<xref rid="TFN2-1" ref-type="table-fn">a</xref></td>
+            <td colspan="1" rowspan="1" align="center" valign="top">26.72 (4.13)</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">13.13 (2.51)</td>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">&#x02003;3 (n &#x0003d; 197)</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">2.02 (3.03)<xref rid="TFN2-1" ref-type="table-fn">a</xref></td>
+            <td colspan="1" rowspan="1" align="center" valign="top">26.80 (4.26)</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">13.76 (2.35)</td>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">&#x02003;4 (n &#x0003d; 20)</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">1.47 (2.67)<xref rid="TFN2-1" ref-type="table-fn">a</xref></td>
+            <td colspan="1" rowspan="1" align="center" valign="top">27.60 (4.87)</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">13.29 (2.67)</td>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">&#x02003;<italic>P</italic> value for trend</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">&#x0003c;0.0001</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">0.89</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">0.98</td>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">&#x02003;<italic>P</italic> value adjusted for country</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">&#x0003c;0.0001</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">0.88</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">0.93</td>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">High adiposity polymorphisms</td>
+            <td colspan="3" rowspan="1" align="center" valign="top"/>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">&#x02003;0 (n &#x0003d; 1310)</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">2.91 (3.07)</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">26.62 (4.14)</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">12.77 (2.42)</td>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">&#x02003;1 (n &#x0003d; 2431)</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">3.06 (3.09)</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">26.72 (4.18)</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">13.15 (2.44)</td>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">&#x02003;2 (n &#x0003d; 1522)</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">3.18 (3.02)<xref rid="TFN2-1" ref-type="table-fn">a</xref></td>
+            <td colspan="1" rowspan="1" align="center" valign="top">27.07 (4.24)<xref rid="TFN2-1" ref-type="table-fn">a</xref></td>
+            <td colspan="1" rowspan="1" align="center" valign="top">13.75 (2.44)<xref rid="TFN2-1" ref-type="table-fn">a</xref></td>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">&#x02003;3 (n &#x0003d; 422)</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">3.35 (3.05)<xref rid="TFN2-1" ref-type="table-fn">a</xref></td>
+            <td colspan="1" rowspan="1" align="center" valign="top">26.92 (3.99)</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">13.87 (2.43)</td>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">&#x02003;4 (n &#x0003d; 46)</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">4.15 (2.64)<xref rid="TFN2-1" ref-type="table-fn">a</xref></td>
+            <td colspan="1" rowspan="1" align="center" valign="top">27.89 (4.25)<xref rid="TFN2-1" ref-type="table-fn">a</xref></td>
+            <td colspan="1" rowspan="1" align="center" valign="top">18.54 (2.06)<xref rid="TFN2-1" ref-type="table-fn">a</xref></td>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">&#x02003;<italic>P</italic> value for trend</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">0.002</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">0.002</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">0.0027</td>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1" align="left" valign="top">&#x02003;<italic>P</italic> value adjusted for country</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">0.0013</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">0.0014</td>
+            <td colspan="1" rowspan="1" align="center" valign="top">0.0019</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn>
+          <p>Data are presented as mean (<sc>sd</sc>). CRP and leptin were analyzed on a log scale and back-transformed for presentation.&#x000a0;</p>
+        </fn>
+        <fn id="TFN2-1">
+          <label>a</label>
+          <p>Significant difference (<italic>P</italic> &#x0003c; 0.05) compared to allele score of 0 (unadjusted).&#x000a0;</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+  </floats-group>
+</article>
+
+

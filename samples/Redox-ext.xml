@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article SYSTEM "../dtd/NISO-supmat-extension-rec0.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ext="http://jats.nlm.nih.gov/extensions/ext">
+    <front>
+        <journal-meta>
+            <journal-title-group>
+                <journal-title>Science</journal-title>
+            </journal-title-group>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="doi">10.1126/science.1233299 </article-id>
+            <title-group>
+                <article-title>Redox Heterogeneity in Mid-Ocean Ridge Basalts as a Function of Mantle Source</article-title>
+            </title-group>
+            <pub-date/>
+           
+        </article-meta>
+    </front>
+    <body>
+        <!-- text of article -->
+        <fig id="fig1">
+            <!-- figure refers to table S3 -->
+        </fig>
+        <fig id="fig2">
+            <!-- figure refers to supplementary text  and table S3-->
+        </fig>
+        <sec>
+            <title>Supplementary Materials</title>
+            <p>Materials/Methods, Supplementary Text, Tables, Figures, and/or References</p>
+            <supplementary-material>
+                <ext:summary>Materials and Methods,
+                    Supplementary Text,
+                    Figs. S1 to S6,
+                    References</ext:summary>
+                <ext:original-sources>
+                    <ext:original-source>This is a corrected version of <ext-link xlink:href="http://www.sciencemag.org/content/suppl/2013/05/01/science.1233299.DC1/Cottrell.SM.pdf">http://www.sciencemag.org/content/suppl/2013/05/01/science.1233299.DC1/Cottrell.SM.pdf</ext-link>. Ref. 12 has been corrected.</ext:original-source>
+                </ext:original-sources>
+                <history>
+                    <date date-type="revision"><day>11</day><month>June</month><year>2013</year></date>
+                </history>
+                
+          
+                    <ext:resource xlink:href="http://www.sciencemag.org/content/suppl/2013/05/01/science.1233299.DC1/Cottrell.SM.rev1.pdf" mimetype="application" mime-subtype="pdf">
+                        <ext:resource-meta>
+                            <ext:filename>Cottrell.SM.rev1.pdf</ext:filename>
+                        </ext:resource-meta>
+                        <ext:item>
+                            <caption>
+                                <title>Materials and Methods</title>
+                            </caption>
+                        </ext:item>
+                        <ext:item>
+                            <caption>
+                                <title>Supplementary Text</title>
+                            </caption>
+                        </ext:item>
+                        <ext:item>
+                            <label>Fig. S1</label>
+                            <caption>
+                                <p>(a) Schematic illustration of the correction applied to raw...</p>
+                            </caption>
+                        </ext:item>
+                        <!-- other items as needed -->
+                        <ext:item>
+                            <caption>
+                                <title>References</title>
+                            </caption>
+                      
+                        </ext:item>
+                    </ext:resource>
+            </supplementary-material>
+            <supplementary-material>
+                <ext:summary>Tables S1 - S3</ext:summary>   
+                <ext:original-sources>
+                    <ext:original-source>This file is a corrected version of <ext-link xlink:href="http://www.sciencemag.org/content/suppl/2013/05/01/science.1233299.DC1/1233299TablesS1S2S3.xlsx">http://www.sciencemag.org/content/suppl/2013/05/01/science.1233299.DC1/1233299TablesS1S2S3.xlsx</ext-link>.  Table S1 has been revised to clarify how regional averages are calculated.</ext:original-source>
+                </ext:original-sources>
+                <history>
+                    <date date-type="revision"><day>11</day><month>June</month><year>2013</year></date>
+                </history>
+                <ext:resource mimetype="application" mime-subtype="xslx" xlink:href="http://www.sciencemag.org/content/suppl/2013/05/01/science.1233299.DC1/1233299TablesS1S2S3.rev1.xlsx">
+                    <ext:resource-meta>
+                        <ext:filename>1233299TablesS1S2S3.rev1.xlsx</ext:filename>
+                    </ext:resource-meta>
+                    <ext:item>
+                        <label>Table S1</label>
+                        <caption><title>Samples, their locations, geochamical data, and references</title></caption>      
+                    </ext:item>
+                    <ext:item rid="fig1 fig2">
+                        <label>Table S3</label>
+                        <caption><title> Statistical description of correlations presented in Figures 1, 2, and S3</title></caption>
+                    </ext:item>
+                </ext:resource>
+            </supplementary-material>
+
+        </sec>
+    </body>
+</article>

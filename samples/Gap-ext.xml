@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article SYSTEM "../dtd/NISO-supmat-extension-rec0.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" article-type="sample" xmlns:ext="http://jats.nlm.nih.gov/extensions/ext">
+    <front>
+        <journal-meta></journal-meta>
+        <article-meta>
+            <title-group>
+                <article-title>dbGaP chapter of NCBI Handbook</article-title>
+            </title-group>
+            <pub-date></pub-date>
+        </article-meta>
+    </front>
+    <body> 
+        <!-- text of article -->
+        <fig id="fig1">
+            <label>Fig. 1</label>
+            <caption>
+                <p>Accession numbers in dbGaP are created separately for a study and its subordinate objects...This image originally appeared in Mailman, et al. (2007) Nature Genetics......</p>
+            </caption>
+            <ext:original-sources>
+                <ext:original-source>Mailman, et al. (2007) Nature Genetics.....</ext:original-source>
+            </ext:original-sources>
+            <ext:resource>
+                <ext:resource-meta>
+                    <ext:filename>accession.jpg</ext:filename>
+                </ext:resource-meta>
+            </ext:resource>
+        </fig>
+    </body>
+</article>
+

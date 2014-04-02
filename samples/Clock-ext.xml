@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article SYSTEM "../dtd/NISO-supmat-extension-rec0.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" article-type="sample" xmlns:ext="http://jats.nlm.nih.gov/extensions/ext">
+  <front>
+    <journal-meta></journal-meta>
+      <article-meta>
+          <title-group>
+              <article-title></article-title>
+          </title-group>
+          <pub-date></pub-date>
+          <ext:summary>There are higher resolution images that correspond to figures 1, 2, 3, 5, and 6.</ext:summary>
+      </article-meta>
+  </front>
+  <body> 
+      <!-- text of article -->
+      <fig id="fig1">
+          <label>Fig. 1</label>
+          <caption>
+              <title>Schematic setup of the pulsed optical pumping frequency standard. Magnetic
+                  field, laser beam propagation direction, and cavity axis are collinear; tp, t1,
+                  T, and td are the pumping, Rabi pulses, Ramsey decay, and detection times,
+                  respectively.</title>
+          </caption>
+          <alternatives>
+              <!-- low res -->
+              <ext:resource mimetype="image"><!-- might want attribute to distinguish hi- and low-res versions? -->
+                  <ext:resource-meta>
+                      <ext:filename>filename of low-res image</ext:filename>
+                      <ext:format>format of low-res iamge</ext:format>
+                  </ext:resource-meta>
+              </ext:resource>
+              <!-- high res -->
+              <ext:resource mimetype="image" mime-subtype="jpg" xlink:href="http://dx.doi.org/10.1109/TUFFC.2012.2215/mm5">
+                  <ext:resource-meta>
+                      <ext:filename>t123mh01.jpg</ext:filename>
+                      <size units="KB">264</size>
+                  </ext:resource-meta>
+                  <ext:item>
+                      <object-id pub-id-type="doi">10.1109/TUFFC.2012.2215/mm5</object-id>
+                  </ext:item>
+              </ext:resource>
+          </alternatives>
+      </fig>
+    <!-- more text -->
+      <fig id="fig2">
+          <label>Fig. 2</label>
+          <caption><title>Beat note measurement of the distributed feedback laser head against a
+              795-nm external-cavity diode laser.</title></caption>
+          <alternatives>
+              <!-- low res -->
+              <ext:resource mimetype="image"> <!-- low res -->
+                  <ext:resource-meta>
+                      <ext:filename>filename of low-res image</ext:filename>
+                      <ext:format>format of low-res iamge</ext:format>
+                  </ext:resource-meta>
+              </ext:resource>
+              <!-- high res -->
+              <ext:resource mimetype="image" mime-subtype="jpg" xlink:href="http://dx.doi.org/10.1109/TUFFC.2012.2215/mm2"> 
+                  <ext:resource-meta>
+                      <ext:filename>t123mh02.jpg</ext:filename>
+                      <size units="KB">264</size>
+                  </ext:resource-meta>
+                  <ext:item>
+                      <object-id pub-id-type="doi">10.1109/TUFFC.2012.2215/mm2</object-id>
+                  </ext:item>
+              </ext:resource>
+          </alternatives>
+      </fig>
+      <!-- and so forth for the other 3 images -->
+</body>
+</article>

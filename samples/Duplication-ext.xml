@@ -1,0 +1,74 @@
+<!DOCTYPE article SYSTEM "../dtd/NISO-supmat-extension-rec0.dtd">
+<article>
+    <front>
+        <journal-meta></journal-meta>
+        <article-meta>
+            <title-group>
+                <article-title></article-title>
+            </title-group>
+            <pub-date></pub-date>
+        </article-meta>
+    </front>
+    <body>
+        <supplementary-material id="S1" content-type=""  xml:lang="en">
+            <object-id pub-id-type="doi">10.1371/journal.pbio.0030038.sg002</object-id>
+            <label>Figure_S1</label>
+            <caption>
+                <title>Genetic Versus Physical Map Distance for All 12 Rice Chromosomes, Based on Beijing <italic>indica</italic></title>
+                <p>Similar results are seen with the other two assemblies, Syngenta <italic>japonica</italic> and IRGSP <italic>japonica</italic>.</p>
+            </caption>
+            <ext:resource xlink:href="http://www.plosbiology.org/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pbio.0030038.sg001" mimetype="application" mime-subtype="postscript">
+                <ext:resource-meta>
+                    <ext:filename>Figure_S1.ps</ext:filename>
+                    <ext:format>EPS</ext:format>
+                    <size units="MB">1</size>
+                </ext:resource-meta>
+                <ext:item>
+                    <caption><title>Beijing <italic>indica</italic></title></caption>
+                </ext:item>
+            </ext:resource>
+        </supplementary-material>
+        <supplementary-material>
+            <label>Figure S2</label>
+            <caption>
+                <title>Number of Discrepant Markers in Comparisons of Genetic and Physical Maps for 1,519 Markers Found in All Three Rice Assemblies</title>
+                <p>We count discrepancies where the markers are found (A) on different chromosomes
+                    and (B) in different locations on the same chromosome.</p>            
+            </caption>
+            <ext:resource xlink:href="http://www.plosbiology.org/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pbio.0030038.sg002" mimetype="application" mime-subtype="zip">
+                <ext:resource-meta>
+                    <ext:filename>journal.pbio.0030038.sg002.zip</ext:filename>
+                    <ext:format>ZIP</ext:format>
+                    <size units="KB">458</size>
+                </ext:resource-meta>
+                <ext:resource content-type="directory" mimetype="text" mime-subtype="directory">
+                    <ext:resource-meta>
+                        <ext:filename>webfig2_geneticMap-diff</ext:filename>
+                    </ext:resource-meta>
+                </ext:resource>
+                    <ext:resource  mimetype="application" mime-subtype="postscript">
+                        <ext:resource-meta>
+                            <ext:filename>incorrect_markers_diff-chromosomes.eps</ext:filename>
+                            <ext:format>EPS</ext:format>
+                            <size units="KB">498</size>
+                        </ext:resource-meta>
+                        <ext:item>
+                            <label>A</label>
+                        </ext:item>
+                    </ext:resource>
+                    <ext:resource mimetype="application" mime-subtype="postscript">
+                        <ext:resource-meta>
+                            <ext:filename>incorrect_markers_within-one-chromosome.eps</ext:filename>
+                            <ext:format>EPS</ext:format>
+                            <size units="KB">496</size>
+                        </ext:resource-meta>
+                        <ext:item>
+                            <label>B</label>
+                        </ext:item>
+                   
+                </ext:resource>
+            </ext:resource>
+        </supplementary-material>
+        <!-- there are a number of other supplemental materials that should be here, but we're leaving them out -->
+    </body>
+</article>
