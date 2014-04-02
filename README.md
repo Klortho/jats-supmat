@@ -7,4 +7,8 @@ presented at [JATSCon
 The files for this extension are currently deployed [here](http://dtd.nlm.nih.gov/ncbi/supmatext/),
 and those were used to seed this GitHub repository.
 
+This extension is is a working draft, and is *not final*.  Please work with us to help us make it is good as it can be.
+
+Please use the [Issues](https://github.com/Klortho/jats-supmat/issues) here to bring up and
+discuss use cases, problems and changes.
 
