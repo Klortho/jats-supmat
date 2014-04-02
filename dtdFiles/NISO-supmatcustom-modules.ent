@@ -1,0 +1,51 @@
+<!-- ============================================================= -->
+
+
+<!-- ============================================================= -->
+<!--                    CUSTOMIZATION MODULES DECLARED             -->
+<!-- ============================================================= -->
+<!--                    DTD-SPECIFIC ELEMENTS MODULE   -->
+<!ENTITY % NISO-supmatcustom-elements.ent 
+                        PUBLIC  
+"-//NLM//DTD JATS JP SupMat Elements Module v0.1 20130503//EN"
+"NISO-supmatcustom-elements.ent"                                      >
+
+
+
+
+<!--                    DTD-SPECIFIC CLASS CUSTOMIZATIONS MODULE   -->
+<!--                    Set up the Parameter Entities and element
+                        class definitions that will be used to
+                        over-ride some element classes in the
+                        DTD Suite.                                 -->
+<!ENTITY % NISO-supmatcustom-classes.ent 
+                        PUBLIC  
+"-//NLM//DTD JATS JP SupMat Customize Class Module v0.1 20130503//EN"
+"NISO-supmatcustom-classes.ent"                                      >
+
+
+<!--                    DTD-SPECIFIC MIX CUSTOMIZATIONS MODULE     -->
+<!--                    Set up the Parameter Entities and element
+                        mix definitions that will be used to
+                        over-ride some element mixes in the DTD
+                        Suite.                                     -->
+<!ENTITY % NISO-supmatcustom-mixes.ent 
+                        PUBLIC  
+"-//NLM//DTD JATS JP SupMat Customize Mixes Module v0.1 20130503//EN"
+"NISO-supmatcustom-mixes.ent"                                        >
+
+
+<!--                    DTD-SPECIFIC MODELS/ATTRIBUTES CUSTOMIZATIONS 
+                        MODULE                                     -->
+<!--                    Set up the Parameter Entities for element-
+                        specific element groups, complete content 
+                        models, and attribute list and value over-
+                        rides. These PEs will over-ride selected
+                        content models and attribute lists for the 
+                        Journal Archiving and Interchange DTD.     -->
+<!ENTITY % NISO-supmatcustom-models.ent 
+                        PUBLIC  
+"-//NLM//DTD JATS JP SupMat Customize Content and Attributes Module v0.1 20130503//EN"
+"NISO-supmatcustom-models.ent"                                       >
+
+

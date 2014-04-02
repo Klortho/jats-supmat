@@ -1,0 +1,292 @@
+
+<!-- ============================================================= -->
+<!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
+<!--                        TYPICAL INVOCATION                     -->
+<!--
+"-//NLM//DTD JATS JP SupMat Elements Module v0.1 20130503//EN"
+     Delivered as file "NISO-supmatcustom-elements.ent"
+                                                                   -->
+<!-- ============================================================= -->
+
+
+<!ELEMENT ext:resource	(ext:resource-meta, (ext:resource* | ext:item*)) >
+<!ATTLIST ext:resource 		
+                        %file-atts;>  
+
+
+<!ELEMENT ext:version	(#PCDATA) >
+
+<!ELEMENT ext:summary	(#PCDATA | %emphasis.class; | %subsup.class;)* >
+<!ATTLIST ext:summary 		%might-link-atts;>  
+
+
+<!-- ============================================================= -->
+<!--                    PROVENANCE ELEMENTS                        -->
+<!-- ============================================================= -->
+
+<!--                    SUPPLEMENTAL MATERIAL PROVENANCE           -->
+<!--                    Origin of supplemental material            -->
+<!ELEMENT  ext:original-sources   (ext:original-source*)                           >
+<!--         derived-work   
+                        Whether the supplemental object contains some
+                        material derived from another source. The 
+                        values are 'yes' or 'no'.                  -->   
+<!ATTLIST  ext:original-sources
+             derived-work
+                        (yes | no)                       #IMPLIED    >
+                        
+<!--                    ORIGINAL SOURCE OF SUPPLEMENTAL MATERIAL   -->
+<!--                    The source of the derived material.        
+                        Repeat the element if multiple sources.    -->
+<!ELEMENT  ext:original-source
+                        (#PCDATA | %emphasis.class; | %subsup.class; | 
+                        ext-link)*                                   >
+                        
+<!-- ============================================================= -->
+<!--                    SUPPLEMENTAL MATERIAL PRESERVATION         -->
+<!-- ============================================================= -->
+
+<!--                    SUPPLEMENTAL MATERIAL PRESERVATION         -->
+<!--                    This records a commitment from a publisher 
+                        or archive to carry the supplemental 
+                        material forward. Used to help determine
+                        the likelihood that the material will be 
+                        accessible in the future.
+                        Remarks: Preservation is a larger
+                        issue than promising format migration; this
+                        could include a recomputation, media refresh, 
+                        emulation, or other preservation strategies.
+                                                                   -->
+<!ELEMENT  ext:preservation-committment (ext:preservation-committment-level, 
+                         ext:preservation-committment-rationale?, 
+                         ext:preservation-committment-authority+)                    >
+
+<!--                    PRESERVATION LEVEL                         -->
+<!--                    Preservation level promised by the
+                        publisher or archive. The preservation level 
+                        can be different for each format type, and 
+                        different for each object within a format.
+                        Remarks: There is no established list of
+                        types or values at this time. Each publisher
+                        or archive must establish what they mean by
+                        level of preservation. For example, the US
+                        National Library of Medicine uses what they
+                        call "permanence levels":
+                         - "Permanent: Unchanging Content" 
+                         - "Permanent: Stable Content" 
+                         - "Permanent: Dynamic Content" 
+                         - "Permanence Not Guaranteed" 
+                        See:
+                 http://www.nlm.nih.gov/psd/pcm/devpermanence.html --> 
+<!ELEMENT  ext:preservation-committment-level      
+                        (#PCDATA)                                    >
+
+<!--                    PRESERVATION RATIONALE                     -->
+<!--                    To describe why a particular preservation    
+                        level was assigned to this object.
+                        Remarks: The rationale is especially important 
+                        if different preservation levels are assigned 
+                        to different objects of the same format.   -->
+<!ELEMENT  ext:preservation-committment-rationale   
+                        (#PCDATA)                                    >
+
+<!--                    PRESERVATION AUTHORITY                     -->
+<!--                    The authority assigning the preservation
+                        level, e.g., NLM.                          -->
+<!ELEMENT  ext:preservation-committment-authority  
+                        (#PCDATA | %subsup.class; | ext-link)*            >
+<!--         source     Source or authority that set up the
+                        vocabulary if a named taxonomy is used.    -->
+<!ATTLIST  ext:preservation-committment-authority
+             source     CDATA                              #IMPLIED  >                        
+
+
+<!--                    FILE INFORMATION                           -->
+<!--                    Container element for the metadata concerning
+                        a physical file, such as file type and
+                        file size for one supplemental 
+                        object, such as a  table, figure, PDF, or 
+                        video. This may also be one version of a 
+                        supplemental object, where multiple formats 
+                        or multiple intellectual versions are 
+                        provided as a group, for example,
+                        the supplemental material includes the 
+                        same logical (but not physical and not in
+                        the same format or at the same depth) a   
+                        PDF table, an Excel spreadsheet, a link to an 
+                        external dataset, a titled section of text,
+                        and a graphic.
+                        
+                        All elements within the file metadata are
+                        optional because they may be set on a
+                        top-level sup-mat object for all the objects 
+                        within that top-level object. For example, the 
+                        top-level <sup-mat-object-metadata> may set 
+                        nothing but the creating and rendering 
+                        applications. Then the file names, sizes, and 
+                        other file-specific information can be set 
+                        within individual <sup-mat-object-metadata> 
+                        elements contained within the top-level 
+                        object.                                    -->
+<!ELEMENT   ext:resource-meta ( ext:filename?, ext:format?, 
+								 ext:format-registry?, ext:validity?,
+                         size?, ext:fixity?, ext:creating-application*, 
+                         ext:rendering-application* )                     >   
+
+<!--                    FILE NAME                                  -->
+<!--                    Filename of the file containing the
+                        supplemental material. Can be an archive 
+                        (collection of objects) or a single
+                        object.                                    -->
+<!ELEMENT ext:filename	(#PCDATA) >
+
+
+<!--                    FILE FORMAT                                -->
+<!--                    Format of the file containing the
+                        supplemental material. Frequently expressed
+                        as a DOS file extension (ZIP, JPG, XML, etc.)                                                                  
+                                                                   -->
+<!ELEMENT ext:format	(#PCDATA) >
+
+<!--                    FILE FORMAT REGISTRY                       -->
+<!--                    If possible, rather than just listing a 
+                        format by name, publishers should use formats
+                        defined in formal format registries like 
+                        UDFR http://www.udfr.org  or PRONOM
+                        http://www.nationalarchives.gov.uk/PRONOM .
+                        Alternatively, publishers may define and
+                        publish their own registry (list) of object
+                        formats they support.                      -->
+<!ELEMENT  ext:format-registry
+                        (#PCDATA | ext-link | date)*                 >
+<!--         source     Source or authority that set up the
+                        registry.                                  -->
+<!ATTLIST  ext:format-registry
+             source     CDATA                              #IMPLIED  >
+
+<!--                    FILE VALIDITY                              -->
+<!--                    Indicates whether a file is valid in relation 
+                        to the format it claims to be. Publishers may 
+                        consider using JHOVE terminology: 
+                        'well-formed', 'well-formed and valid', 
+                        'not valid', 'not well-formed'.
+                        See  http://hul.harvard.edu/jhove/index.html
+                        or http://www.jhove2.org                   -->
+<!ELEMENT  ext:validity
+                        (#PCDATA | ext-link)*                 >
+<!--         source     Source or authority that set up the
+                        vocabulary if a named taxonomy is used.    -->
+<!ATTLIST  ext:validity
+             source     CDATA                              #IMPLIED  >
+
+<!-- ============================================================= -->
+<!--                    FIXITY METADATA                            -->
+<!-- ============================================================= -->
+
+<!--                    DATA FIXITY                                -->
+<!--                    "Fixity is a means of ensuring that a digital
+                        object has not been changed between two points
+                        in time or two events. Technologies such as
+                        checksums, message digests and digital
+                        signatures are fixity methods used to verify 
+                        a digital object's fixity." from "Fixity
+                        Checks: Checksums, Message Digests and Digital
+                        Signatures" by Audrey Novak (2006).        -->
+<!ELEMENT  ext:fixity       (ext:fixity-method, ext:fixity-value)                >
+
+<!--                    FIXITY METHOD                              -->
+<!--                    Name of fixity method used, such as
+                        "md5", "sha1", "sha512", etc.              -->
+<!ELEMENT ext:fixity-method	(#PCDATA) >
+
+<!--                    FIXITY VALUE                               -->
+<!--                    Value used to determine the fixity.        -->
+<!ELEMENT ext:fixity-value	(#PCDATA | graphic)* >
+
+<!-- ============================================================= -->
+<!--                    APPLICATION METADATA                       -->
+<!-- ============================================================= -->
+
+<!--                    CREATING APPLICATION                       -->
+<!--                    Application that created the supplemental
+                        material object.                           -->
+<!ELEMENT  ext:creating-application 
+                        (ext:platform+, ext:application-information?)        >
+
+<!--                    RENDERING APPLICATION                      -->
+<!--                    Application needed to render, run, or
+                        otherwise use or display the supplemental
+                        material object.                           -->
+<!ELEMENT  ext:rendering-application
+                        (ext:platform+, ext:application-information?)        >
+
+<!--                    PLATFORM                                   -->
+<!--                    Container element for whatever hardware,
+                        software, operating system, or version
+                        information would be necessary to understand/
+                        read/run/express this supplemental material
+                        file.                                      -->
+<!ELEMENT  ext:platform     (ext:hardware*, ext:os*, ext:software*)                  >
+
+<!--                    OPERATING SYSTEM                           -->
+<!--                    Any relevant information concerning the
+                        operating system or version of an operating
+                        system needed to read/run/express the 
+                        supplemental material file.
+                        Use only if there are restrictions or
+                        special needs.                             -->
+<!ELEMENT  ext:os           (#PCDATA)                                    >
+
+<!--                    HARDWARE                                   -->
+<!--                    Any relevant information concerning the
+                        hardware platform needed to read/run/express 
+                        the supplemental material file. Use only if 
+                        there are restrictions or special needs.   -->
+<!ELEMENT  ext:hardware     (#PCDATA)                                    >
+
+<!--                    APPLICATION INFORMATION                    -->
+<!--                    Placeholder for any helpful information to 
+                        understand the creation environment or 
+                        rendering/running environment for a 
+                        supplemental material object.              -->
+<!ELEMENT  ext:application-information
+                        (#PCDATA | %subsup.class; | ext-link | date)*     >
+
+
+<!-- ============================================================= -->
+<!--                    SOFTWARE ELEMENTS                          -->
+<!-- ============================================================= -->
+
+<!--                    SOFTWARE                                   -->
+<!--                    One software package on which the 
+                        supplemental material object was created or 
+                        which is needed to run or render the object. 
+                        For example, a PDF file might require a
+                        particular version of Acrobat Reader; a
+                        spreadsheet might require Excel, OpenOffice 
+                        Spreadsheet, or other spreadsheet package;
+                        a CAD drawing might require a specific 
+                        CAD-program                                -->
+<!ELEMENT  ext:software     (ext:software-name, ext:software-version?, ext-link?)>
+
+<!--                    SOFTWARE NAME                              -->
+<!--                    The name of a specific program needed to
+                        access all or part of the supplemental
+                        material.                                  -->
+<!ELEMENT  ext:software-name
+                        (#PCDATA | %subsup.class;)*                       >
+
+<!--                    SOFTWARE VERSION                           -->
+<!--                    The specific version of the software needed
+                        to access all or part of the supplemental
+                        material                                   -->
+<!ELEMENT  ext:software-version
+                        (#PCDATA)                                    >
+
+
+
+
+<!ELEMENT ext:item	(%discrete-piece-model;)          >
+<!ATTLIST ext:item
+				id			ID					#IMPLIED
+				rid		IDREFS				#IMPLIED     >

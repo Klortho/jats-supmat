@@ -1,0 +1,164 @@
+
+<!-- ============================================================= -->
+<!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
+<!--                        TYPICAL INVOCATION                     -->
+<!--
+"-//NLM//DTD JATS JP SupMat Customize Content and Attributes Module v0.1 20130503//EN"
+     Delivered as file "NISO-supmatcustom-models.ent"
+                                                                   -->
+<!-- ============================================================= -->
+
+
+<!-- copied from JATS-journalpubcustom-models.ent                  -->
+
+<!--                    DISPLAY ATTRIBUTES                         -->
+<!--                    Attributes used for several of the block
+                        display elements                           -->
+<!ENTITY % display-atts
+            "position   (anchor | background | float | margin)
+                                                          'float'
+             orientation
+                        (portrait | landscape)            'portrait'
+             specific-use
+                        CDATA                             #IMPLIED
+             xml:lang   NMTOKEN                           #IMPLIED"  >
+
+<!--                    XLINK LINK ATTRIBUTES                      -->
+<!--                    Attributes for any element that must be a
+                        link                                       -->
+<!ENTITY % link-atts
+            "xmlns:xlink CDATA                            #IMPLIED
+             xlink:type  (simple)                         #IMPLIED
+             xlink:href  CDATA                            #REQUIRED
+             xlink:role  CDATA                            #IMPLIED
+             xlink:title CDATA                            #IMPLIED
+             xlink:show  (embed | new | none | other | replace)
+                                                          #IMPLIED
+             xlink:actuate
+                         (none | onLoad | onRequest | other)
+                                                          #IMPLIED"  >
+
+<!--                    MIGHT LINK XLINK ATTRIBUTES                -->
+<!--                    Attributes for any element that may be a link
+                        but need not be one                        -->
+<!ENTITY % might-link-atts
+            "xmlns:xlink CDATA                            #IMPLIED
+             xlink:type  (simple)                         #IMPLIED
+             xlink:href  CDATA                            #IMPLIED
+             xlink:role  CDATA                            #IMPLIED
+             xlink:title CDATA                            #IMPLIED
+             xlink:show  (embed | new | none | other | replace)
+                                                          #IMPLIED
+             xlink:actuate
+                         (none | onLoad | onRequest | other)
+                                                          #IMPLIED"  >
+
+
+
+
+
+<!-- added for Supmat Extension model                             -->
+
+<!--                    FILE ATTRIBUTES                         -->
+
+<!ENTITY % file-atts
+             "id        ID                                #IMPLIED
+
+				  rid			IDREF										 #IMPLIED
+              content-type
+                        CDATA                             #IMPLIED
+              mime-subtype
+                        CDATA                             #IMPLIED
+              mimetype  CDATA                             #IMPLIED
+
+              %display-atts;
+				  
+				  %SME.xmlns.attrib;
+				  
+              %might-link-atts;"                                           >  
+				  
+<!ENTITY % supplementary-material-atts
+             "id        ID                                #IMPLIED
+	   rid			IDREF										#IMPLIED
+              %display-atts;
+              content-type
+                        CDATA                             #IMPLIED
+              mimetype  CDATA                             #IMPLIED
+              mime-subtype
+                        CDATA                             #IMPLIED
+              %might-link-atts;"                                     >
+
+
+<!--                    CAPTION MODEL                              -->
+<!--                    Content model for the <caption> element    -->
+<!ENTITY % caption-model
+                        "(title?, alt-title*, (%just-para.class;)*)"             >
+				  
+				  
+
+				  
+<!ENTITY % fig-start.class	"(%id.class;)*, ext:version?, label?, (%caption.class;)*,
+                          (%access.class; | %address-link.class;)*"					>
+								  
+								  
+<!ENTITY % fig-body-nodisplay.class	"(%block-math.class; |
+                           %chem-struct-wrap.class; | kwd-group |
+                           %intable-para.class; | contrib-group | ext:summary |
+                           %just-table.class; | %just-para.class; |
+		     ext:original-sources | history | ext:preservation-committment | publisher |
+                           %list.class; )"               >							  
+								  
+								  
+							  
+<!--                    FIGURE-LIKE CONTENT MODEL                  -->
+<!--                    Content model for the Figure element and any
+                        similarly structured elements              -->
+<!ENTITY % fig-model    "(%fig-start.class;,
+                          (%fig-body-nodisplay.class; | %simple-display.class;)*,
+                          (%display-back-matter.class;)*) "          >
+				  
+<!ENTITY % discrete-piece-model    "(%fig-start.class;,
+                          (%fig-body-nodisplay.class;)*,
+                          (%display-back-matter.class;)* ) "          >
+				  
+								  
+								  
+								  
+								  
+<!--                    ALTERNATIVES MODEL                         -->
+<!--                    Model for the <alternatives> processing
+                        alternatives element                       -->
+<!ENTITY % alternatives-model
+                        "(%alternatives-display.class; |
+                          %math.class; | ext:resource)+"                            >
+								  
+								  
+<!--                    ARTICLE METADATA MODEL                     -->
+<!--                    Full content model for the metadata that is
+                        specific to the article.
+                        Unlike in Archive DTD, some of the metadata
+                        is required here.                          -->
+<!ENTITY % article-meta-model
+                        "(article-id*, article-categories?,
+                         title-group,
+                         (%contrib-group.class; |
+                          %aff-alternatives.class;)*,
+                         author-notes?, pub-date+,
+                         volume?, volume-id*, volume-series?,
+                         issue?, issue-id*, issue-title*,
+                         issue-sponsor*, issue-part?, isbn*,
+                         supplement?,
+                         ((fpage, lpage?, page-range?) |
+                           elocation-id)?,
+                         (%address-link.class; | product |
+                         supplementary-material)*, ext:summary?,
+                         history?, permissions?, self-uri*, 
+                         (%related-article.class;)*, 
+                         abstract*, trans-abstract*, kwd-group*,
+                         funding-group*, conference*, counts?,
+                         custom-meta-group?)"                        >
+								  
+								  
+								  
+								  
+								  				  

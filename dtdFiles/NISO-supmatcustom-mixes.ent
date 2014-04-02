@@ -1,0 +1,18 @@
+
+<!-- ============================================================= -->
+<!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
+<!--                        TYPICAL INVOCATION                     -->
+<!--
+"-//NLM//DTD JATS JP SupMat Customize Mixes Module v0.1 20130503//EN"
+     Delivered as file "NISO-supmatcustom-mixes.ent"
+                                                                   -->
+<!-- ============================================================= -->
+
+
+<!-- SME ............... -->
+
+<!ENTITY % SME.prefix         "ext" >		
+<!ENTITY % SME.xmlns "http://jats.nlm.nih.gov/extensions/ext" >
+<!ENTITY % SME.xmlns.attrib
+     "xmlns:%SME.prefix;  CDATA           #FIXED '%SME.xmlns;'"
+>

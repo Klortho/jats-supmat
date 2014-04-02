@@ -1,0 +1,1637 @@
+<!-- ============================================================= -->
+<!-- ============================================================= -->
+
+<!-- ============================================================= -->
+<!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
+<!--                        TYPICAL INVOCATION                     -->
+<!--
+"-//NLM//DTD JATS Journal Publishing SuppMat extension DTD v0.1 20130503//EN"
+     Delivered as file "NISO-supmat-extension-rec0.dtd"
+                                                                   -->
+<!-- ============================================================= -->
+
+
+
+
+<!-- ============================================================= -->
+<!--                    MODULES OF MODULES INVOKED                 -->
+<!-- ============================================================= -->
+
+<!--                    MODULE TO NAME DTD-SPECIFIC MODULES        -->
+<!--                    Names all DTD-specific external modules    -->
+<!ENTITY % cmodules.ent 
+                        PUBLIC  
+"-//NLM//DTD JATS Journal Publishing SuppMat Specific Modules v0.1 20130503//EN"
+"NISO-supmatcustom-modules.ent"                                      >
+%cmodules.ent;
+
+
+
+<!--                    MODULE TO NAME THE MODULES                 -->
+<!--                    Declares all the external modules that are
+                        part of the modular Journal Archiving and
+                        Interchange DTD Suite library. Thus it does
+                        NOT declare itself; the DTD-specific
+                        module-of-modules; or the DTD-specific class,
+                        mix, or model over-ride modules. Those are
+                        declared in the DTD-specific module of modules.
+                           Since this module declares but does not
+                        invoke modules, this DTD invokes any modules
+                        it uses by referencing the external
+                        Parameter Entities defined in the Module of
+                        Modules. To include a set of elements (such
+                        as all the lists or the MathML elements) this
+                        module defines the external Parameter Entity
+                        for the module(s) that contains the MathML
+                        declarations and the DTD references that
+                        entity.                                    -->
+<!ENTITY % modules.ent  PUBLIC
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Module of Modules v1.0 20120330//EN"
+"JATS-modules1.ent"                                                  >
+%modules.ent;
+
+
+<!-- ============================================================= -->
+<!--                    CUSTOMIZATION MODULES INVOKED              -->
+<!--                    Note: These modules must be called after   -->
+<!--                    all Module of Modules but before any other -->
+<!--                    modules. Unlike any other grouping, order  -->
+<!--                    of these modules matters.                  -->
+<!-- ============================================================= -->
+
+
+<!--                    DTD-SPECIFIC CLASS CUSTOMIZATIONS MODULE   -->
+<!--                    Names the module that holds the DTD-specific
+                        class definitions for the Journal Publishing
+                        DTD that will over-ride classes in the Suite.
+                        (Defined in %journalpubcustom-modules.ent;)-->
+%NISO-supmatcustom-classes.ent;
+
+
+<!--                    DEFAULT ELEMENT CLASSES MODULE             -->
+<!--                    Names the module that holds the standard
+                        class definitions for the JATS DTD Suite.  -->
+%default-classes.ent;
+
+
+<!--                    DTD-SPECIFIC MIX CUSTOMIZATIONS MODULE     -->
+<!--                    Set up the Parameter Entities and element
+                        class definitions that will be used to
+                        over-ride some element mixes in this DTD.
+                        (Defined in %journalpubcustom-modules.ent;)-->
+%NISO-supmatcustom-mixes.ent;
+
+
+<!--                    DEFAULT MIX CUSTOMIZATIONS MODULE          -->
+<!--                    Names the module that holds the standard
+                        mix definitions for the JATS DTD Suite.    -->
+%default-mixes.ent;
+
+
+<!--                    DTD-SPECIFIC MODELS/ATTRIBUTES CUSTOMIZATIONS
+                        MODULE                                     -->
+<!--                    Names the module that holds the over-rides
+                        of content models, attribute lists, elements
+                        lists to be used in content models, and
+                        attribute values. These are DTD-specific.
+                        (Defined in %journalpubcustom-modules.ent;)-->
+%NISO-supmatcustom-models.ent;
+
+
+
+<!-- ============================================================= -->
+<!--                    COMMON (SHARED) ELEMENTS MODULE INVOKED    -->
+<!-- ============================================================= -->
+
+
+<!--                    COMMON (SHARED) DECLARATIONS               -->
+<!--                    Declarations for elements, attributes,
+                        entities, and Notations that are shared by
+                        more than one class module. Note: Must be
+                        called before any of the class modules.    -->
+
+%common.ent;
+
+
+<!-- ============================================================= -->
+<!--                    JOURNAL ARTICLE CLASS ELEMENTS (alpha)     -->
+<!-- ============================================================= -->
+
+<!-- Supplemental Material Elements                                -->
+%NISO-supmatcustom-elements.ent;
+
+<!--                    ARTICLE METADATA ELEMENTS                  -->
+%articlemeta.ent;
+
+
+<!--                    BACK MATTER ELEMENTS                       -->
+%backmatter.ent;
+
+
+<!--                    DISPLAY (GRAPHICAL) ELEMENTS               -->
+%display.ent;
+
+
+<!--                    FORMATTING ELEMENT CLASSES                 -->
+<!--                    Elements that change rendition/display.    -->
+%format.ent;
+
+
+<!--                    FUNDING ELEMENTS                           -->
+<!--                    Elements that describe the sponsorship or
+                        open access                                -->
+%funding.ent;
+
+
+<!--                    JOURNAL METADATA ELEMENTS                  -->
+%journalmeta.ent;
+
+
+<!--                    LINK CLASS ELEMENTS                        -->
+%link.ent;
+
+
+<!--                    LIST CLASS ELEMENTS                        -->
+%list.ent;
+
+
+<!--                    MATH ELEMENTS                              -->
+%math.ent;
+
+
+<!--                    NLM CITATION ELEMENT                       -->
+%nlmcitation.ent;
+
+
+<!--                    PARAGRAPH-LEVEL ELEMENTS                   -->
+%para.ent;
+
+
+<!--                    PHRASE-LEVEL ELEMENTS                      -->
+%phrase.ent;
+
+
+<!--                    BIBLIOGRAPHIC REFERENCE (CITATION)
+                        CLASS ELEMENTS                             -->
+%references.ent;
+
+
+<!--                    RELATED OBJECT ELEMENT                     -->
+<!--                    Defines the <related-object> element to
+                        describe a related object such as a
+                        related book or a dataset.                 -->
+%related-object.ent;
+
+
+<!--                    SECTION ELEMENTS                           -->
+%section.ent;
+
+
+<!-- ============================================================= -->
+<!--                    THE REST OF THE EXTERNAL MODULES INVOKED   -->
+<!-- ============================================================= -->
+
+
+<!--                    MATHML SETUP MODULE                        -->
+<!--                    Invoke the MathML modules                  -->
+%mathmlsetup.ent;
+
+
+
+<!--                    XHTML TABLE SETUP MODULE                   -->
+<!--                    Set up the necessary Parameter Entity values
+                        and then invoke XHTML (HTML 4.0) table
+                        module                                     -->
+%XHTMLtablesetup.ent;
+
+
+<!--                    SPECIAL CHARACTERS DECLARATIONS            -->
+<!--                    Standard XML special character entities
+                        used in this DTD                           -->
+%xmlspecchars.ent;
+
+
+<!--                    CUSTOM SPECIAL CHARACTERS DECLARATIONS     -->
+<!--                    Custom special character entities created
+                        specifically for use in this DTD Suite     -->
+%chars.ent;
+
+
+<!--                    NOTATION DECLARATIONS MODULE               -->
+%notat.ent;
+
+
+<!-- ============================================================= -->
+<!--                    PARAMETER ENTITIES FOR ATTRIBUTE LISTS     -->
+<!-- ============================================================= -->
+
+
+<!--                    DTD VERSION                                -->
+<!--                    What version of this DTD was used to make
+                        the document instance under consideration.
+                        Note that this is a fixed value that should
+                        change every time the DTD changes versions or
+                        revisions.                                 -->
+<!ENTITY % dtd-version
+            "dtd-version
+                        CDATA                          #FIXED '1.0'" >
+
+
+
+<!--                    ARTICLE ATTRIBUTES                         -->
+<!--                    Attributes for the top-level element
+                        <article>                                  -->
+<!ENTITY % article-atts
+            "article-type
+                        CDATA                             #IMPLIED
+             %dtd-version;
+             specific-use
+                        CDATA                             #IMPLIED
+             xml:lang   NMTOKEN                           'en'
+             %XLINK.xmlns.attrib;
+             %MATHML.xmlns.attrib;
+             %Schema.xmlns.attrib;
+				 %SME.xmlns.attrib;"                                  >
+
+
+<!--                    BODY ATTRIBUTES                            -->
+<!--                    Attributes for the <body> element          -->
+<!ENTITY % body-atts
+            "specific-use
+                        CDATA                             #IMPLIED"  >
+
+
+<!--                    SUB-ARTICLE ATTRIBUTES                     -->
+<!--                    Attributes for the <sub-article> element   -->
+<!ENTITY % sub-article-atts
+            "article-type
+                        CDATA                             #IMPLIED
+             id         ID                                #IMPLIED
+             specific-use
+                        CDATA                             #IMPLIED
+             xml:lang   NMTOKEN                           #IMPLIED"  >
+
+
+<!--                    RESPONSE ATTRIBUTES                        -->
+<!--                    Attributes for the <response> element      -->
+<!ENTITY % response-atts
+            "response-type
+                        CDATA                             #IMPLIED
+             id         ID                                #IMPLIED
+             specific-use
+                        CDATA                             #IMPLIED
+             xml:lang   NMTOKEN                           #IMPLIED"  >
+
+
+<!-- ============================================================= -->
+<!--                    JOURNAL ARTICLE ELEMENTS                   -->
+<!-- ============================================================= -->
+
+
+<!--                    ARTICLE MODEL (LIMITED)                    -->
+<!--                    Article-like model used for, for example,
+                        a short sub-article such as a news brief that
+                        is contained in side a journal article.
+                                                                   -->
+<!ENTITY % article-short-model
+                        "((front | front-stub), body?, back?,
+                          floats-group?)"                            >
+
+
+<!--                    ARTICLE MODEL WITH SUBARTICLE OR RESPONSE  -->
+<!--                    Typical journal article model, which may
+                        contain extended components, such as
+                        sub-articles or responses, but which usually
+                        contains neither.
+                                                                   -->
+<!ENTITY % article-full-model
+                        "(front, body?, back?, floats-group?,
+                         (sub-article* | response*) )"               >
+
+
+<!--                    ARTICLE                                    -->
+<!--                    The complete content of a journal article.
+                        Details at:
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.0/index.html?elem=article
+                                                                   -->
+<!ELEMENT  article      %article-full-model;                         >
+<!ATTLIST  article
+             %article-atts;                                          >
+
+
+<!-- ============================================================= -->
+<!--                    FRONT MATTER ELEMENTS                      -->
+<!-- ============================================================= -->
+
+
+<!--                    FRONT MATTER MODEL                         -->
+<!--                    Model for the <front> matter (the header
+                        metadata) of a journal article)            -->
+<!ENTITY % front-model  "(journal-meta, article-meta,
+                          (%front-back.class;)? )"                   >
+
+
+<!--                    FRONT MATTER                               -->
+<!--                    The metadata concerning an article, such as
+                        the name and issue of the journal in which it
+                        appears and the name and author(s) of the
+                        article.
+                        Details at:
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.0/index.html?elem=front
+                                                                   -->
+<!ELEMENT  front        %front-model;                                >
+
+
+<!-- ============================================================= -->
+<!--                    BODY ELEMENTS                              -->
+<!-- ============================================================= -->
+
+
+<!--                    BODY MODEL                                 -->
+<!--                    Content model for the Body (main textual
+                        content) of a journal article.             -->
+<!ENTITY % body-model   "((%para-level;)*, (%sec-level;)*,
+                          sig-block?)"                               >
+
+
+<!--                    BODY OF THE ARTICLE                        -->
+<!--                    The main textual portion of the article that
+                        conveys the content.
+                        Details at:
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.0/index.html?elem=body
+                                                                   -->
+<!ELEMENT  body         %body-model;                                 >
+<!ATTLIST  body
+             %body-atts;                                             >
+
+
+<!-- ============================================================= -->
+<!--                    BACK MATTER ELEMENTS                       -->
+<!-- ============================================================= -->
+
+
+<!--                    BACK MATTER MODEL                          -->
+<!--                    Content model for the Back Matter (ancillary
+                        material such as appendices) of a journal
+                        article.                                   -->
+<!ENTITY % back-model   "(label?, title*, (%doc-back-matter-mix;)* )">
+
+
+<!--                    BACK MATTER                                -->
+<!--                    Ancillary or supporting material not included
+                        as part of the main textual content of a
+                        journal article, for example appendices and
+                        acknowledgments.
+                        Details at:
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.0/index.html?elem=back
+                                                                   -->
+<!ELEMENT  back         %back-model;                                 >
+
+
+<!-- ============================================================= -->
+<!--                    SUBARTICLE                                 -->
+<!-- ============================================================= -->
+
+
+<!--                    SUBARTICLE MODEL                           -->
+<!--                    Content model for the <sub-article> element
+                                                                   -->
+<!ENTITY % sub-article-model
+                        "((front | front-stub), body?, back?,
+                          floats-group?,
+                          (sub-article* | response*) )"              >
+
+
+<!--                    SUBARTICLE                                 -->
+<!--                    An article that is completely contained
+                        inside another article. Both the article and
+                        the sub-article have their own metadata.
+                        Details at:
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.0/index.html?elem=sub-article
+                                                                   -->
+<!ELEMENT  sub-article  %sub-article-model;                          >
+<!ATTLIST  sub-article
+             %sub-article-atts;                                      >
+
+
+<!--                    FRONT MODEL STUB                           -->
+<!--                    Content model for the <front-stub> element,
+                        a reduced metadata set for use in
+                        sub-articles and responses                 -->
+<!ENTITY % front-stub-model
+                        "(article-id*, article-categories?,
+                         title-group?,
+                         (%contrib-group.class; |
+                          %aff-alternatives.class;)*,
+                         author-notes?, pub-date*,
+                         volume?, volume-id*, volume-series?,
+                         issue?, issue-id*, issue-title*,
+                         issue-sponsor*, issue-part?, isbn*,
+                         supplement?,
+                         ((fpage, lpage?, page-range?) |
+                           elocation-id)?,
+                         (%address-link.class; | product |
+                         supplementary-material)*, history?,
+                         permissions?, self-uri*, 
+                         (%related-article.class;)*, 
+                         abstract*, trans-abstract*, kwd-group*,
+                         funding-group*, conference*, counts?,
+                         custom-meta-group?)"                        >
+
+
+<!--                    STUB FRONT METADATA                        -->
+<!--                    A reduced metadata set for use in
+                        sub-articles and responses, which will
+                        inherit metadata not defined in the stub
+                        from the enclosing article
+                        Details at:
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.0/index.html?elem=front-stub
+                                                                   -->
+<!ELEMENT  front-stub   %front-stub-model;                           >
+
+
+<!-- ============================================================= -->
+<!--                    RESPONSE ELEMENTS                          -->
+<!-- ============================================================= -->
+
+
+<!--                    RESPONSE                                   -->
+<!--                    Reply, response, or commentary concerning the
+                        journal article. In the typical case, the
+                        response is included in the same XML package
+                        as the original article, and thus attached
+                        at the end of the article proper.
+                        Details at:
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.0/index.html?elem=response
+                                                                   -->
+<!ELEMENT  response     %article-short-model;                        >
+<!ATTLIST  response
+             %response-atts;                                         >
+
+
+<!-- ================== Extension details =============== -->
+
+
+
+<!--~~ <ext:application-information>
+ Placeholder for any helpful information to understand the creation environment or rendering/running environment for a supplemental material object. 
+
+~~-->
+
+
+<!--~~ <ext:creating-application>
+ Application that created the supplemental material object.
+
+~~-->
+
+
+<!--~~ <ext:filename>
+ Filename of the file containing the supplemental material. Can be an archive (collection of objects) or a single object.
+
+~~-->
+
+
+<!--~~ <ext:fixity>
+Fixity is a means of ensuring that a digital object has not been changed between two points in time or two events. Technologies such as checksums, message digests and digital signatures are fixity methods used to verify a digital object's fixity. from Fixity Checks: Checksums, Message Digests and Digital Signatures by Audrey Novak (2006). 
+
+~~-->
+
+
+<!--~~ <ext:fixity-method>
+ Name of fixity method used, such as md5, sha1, sha512, etc.
+
+~~-->
+
+
+<!--~~ <ext:fixity-value>
+ Value used to determine the fixity.
+
+~~-->
+
+
+<!--~~ <ext:format>
+ Format of the file containing the supplemental material. Frequently expressed as a DOS file extension (ZIP, JPG, XML, etc.)
+
+~~-->
+
+
+<!--~~ <ext:format-registry>
+ If possible, rather than just listing a format by name, publishers should use formats defined in formal format registries like UDFR http://www.udfr.org or PRONOM http://www.nationalarchives.gov.uk/PRONOM . Alternatively, publishers may define and publish their own registry (list) of object formats they support. 
+
+~~-->
+
+
+<!--~~ <ext:hardware>
+ Any relevant information concerning the hardware platform needed to read/run/express the supplemental material file. Use only if there are restrictions or special needs. 
+
+~~-->
+
+
+<!--~~ <ext:item>
+ Container element for the metadata concerning one  object such as a single figure, a single table, or a single graphic. 
+
+~~-->
+
+
+<!--~~ <ext:original-source>
+ The source of the derived material. Repeat the element if multiple sources.
+
+~~-->
+
+
+<!--~~ <ext:os>
+ Any relevant information concerning the operating system or version of an operating system needed to read/run/express the supplemental material file. Use only if there are restrictions or special needs. 
+
+
+
+~~-->
+
+
+<!--~~ <ext:platform>
+ Container element for whatever hardware, software, operating system, or version information would be necessary to understand/ read/run/express this supplemental material file. 
+
+~~-->
+
+
+<!--~~ <ext:preservation-committment>
+ This records a commitment from a publisher or archive to carry the supplemental material forward. Used to help determine the likelihood that the material will be accessible in the future. 
+
+~~-->
+
+
+<!--~~ <ext:preservation-committment-authority>
+ The authority assigning the preservation level, e.g., NLM.
+
+~~-->
+
+
+<!--~~ <ext:preservation-committment-level>
+ Preservation level promised by the publisher or archive. The preservation level can be different for each format type, and different for each object within a format. There is no established list of types or values at this time. Each publisher or archive must establish what they mean by level of preservation. For example, the US National Library of Medicine uses what they call "permanence levels:"
+
+    * Permanent: Unchanging Content
+    * Permanent: Stable Content
+    * Permanent: Dynamic Content
+    * Permanence Not Guaranteed
+
+See: http://www.nlm.nih.gov/psd/pcm/devpermanence.html
+
+~~-->
+
+
+<!--~~ <ext:preservation-committment-rationale>
+ To describe why a particular preservation level was assigned to this object. The rationale is especially important if different preservation levels are assigned to different objects of the same format.
+
+~~-->
+
+
+<!--~~ <ext:original-sources>
+ Origin of supplemental material
+
+~~-->
+
+
+<!--~~ <ext:rendering-application>
+ Application needed to render, run, or otherwise use or display the supplemental material object.
+
+~~-->
+
+
+<!--~~ <ext:resource>
+Description of and pointer to an external file or folder (directory on a filesystem) that holds one or more objects (`<ext:resource> or `<ext:item>).
+	* In the JATS SME extension, `<graphic> and `<media> should be replaced by `<ext:resource>.
+
+~~-->
+
+
+<!--~~ <ext:resource-meta>
+ Container element for the metadata concerning a file or folder (directory on a filesystem).
+
+~~-->
+
+
+<!--~~ <ext:software>
+ One software package on which the supplemental material object was created or which is needed to run or render the object. For example, a PDF file might require a particular version of Acrobat Reader; a spreadsheet might require Excel, OpenOffice Spreadsheet, or other spreadsheet package; a CAD drawing might require a specific CAD-program 
+
+~~-->
+
+
+<!--~~ <ext:software-name>
+ The name of a specific program needed to access all or part of the supplemental material.
+
+~~-->
+
+
+<!--~~ <ext:software-version>
+ The specific version of the software needed to access all or part of the supplemental material
+
+~~-->
+
+
+<!--~~ <ext:summary>
+ A brief summary of the supplemental material. Typically used to describe the contents prior to downloading or for assistive devices. 
+
+~~-->
+
+
+<!--~~ <ext:validity>
+ Indicates whether a file is valid in relation to the format it claims to be. Publishers may consider using JHOVE terminology: 'well-formed', 'well-formed and valid', 'not valid', 'not well-formed'. See http://hul.harvard.edu/jhove/index.html or http://www.jhove2.org 
+
+~~-->
+
+
+<!--~~ <ext:version>
+ The number of this version of the supplemental material.
+~~-->
+
+
+
+
+
+<!-- BELOW ARE JATS DEFINITIONS -->
+
+<!--~~ <conf-sponsor>
+<b>Conference Sponsor</b><br/>
+One organization identified as a sponsor of a conference.
+~~-->
+<!--~~ <aff-alternatives>
+<b>Affiliation Alternatives</b><br/>
+Container element to hold two or more representations of a single affiliation (for example, the name of a university in two or more languages such as both German and English).
+~~-->
+<!--~~ <sub-article>
+<b>Sub-article</b><br/>
+An article that is completely contained inside another article.
+~~-->
+<!--~~ <compound-subject>
+<b>Compound Subject Name</b><br/>
+Wrapper element to hold all the parts of a multi-part subject (for example, a subject term and the code representing that term).
+~~-->
+<!--~~ <page-count>
+<b>Page Count</b><br/>
+Total number of pages in a work in print; by convention, each page or partial page is counted as one. Electronic-only works do not traditionally have page counts.
+~~-->
+<!--~~ <contrib-group>
+<b>Contributor Group</b><br/>
+Container element for one or more contributors and information about those contributors.
+~~-->
+<!--~~ <institution>
+<b>Institution Name: in an Address</b><br/>
+Name of an institution or organization (for example, a university or corporation).
+~~-->
+<!--~~ <chem-struct>
+<b>Chemical Structure (Display)</b><br/>
+Chemical expression, reaction, equation, etc. that is set apart within the text.
+~~-->
+<!--~~ <publisher>
+<b>Publisher</b><br/>
+Container element for information about the person, company, or other entity that published a work.
+~~-->
+<!--~~ <title>
+<b>Title</b><br/>
+Heading or title for a structural element (for example,  `<sec> ,  `<app> ,  `<boxed-text> ). 
+~~-->
+<!--~~ <funding-group>
+<b>Funding Group</b><br/>
+Container element for information about the funding of the research reported in the article (for example, grants, contracts, sponsors) and any open access fees for the article itself.
+~~-->
+<!--~~ <italic>
+<b>Italic</b><br/>
+Used to mark text that should appear in an italic or slanted font.
+~~-->
+<!--~~ <gov>
+<b>Government Report, Cited</b><br/>
+Container element for the identification information (typically the title and/or an identification number) for a cited governmental report or other government publication.
+~~-->
+<!--~~ <sec>
+<b>Section</b><br/>
+Headed group of material; the basic structural unit of the body of a document.
+~~-->
+<!--~~ <article-meta>
+<b>Article Metadata</b><br/>
+Container element for information concerning the article that identifies or describes the article.
+~~-->
+<!--~~ <long-desc>
+<b>Long Description</b><br/>
+Full description or summary of the content of an object such as a graphic, table, figure, or text box.
+~~-->
+<!--~~ <article>
+<b>Article</b><br/>
+A journal article.
+~~-->
+<!--~~ <journal-subtitle>
+<b>Journal Subtitle (Full)</b><br/>
+Full subtitle of the journal in which the article was published.
+~~-->
+<!--~~ <volume>
+<b>Volume Number</b><br/>
+Number of a journal (or other document) within a series.
+~~-->
+<!--~~ <glossary>
+<b>Glossary Elements List</b><br/>
+Section whose content is typically a list of terms and definitions, usually tagged as one or more two-part lists called  `<def-list> . Typically part of the back matter of a document. 
+~~-->
+<!--~~ <body>
+<b>Body of the Document</b><br/>
+Main textual portion of the document that conveys the narrative content.
+~~-->
+<!--~~ <series-title>
+<b>Series Title</b><br/>
+Title of the journal series (bibliographic) or series of articles internal to one issue of a journal.
+~~-->
+<!--~~ <xref>
+<b>X (cross) Reference</b><br/>
+Reference to an object within the document (for example, a table, a bibliographic citation).
+~~-->
+<!--~~ <author-comment>
+<b>Author Comment</b><br/>
+Textual material associated with a contributor.
+~~-->
+<!--~~ <aff>
+<b>Affiliation</b><br/>
+Name of an institution or organization (for example, university, corporation) with which a contributor is affiliated.
+~~-->
+<!--~~ <graphic>
+<b>Graphic</b><br/>
+Description of and pointer to an external file containing a still image.
+~~-->
+<!--~~ <table>
+<b>Table (NISO JATS table model)</b><br/>
+The rows and columns part of a full table. (This element is based on and intended to be converted easily to the XHMTL table element.)
+~~-->
+<!--~~ <self-uri>
+<b>URI for This Same Article Online</b><br/>
+URI for another version of a document. This element may be used when the document is available in multiple forms (for example, printed article and in its expanded version with additional graphics available online).
+~~-->
+<!--~~ <trans-abstract>
+<b>Translated Abstract</b><br/>
+Abstract that has been translated into a language other than that in which the work was originally published.
+~~-->
+<!--~~ <bio>
+<b>Biography</b><br/>
+Biographical data concerning a contributor or the description of a collaboration.
+~~-->
+<!--~~ <size>
+<b>Size</b><br/>
+Size of a resource or object described in a bibliographic reference or product. The  @units attribute must be used to name the units of measure (for example, minutes, hours, linear feet, pages). 
+~~-->
+<!--~~ <principal-investigator>
+<b>Principal Investigator</b><br/>
+Individual(s) responsible for the intellectual content of the work reported in the document.
+~~-->
+<!--~~ <glyph-ref>
+<b>Glyph Reference for a Private Character</b><br/>
+Once a private character has been declared using a  `<glyph-data> element, the character need not be defined with the same  `<glyph-data> element every time it is used. The character can be reused by using the  `<glyph-ref> element to point to the full  `<glyph-data> element. The pointing uses the ID/IDREF mechanism, using the  @glyph-data attribute of the  `<glyph-ref> element to point to the  @id attribute of an existing  `<glyph-data> element. Since the reference uses the ID/IDREF, the reference may precede or follow the element to which it is pointing. 
+~~-->
+<!--~~ <person-group>
+<b>Person Group for a Cited Publication</b><br/>
+Container element for one or more contributors in a bibliographic reference.
+~~-->
+<!--~~ <date-in-citation>
+<b>Date within a Citation</b><br/>
+Non-publication date used within a bibliographic reference. Replaces deprecated elements `<access-date> and `<time-stamp>.
+~~-->
+<!--~~ <article-id>
+<b>Article Identifier</b><br/>
+Unique identifier assigned to an article.
+~~-->
+<!--~~ <speech>
+<b>Speech</b><br/>
+One exchange (a single speech) in a real or imaginary conversation between two or more entities.
+~~-->
+<!--~~ <price>
+<b>Price</b><br/>
+Sale price or licensing fees of a work.
+~~-->
+<!--~~ <std>
+<b>Standard, Cited</b><br/>
+Identification information (typically the standard number, organization name, and title of the standard) for a cited standard, where standard is defined as a document produced by a recognized standards body such as NISO, IEEE, ISO, OASIS, ANSI, etc.
+~~-->
+<!--~~ <corresp>
+<b>Correspondence Information</b><br/>
+Information concerning how and with whom to correspond about an article.
+~~-->
+<!--~~ <comment>
+<b>Comment in a Citation</b><br/>
+Container element for unstructured text within a bibliographic reference.
+~~-->
+<!--~~ <pub-date>
+<b>Publication Date</b><br/>
+Container element for the parts of a single date associated with an article's publication (for example, date preprint was released, date article was published in print).
+~~-->
+<!--~~ <uri>
+<b>Uniform Resource Identifier (URI)</b><br/>
+Identifies a Uniform Resource Identifier (such as a URL) that may be used as a live link, typically naming a website, such as: &lt;uri>http://www.mulberrytech.com&lt;/uri>).
+~~-->
+<!--~~ <object-id>
+<b>Object Identifier</b><br/>
+Unique identifier (such as a DOI or URI) for a component within an article (for example, for a figure or a table).
+~~-->
+<!--~~ <mml:math>
+<b>Math (MathML 2.0 Tag Set)</b><br/>
+Use documentation for the Mathematical Markup Language (MathML) 2.0 Tag Set. (http://www.w3.org/TR/MathML2/)
+~~-->
+<!--~~ <principal-award-recipient>
+<b>Principal Award Recipient</b><br/>
+Individual(s) or institution(s) to whom the award was given (for example, the principal grant holder or the sponsored individual).
+~~-->
+<!--~~ <alt-text>
+<b>Alternate Text Name (for a figure, etc.)</b><br/>
+Word or phrase used to provide a very short textual name, description, or purpose-statement for a structure such as a graphic or figure.
+~~-->
+<!--~~ <inline-formula>
+<b>Formula, Inline</b><br/>
+Mathematical equation, expression, or formula that is to be displayed inline. The mathematics itself can be expressed as ASCII characters, as a graphic, or using TeX, LaTeX, or MathML mathematics expressions.
+~~-->
+<!--~~ <counts>
+<b>Counts</b><br/>
+Container element for counts of a document (for example, number of tables, number of figures, number of words).
+~~-->
+<!--~~ <equation-count>
+<b>Equation Count</b><br/>
+Number of  `<disp-formula> elements that appear in the document. 
+~~-->
+<!--~~ <boxed-text>
+<b>Boxed Text</b><br/>
+Textual material that is part of the body but is outside the flow of the narrative text (for example, a sidebar).
+~~-->
+<!--~~ <etal>
+<b>Et Al.</b><br/>
+Indicator of the presence of unnamed contributors. Typically indicated in print with the text et al or with an ellipsis.
+~~-->
+<!--~~ <trans-title-group>
+<b>Translated Title Group</b><br/>
+Container element for translated and transliterated titles.
+~~-->
+<!--~~ <table-wrap-foot>
+<b>Table Wrapper Footer</b><br/>
+Container element to hold the footnotes, general notes, or other paragraphs at the end of a table. This element does not contain tabular data.
+~~-->
+<!--~~ <annotation>
+<b>Annotation in a Citation</b><br/>
+Commentary, summary, review, or similar non-bibliographic information concerning the cited work.
+~~-->
+<!--~~ <compound-kwd>
+<b>Compound Keyword</b><br/>
+Wrapper element for multi-part keywords (for example, a code and its meaning).
+~~-->
+<!--~~ <isbn>
+<b>ISBN</b><br/>
+International Standard Book Number, the international code for identifying a particular product form or edition of a publication, typically a monographic publication.
+~~-->
+<!--~~ <word-count>
+<b>Word Count</b><br/>
+The approximate number of words that appear in a document or document component.
+~~-->
+<!--~~ <kwd-group>
+<b>Keyword Group</b><br/>
+Container element for one set of keywords (such as  `<kwd> s,  `<nested-kwd> s, or  `<compound-kwd> s) used to describe a document. 
+~~-->
+<!--~~ <publisher-loc>
+<b>Publisher's Location</b><br/>
+Place of publication, usually a city, such as New York or London.
+~~-->
+<!--~~ <conf-num>
+<b>Conference Number</b><br/>
+Sequential number of a conference.
+~~-->
+<!--~~ <bold>
+<b>Bold</b><br/>
+Used to mark text that should appear in bold face.
+~~-->
+<!--~~ <conf-acronym>
+<b>Conference Acronym</b><br/>
+Short, popular, or jargon name for a conference (for example, Extreme for Extreme Markup Languages, SIGGRAPH for Special Interest Group on Computer Graphics).
+~~-->
+<!--~~ <custom-meta-group>
+<b>Custom Metadata Group</b><br/>
+Container element for metadata not otherwise defined in the Tag Suite.
+~~-->
+<!--~~ <source>
+<b>Source</b><br/>
+Title of a document (for example, journal, book, conference proceedings) that contains (is the source of) the material being cited in a bibliographic reference or product.
+~~-->
+<!--~~ <floats-group>
+<b>Floating Element Group</b><br/>
+Container element for floating objects (figures, tables, text boxes, graphics, etc.) that occur within an article. Occurs outside of the narrative flow of the article.
+~~-->
+<!--~~ <abstract>
+<b>Abstract</b><br/>
+Summarized description of the content of a document or document component.
+~~-->
+<!--~~ <season>
+<b>Season</b><br/>
+Season of publication (for example, Spring, Third Quarter).
+~~-->
+<!--~~ <edition>
+<b>Edition Statement, Cited</b><br/>
+The full edition statement for a cited or referenced publication.
+~~-->
+<!--~~ <td>
+<b>Table Data Cell (NISO JATS table model)</b><br/>
+One ordinary cell in the body of a table, as opposed to a cell in the table header. (This element is based on and intended to be converted easily to the XHMTL td element.)
+~~-->
+<!--~~ <conf-loc>
+<b>Conference Location</b><br/>
+Physical location(s) of a conference (for example, city, country, campus, organization location).
+~~-->
+<!--~~ <element-citation>
+<b>Element Citation</b><br/>
+Bibliographic description of a work. Includes bibliographic reference elements only. Does not include untagged text, spacing, or punctuation.
+~~-->
+<!--~~ <contrib-id>
+<b>Contributor Identifier</b><br/>
+One identifier for a person such as a contributor or principal investigator. This element will hold an ORCID, a trusted publisher's identifier, a JST (Japanese Science and Technology Agency) identifier, or an NII (National Individual Identifier).
+~~-->
+<!--~~ <thead>
+<b>Table Header (NISO JATS table model)</b><br/>
+Container element for the table header rows of a table. (This element is based on and intended to be converted easily to the XHMTL thead element.)
+~~-->
+<!--~~ <name-alternatives>
+<b>Name Alternatives</b><br/>
+Container element for more than one version of a personal name, the element  `<name> (for example, the name written in both Japanese Kana characters and the Latin alphabet). 
+~~-->
+<!--~~ <trans-title>
+<b>Translated Title</b><br/>
+Title of a document or document part that has been translated into a language other than that of the original publication. When a document is published simultaneously in more than one language, one language must be chosen for the title and all other document titles become translated titles.
+~~-->
+<!--~~ <subtitle>
+<b>Document Subtitle</b><br/>
+Subordinate part of a title for a document or document component.
+~~-->
+<!--~~ <award-group>
+<b>Award Group</b><br/>
+Container element for information concerning one award under which the work (or the research on which the work was based) was supported.
+~~-->
+<!--~~ <disp-formula>
+<b>Formula, Display</b><br/>
+Mathematical equation, expression, or formula that is to be displayed as a block (callout) within the narrative flow.
+~~-->
+<!--~~ <named-content>
+<b>Named Special (Subject) Content</b><br/>
+Word or phrase whose content/subject matter has distinct semantics or content-related significance.
+~~-->
+<!--~~ <custom-meta>
+<b>Custom Metadata</b><br/>
+Wrapper element for a single piece of metadata not otherwise defined in the Tag Suite.
+~~-->
+<!--~~ <citation-alternatives>
+<b>Citation Alternatives</b><br/>
+Holds alternative versions of a single citation, for example, the same citation in multiple languages or a single citation tagged as both a  `<mixed-citation> complete with punctuation and spacing preserved and as an  `<element-citation> with punctuation and spacing removed. 
+~~-->
+<!--~~ <title-group>
+<b>Title Group</b><br/>
+Container element to hold the various titles for a document or a document component.
+~~-->
+<!--~~ <conf-name>
+<b>Conference Name</b><br/>
+Full name of a conference, including any qualifiers such as "43rd Annual".
+~~-->
+<!--~~ <app>
+<b>Appendix</b><br/>
+Additional material added to a document that typically follows the body of the document. This is ancillary or supporting material, not a direct continuation of the text of the document.
+~~-->
+<!--~~ <funding-source>
+<b>Funding Source</b><br/>
+Agency or organization that funded the research on which a work was based.
+~~-->
+<!--~~ <caption>
+<b>Caption of a Figure, Table, etc.</b><br/>
+Container element for the textual description that is associated with an object (for example, with a  `<fig> or  `<table> ). 
+~~-->
+<!--~~ <app-group>
+<b>Appendix Group</b><br/>
+Container element for one or more appendices ( `<app> elements). 
+~~-->
+<!--~~ <disp-formula-group>
+<b>Formula, Display Group</b><br/>
+Container element for equations or other mathematical expressions.
+~~-->
+<!--~~ <abbrev>
+<b>Abbreviation or Acronym</b><br/>
+Abbreviation, acronym, or emoticon used in the text of a document, possibly including an expansion of the acronym.
+~~-->
+<!--~~ <note>
+<b>Note in a Reference List</b><br/>
+Non-citation content inside a bibliographic reference list.
+~~-->
+<!--~~ <open-access>
+<b>Open Access</b><br/>
+Open access provisions that apply to a work or the funding information that provided the open access provisions.
+~~-->
+<!--~~ <issue-title>
+<b>Issue Title</b><br/>
+Theme or special title for a journal issue.
+~~-->
+<!--~~ <table-count>
+<b>Table Count</b><br/>
+Number of  `<table-wrap> elements that appear in the document. 
+~~-->
+<!--~~ <chem-struct-wrap>
+<b>Chemical Structure Wrapper</b><br/>
+Wrapper element for a chemical expression, reaction, equation, etc. that is set apart from the text; includes any number, label, or caption that accompanies the chemical expression.
+~~-->
+<!--~~ <copyright-statement>
+<b>Copyright Statement</b><br/>
+Copyright notice or statement, suitable for printing or display.
+~~-->
+<!--~~ <sub>
+<b>Subscript</b><br/>
+Used to mark text that should appear lower than the baseline and slightly smaller; inferior or subscript text.
+~~-->
+<!--~~ <volume-id>
+<b>Volume Identifier</b><br/>
+Name or identifier (for example, DOI) that describes an entire volume.
+~~-->
+<!--~~ <related-object>
+<b>Related Object Information</b><br/>
+Description of an object (for example, book chapter, figure, table) related to the content but published separately. May include a link to the related object.
+~~-->
+<!--~~ <tr>
+<b>Table Row (NISO JATS table model)</b><br/>
+Container element for all the cells in a single table row. (This element is based on and intended to be converted easily to the XHMTL tr element.)
+~~-->
+<!--~~ <strike>
+<b>Strike Through</b><br/>
+Used to mark text that should appear with a line through it so as to appear struck out.
+~~-->
+<!--~~ <prefix>
+<b>Prefix</b><br/>
+Honorifics or other qualifiers that usually precede a person's name (for example, Professor, Rev., President, Senator, Dr., Sir, The Honorable).
+~~-->
+<!--~~ <verse-line>
+<b>Line of a Verse</b><br/>
+One line of a poem or verse.
+~~-->
+<!--~~ <sig-block>
+<b>Signature Block</b><br/>
+Area of text and graphic material placed at the end of the body of a document or document component to hold the graphical signature or description of the person(s) responsible for or attesting to the content.
+~~-->
+<!--~~ <alt-title>
+<b>Alternate Title</b><br/>
+An alternative or different version of the title of a work.
+~~-->
+<!--~~ <article-categories>
+<b>Article Grouping Data</b><br/>
+Container element for elements that may be used to group articles into related clusters, for example, by subject matter or by series.
+~~-->
+<!--~~ <fn>
+<b>Footnote</b><br/>
+Additional information tied to a particular location in the text. This material is not considered to be part of the body of the text, but is a note used instead of, in addition to, as a source for, or as a commentary on either some body text or on an element in the metadata such as an author.
+~~-->
+<!--~~ <trans-subtitle>
+<b>Translated Subtitle</b><br/>
+Document or document component subtitle that has been translated into a language other than that of the original document or document component subtitle.
+~~-->
+<!--~~ <anonymous>
+<b>Anonymous</b><br/>
+Placeholder for the name of a contributor where the actual name is unknown or not disclosed.
+~~-->
+<!--~~ <award-id>
+<b>Award Identifier</b><br/>
+Unique identifier assigned to an award, contract, or grant.
+~~-->
+<!--~~ <sc>
+<b>Small Caps</b><br/>
+Used to mark text that should appear in a font that creates smaller capital letters.
+~~-->
+<!--~~ <phone>
+<b>Phone Number: in an Address</b><br/>
+Portion of an address which contains a phone number.
+~~-->
+<!--~~ <list-item>
+<b>List Item</b><br/>
+Single item (one entry) in a list of items.
+~~-->
+<!--~~ <meta-value>
+<b>Metadata Data Value for Custom Metadata</b><br/>
+Value of a single piece of metadata not otherwise defined in the Tag Suite.
+~~-->
+<!--~~ <ext-link>
+<b>External Link</b><br/>
+Link to an external file or resource.
+~~-->
+<!--~~ <addr-line>
+<b>Address Line</b><br/>
+One physical or logical line of an address.
+~~-->
+<!--~~ <disp-quote>
+<b>Quote, Displayed</b><br/>
+Extract or extended quoted passage from another work, usually made typographically distinct from surrounding text.
+~~-->
+<!--~~ <series>
+<b>Series</b><br/>
+Series information about a journal or book in a bibliographic reference or product.
+~~-->
+<!--~~ <issue>
+<b>Issue Number</b><br/>
+Issue number of a journal, or in rare instances, a book.
+~~-->
+<!--~~ <def-list>
+<b>Definition List</b><br/>
+List in which each item consists of two parts: 1) a word, phrase, term, graphic, chemical structure, or equation, that is paired with 2) one or more descriptions, discussions, explanations, or definitions of it.
+~~-->
+<!--~~ <statement>
+<b>Statement, Formal</b><br/>
+Theorem, Lemma, Proof, Postulate, Hypothesis, Proposition, Corollary, or other formal statement, identified as such with a label and usually made typographically distinct from the surrounding text.
+~~-->
+<!--~~ <front-stub>
+<b>Stub Front Metadata</b><br/>
+Reduced set of metadata for use in  `<sub-article> and  `<response> , both of which are contained within an article. Any metadata not explicitly tagged in the front-stub is inherited from  `<article-meta> in the enclosing article. 
+~~-->
+<!--~~ <surname>
+<b>Surname</b><br/>
+Surname of a person.
+~~-->
+<!--~~ <break>
+<b>Line Break</b><br/>
+An explicit line break in the text.
+~~-->
+<!--~~ <on-behalf-of>
+<b>On Behalf of</b><br/>
+When a contributor is acting as a representative of an organization, he/she is said to have written or edited a work "on behalf of" that organization or group, and this element holds the name of the organization or group.
+~~-->
+<!--~~ <back>
+<b>Back Matter</b><br/>
+Material published with an article but following the narrative flow.
+~~-->
+<!--~~ <col>
+<b>Table Column (NISO JATS table model)</b><br/>
+The description of one column of a table, used to provide attributes relating to a specific column. If there is no  `<col> these attributes will be inherited from the associated  `<colgroup> . (This element is based on and intended to be converted easily to the XHMTL col element.) 
+~~-->
+<!--~~ <supplement>
+<b>Supplement Information</b><br/>
+Container element for all information particular to a supplement or for any work published as a supplement (for example, identification numbers, supplement titles, supplement series information).
+~~-->
+<!--~~ <funding-statement>
+<b>Funding Statement</b><br/>
+Displayable prose statement that describes the funding for the research on which a work was based.
+~~-->
+<!--~~ <string-name>
+<b>Name of Person (Unstructured)</b><br/>
+Container element for personal names captured with mixed-content where the order of the name components is not enforced.
+~~-->
+<!--~~ <count>
+<b>Count</b><br/>
+Generic count element to count anything a NISO JATS user organization may wish to count in a document. The  @count-type attribute will name what is being counted (such as footnotes, tables, sections, contributors, images, etc.) The  @count attribute will state how many of the objects are in the document. 
+~~-->
+<!--~~ <article-title>
+<b>Article Title</b><br/>
+Full title of an article.
+~~-->
+<!--~~ <license>
+<b>License Information</b><br/>
+Set of conditions under which the content may be used, accessed, and distributed.
+~~-->
+<!--~~ <trans-source>
+<b>Translated Source</b><br/>
+Title of the source (for example, journal, book, conference proceedings) containing material being cited in a bibliographic reference or product, when the title is translated into a language other than that in which it was originally published.
+~~-->
+<!--~~ <copyright-year>
+<b>Copyright Year</b><br/>
+The year of copyright.
+~~-->
+<!--~~ <kwd>
+<b>Keyword</b><br/>
+A keyword is a finding aid used to record one subject term, key phrase, abbreviation, indexing word, taxonomic structure, or other expression that is associated with the whole structure (such as an article). Keywords can be used for identification, searching, and indexing purposes. A keyword element ( `<kwd> ) may contain a repetition of words found in the structure or it may contain broader terms, narrower terms, related terms, or taxonomic identifiers used to find the structure in a search or provide semantic classification of the text by mapping a specific structure to a taxonomy. 
+~~-->
+<!--~~ <subj-group>
+<b>Subject Group</b><br/>
+Container element for the subject matter designations describing a document's content or a component document's content. Subjects are used to organize documents into groupings (potentially hierarchical groupings) for display or print.
+~~-->
+<!--~~ <milestone-start>
+<b>Milestone Start</b><br/>
+Start of a non-hierarchically nested object (for example, a textual component which cannot be expressed in the normal non-overlapping tree structure of an XML document).
+~~-->
+<!--~~ <history>
+<b>History: Document History</b><br/>
+Container element for dates related to the processing history of the document (for example, received date, accepted date).
+~~-->
+<!--~~ <media>
+<b>Media Object</b><br/>
+Description of and pointer to an external file that holds a media object (for example, an animation, a movie).
+~~-->
+<!--~~ <issn>
+<b>ISSN</b><br/>
+International Standard Serial Number, the international code that uniquely identifies a serial publication title.
+~~-->
+<!--~~ <alternatives>
+<b>Alternatives For Processing</b><br/>
+Container element used to hold a group of processing alternatives, for example, a single  `<graphic> that ships in several formats (tif, gif, and jpeg) or in different resolutions. This element is a physical grouping to contain multiple logically equivalent (substitutable) versions of the same information object. Typically these are processing alternatives and the reader is expected to see only one version of the object. 
+~~-->
+<!--~~ <elocation-id>
+<b>Electronic Location Identifier</b><br/>
+Bibliographic identifier for a document that does not have traditional printed page numbers.
+~~-->
+<!--~~ <hr>
+<b>Horizontal Rule</b><br/>
+An explicit horizontal rule.
+~~-->
+<!--~~ <tbody>
+<b>Table Body (NISO JATS table model)</b><br/>
+Container element that holds the rows and columns in one of the body (as opposed to the header) portions of a table.
+~~-->
+<!--~~ <journal-title>
+<b>Journal Title (Full)</b><br/>
+Full title of the journal in which the article was published.
+~~-->
+<!--~~ <contrib>
+<b>Contributor</b><br/>
+Container element for information about a single author, editor, or other contributor.
+~~-->
+<!--~~ <patent>
+<b>Patent Number, Cited</b><br/>
+Identification information for a patent in a bibliographic reference or product.
+~~-->
+<!--~~ <array>
+<b>Array (Simple Tabulation)</b><br/>
+Tabular arrangement of text in the narrative flow of the document. Unlike a  `<table-wrap> , an array does not contain a label, title, caption, or table headings (column heads). 
+~~-->
+<!--~~ <term>
+<b>Definition List: Term</b><br/>
+Word, phrase, graphic, chemical structure, equation, or other noun that is being defined or described.
+This element is typically used in conjunction with a definition in a definition list (two-part list). The term occupies the first column of the two-part list and is the subject of the definition or description, which occupies the second column.
+~~-->
+<!--~~ <issue-sponsor>
+<b>Issue Sponsor</b><br/>
+Sponsor for an issue of the journal.
+~~-->
+<!--~~ <tfoot>
+<b>Table Footer (NISO JATS table model)</b><br/>
+The footer rows and columns within a NISO JATS table. (This element is based on and intended to be converted easily to the XHMTL tfoot element.)
+~~-->
+<!--~~ <permissions>
+<b>Permissions</b><br/>
+Container element for copyright and license information.
+~~-->
+<!--~~ <year>
+<b>Year</b><br/>
+Numerical, 4-digit year.
+~~-->
+<!--~~ <degrees>
+<b>Degree(s)</b><br/>
+Academic titles or professional certifications displayed following a personal name.
+~~-->
+<!--~~ <table-wrap>
+<b>Table Wrapper</b><br/>
+Wrapper element for a complete table, including the tabular material (rows and columns), caption (including title), footnotes, and alternative descriptions of the table for purposes of accessibility.
+~~-->
+<!--~~ <textual-form>
+<b>Textual Form</b><br/>
+This element holds text (mixed content) in places where alternatives can be presented, providing a textual alternative. For example, inside the  `<alternatives> wrapper element, a `<textual-form> can provide an alternative version of an equation, graphic, or table. This alternative textual version may be a direct textual representation of an object (such as a Unicode value for a special character or the full text of an equation in ASCII characters), or a simplified textual version of the object (for display by devices not able to cope with the object), or a text-dump of the contents of a binary object (for example, the full text-dump of the cells of a table to accompany a graphical version of the table). 
+~~-->
+<!--~~ <overline>
+<b>Overline</b><br/>
+Used to mark text that should appear with a horizontal line above each character.
+~~-->
+<!--~~ <verse-group>
+<b>Verse Form for Poetry</b><br/>
+Song, poem, or verse.
+~~-->
+<!--~~ <def-head>
+<b>Definition List: Definition Head</b><br/>
+Heading over the second column (the definition column) of a definition list (two-part list).
+~~-->
+<!--~~ <notes>
+<b>Notes</b><br/>
+Section-like container element for one or more notes that are not part of the narrative flow (for example, note added in proof, dedication).
+~~-->
+<!--~~ <country>
+<b>Country: in an Address</b><br/>
+Country name used within an address.
+~~-->
+<!--~~ <glyph-data>
+<b>Glyph Data for a Private Character</b><br/>
+Most characters in an XML document can be expressed as regular Unicode® codes. Characters not in the Unicode Standard tables have traditionally been expressed as explicit font calls (non-portable), created as inline graphics, or defined in one of the Unicode private-use areas where users may define their own characters. The  `<glyph-data> element is used when there is known to be no font available to render a private-use character. This element provides information on the actual glyph that is associated with the private-use character. 
+~~-->
+<!--~~ <related-article>
+<b>Related Article Information</b><br/>
+Description of a journal article related to the content but published separately. May include a link to the related article.
+~~-->
+<!--~~ <tex-math>
+<b>TeX Math Equation</b><br/>
+Used to hold encoded math, expressed in TeX or LaTeX.
+~~-->
+<!--~~ <fax>
+<b>Fax Number: in an Address</b><br/>
+Portion of an address that contains a fax number.
+~~-->
+<!--~~ <table-wrap-group>
+<b>Table Wrapper Group</b><br/>
+Container element for tables ( `<table-wrap> elements) that are to be displayed together. 
+~~-->
+<!--~~ <email>
+<b>Email Address</b><br/>
+Electronic mail address of a person or institution.
+~~-->
+<!--~~ <fig>
+<b>Figure</b><br/>
+Block of graphic or textual material that is identified as a figure, usually bearing a caption and a label such as â€œFigure 3.â€ or â€œFigureâ€.
+~~-->
+<!--~~ <roman>
+<b>Roman</b><br/>
+Used to mark text that should remain in roman script no matter what style the surrounding text takes on.
+~~-->
+<!--~~ <series-text>
+<b>Series Text: Header Text to Describe</b><br/>
+Textual description of the series of articles that is named in a  `<series-title> element. 
+~~-->
+<!--~~ <copyright-holder>
+<b>Copyright Holder</b><br/>
+Name of the organizational or personal entity that holds a copyright.
+~~-->
+<!--~~ <time-stamp>
+<b>Time Stamp for Cited Work</b><br/>
+This element is deprecated; avoid using it. Use  `<date-in-citation> . 
+~~-->
+<!--~~ <journal-id>
+<b>Journal Identifier</b><br/>
+Short code or abbreviation used as an identifier for a journal.
+~~-->
+<!--~~ <nested-kwd>
+<b>Nested Keyword</b><br/>
+A hierarchically-structured keyword, such as a keywords from a taxonomy.
+~~-->
+<!--~~ <journal-title-group>
+<b>Journal Title Group</b><br/>
+Container element for the titles of the journal in which the article was published.
+~~-->
+<!--~~ <th>
+<b>Table Header Cell (NISO JATS table model)</b><br/>
+One cell in the table header, as opposed to an ordinary cell in the body of a table. (This element is based on and intended to be converted easily to the XHMTL th element.)
+~~-->
+<!--~~ <month>
+<b>Month</b><br/>
+Names one of the months of the year, such as July.
+~~-->
+<!--~~ <name>
+<b>Name of Person</b><br/>
+Container element for the component elements of personal names, such as a  `<surname> . 
+~~-->
+<!--~~ <lpage>
+<b>Last Page</b><br/>
+Page number on which a document ends.
+~~-->
+<!--~~ <private-char>
+<b>Private Character (Custom or Unicode)</b><br/>
+Custom character supplied by a publisher, or a custom character from the Unicode private-use area, for which a bitmap or other representation of the glyph is included in or with the XML. The glyph may be represented as an inline graphic, an explicit bitmap glyph, or a reference to a previously defined character.
+~~-->
+<!--~~ <subject>
+<b>Subject Grouping Name</b><br/>
+Name of one subject or topic used to describe an article. Such topics and groupings of topics are typically used to provide headings for groups of documents or document components in a printed, or online, generated Table of Contents.
+~~-->
+<!--~~ <inline-supplementary-material>
+<b>Inline Supplementary Material</b><br/>
+Description of and inline pointer to an external file that provides supplementary information for the document.
+~~-->
+<!--~~ <def>
+<b>Definition List: Definition</b><br/>
+Definition, explanation, or expansion of a word, phrase, or abbreviation.
+~~-->
+<!--~~ <sec-meta>
+<b>Section Metadata</b><br/>
+Container element for section-level metadata that is different from the parent document.
+~~-->
+<!--~~ <monospace>
+<b>Monospace Text (Typewriter Text)</b><br/>
+Used to mark text that should appear in a non-proportional font, such as courier.
+~~-->
+<!--~~ <fn-group>
+<b>Footnote Group</b><br/>
+Container element for footnotes that appear at the end of the document.
+~~-->
+<!--~~ <ref-count>
+<b>Reference Count</b><br/>
+Number of references or citations that appear in a bibliographic reference list.
+~~-->
+<!--~~ <def-item>
+<b>Definition List: Definition Item</b><br/>
+Container element for one term/definition pair in a definition list.
+~~-->
+<!--~~ <std-organization>
+<b>Standards Organization</b><br/>
+The name of the standards body that created or that promulgates a standard, such as NISO, ISO, ANSI, or industry standards organizations.
+~~-->
+<!--~~ <label>
+<b>Label (of an Equation, Figure, Reference, etc.)</b><br/>
+Number and/or prefix word placed at the beginning of display elements (for example, equation, statement, figure).
+~~-->
+<!--~~ <chapter-title>
+<b>Chapter Title in a Citation</b><br/>
+Title of a cited book chapter.
+~~-->
+<!--~~ <meta-name>
+<b>Metadata Data Name for Custom Metadata</b><br/>
+Name of a single piece of metadata not otherwise defined in the Tag Suite.
+~~-->
+<!--~~ <conf-theme>
+<b>Conference Theme</b><br/>
+Theme, slogan, or major subject area of a conference.
+~~-->
+<!--~~ <fpage>
+<b>First Page</b><br/>
+Page number on which a document starts.
+~~-->
+<!--~~ <collab-alternatives>
+<b>Collaboration Alternatives</b><br/>
+Wrapper element for more than one version of a single collaboration, such as the name of a laboratory in more than one language, for example, a laboratory name in Japanese Kana characters and a transliterated form of the laboratory name in the Latin alphabet.
+~~-->
+<!--~~ <ref>
+<b>Reference Item</b><br/>
+One item in a bibliographic list.
+~~-->
+<!--~~ <sig>
+<b>Signature</b><br/>
+One contributor's signature and associated material (such as a text restatement of the affiliation) inside a signature block.
+~~-->
+<!--~~ <supplementary-material>
+<b>Supplementary Material</b><br/>
+Container element for description of and pointer to additional data files that contain information directly supportive of the document (for example, audio clip, applet, raw research data).
+~~-->
+<!--~~ <underline>
+<b>Underline</b><br/>
+Used to mark text that should appear with a horizontal line beneath it.
+~~-->
+<!--~~ <styled-content>
+<b>Styled Special (Subject) Content</b><br/>
+Stylistically distinct word or phrase within the text that cannot be tagged using any of the other mechanisms for such content. In other words, the content cannot be described with bold, italic, monospace or any of the other emphasis elements, and  `<named-content> is inappropriate because the semantic reason behind the typographic distinction is unknown or not clear. 
+~~-->
+<!--~~ <speaker>
+<b>Speaker</b><br/>
+One who utters one segment of a speech or dialog.
+~~-->
+<!--~~ <sans-serif>
+<b>Sans Serif</b><br/>
+Used to mark text that should appear in a sans-serif font.
+~~-->
+<!--~~ <author-notes>
+<b>Author Note Group</b><br/>
+Container element for notes about the article's contributors.
+~~-->
+<!--~~ <preformat>
+<b>Preformatted Text</b><br/>
+Text in which spaces, tabs, and line feeds must be preserved. Content is typically displayed in monofont to preserve character alignment.
+~~-->
+<!--~~ <term-head>
+<b>Definition List: Term Head</b><br/>
+Heading over the first column (the term column) of a definition list (two-part list).
+~~-->
+<!--~~ <attrib>
+<b>Attribution</b><br/>
+Container element for information concerning the origin of an extract, display quote, poetry, or similar element.
+~~-->
+<!--~~ <ref-list>
+<b>Reference List (Bibliographic)</b><br/>
+List of bibliographic references for a document or document component.
+~~-->
+<!--~~ <given-names>
+<b>Given (First) Names</b><br/>
+All given names of a person, such as the first name, middle names, maiden name if used as part of the married name, etc.
+~~-->
+<!--~~ <suffix>
+<b>Suffix</b><br/>
+Qualifiers that follow a person's name (for example, Sr., Jr., III, 3rd).
+~~-->
+<!--~~ <page-range>
+<b>Page Ranges</b><br/>
+Text describing discontinuous pagination (for example, 8-11, 14-19, 40).
+~~-->
+<!--~~ <pub-id>
+<b>Publication Identifier for a Cited Publication</b><br/>
+Identifier of a publication in a bibliographic reference or product.
+~~-->
+<!--~~ <role>
+<b>Role or Function Title of Contributor</b><br/>
+Title or role of a contributor to a work (for example, editor-in-chief, chief scientist, photographer, research associate).
+~~-->
+<!--~~ <nlm-citation>
+<b>NLM Citation</b><br/>
+This element is deprecated; avoid using it. Use  `<element-citation> . 
+~~-->
+<!--~~ <milestone-end>
+<b>Milestone End</b><br/>
+End of a non-hierarchically nested object (for example, a textual component which cannot be expressed in the normal non-overlapping tree structure of an XML document).
+~~-->
+<!--~~ <product>
+<b>Product Information</b><br/>
+Container element for the metadata concerning one product (for example, a book, software package, website, or hardware component) discussed in an article.
+~~-->
+<!--~~ <ack>
+<b>Acknowledgments</b><br/>
+Textual material that names the parties who the author wishes to thank or recognize for their assistance in, for example, producing the work, funding the work, inspiring the work, or assisting in the research on which the work is based.
+~~-->
+<!--~~ <fig-group>
+<b>Figure Group</b><br/>
+Container element for figures that are to be displayed together.
+~~-->
+<!--~~ <list>
+<b>List</b><br/>
+Sequence of two or more items, which may or may not be ordered.
+~~-->
+<!--~~ <day>
+<b>Day</b><br/>
+Numeric, two-digit value of the day of the month.
+~~-->
+<!--~~ <address>
+<b>Address/Contact Information</b><br/>
+Container element for contact information such as a postal address for a person or organization.
+~~-->
+<!--~~ <conf-date>
+<b>Conference Date</b><br/>
+Date(s) on which a conference was held.
+~~-->
+<!--~~ <journal-meta>
+<b>Journal Metadata</b><br/>
+Container element for metadata about the journal in which the article was published.
+~~-->
+<!--~~ <sup>
+<b>Superscript</b><br/>
+Used to mark text that should appear higher than the baseline and slightly smaller; superior or superscript text.
+~~-->
+<!--~~ <inline-graphic>
+<b>Graphic, Inline</b><br/>
+Description of and pointer to an external graphic that is displayed or set in the same line as the text.
+~~-->
+<!--~~ <issn-l>
+<b>ISSN-L (Linking ISSN)</b><br/>
+An ISSN designated by an ISSN Centre to group together the different media versions of a work. Since a single ISSN-L is assigned no matter how many media formats of a work there are, the ISSN-L can be used to link among the different media versions of the work or continuing resource, for example, both the printed and online versions of the work.
+~~-->
+<!--~~ <fig-count>
+<b>Figure Count</b><br/>
+Number of  `<fig> elements that appear in the document. 
+~~-->
+<!--~~ <volume-series>
+<b>Volume Series</b><br/>
+Series number of a journal volume for the rare case where a single journal has multiple volumes with the same volume number.
+~~-->
+<!--~~ <issue-id>
+<b>Issue Identifier</b><br/>
+Name or identifier of an entire journal issue (for example, a DOI).
+~~-->
+<!--~~ <part-title>
+<b>Part Title in a Citation</b><br/>
+Title of part of a book (for example, chapter, module) described in a bibliographic reference.
+~~-->
+<!--~~ <colgroup>
+<b>Table Column Group (NISO JATS table model)</b><br/>
+A container element to hold column descriptions (element  `<col> ) for a group of columns in a table or for all of the columns in the table if there is only one  `<colgroup> in the table. Attributes on the  `<colgroup> apply to all of the columns in the group unless over-ridden on the  `<col> . (This element is based on and intended to be converted easily to the XHMTL col element.) 
+~~-->
+<!--~~ <p>
+<b>Paragraph</b><br/>
+Textual unit or block; a textual paragraph.
+~~-->
+<!--~~ <mixed-citation>
+<b>Mixed Citation</b><br/>
+Bibliographic description of a work. Includes a combination of bibliographic reference elements and untagged text. Spacing and punctuation are preserved.
+~~-->
+<!--~~ <collab>
+<b>Collaborative (Group) Author</b><br/>
+Group of contributors credited under a single name; includes an organization credited as a contributor.
+~~-->
+<!--~~ <target>
+<b>Target of an Internal Link</b><br/>
+Anchor or fixed location that acts as the target for a cross-reference.
+~~-->
+<!--~~ <abbrev-journal-title>
+<b>Abbreviated Journal Title</b><br/>
+Short form of the title of the journal in which an article is published.
+~~-->
+<!--~~ <compound-subject-part>
+<b>Compound Subject Part Name</b><br/>
+Individual component of a multi-part subject (for example, subject term, code for the term).
+~~-->
+<!--~~ <license-p>
+<b>License Paragraph</b><br/>
+Paragraph of text within the description of a  `<license> . 
+~~-->
+<!--~~ <front>
+<b>Front Matter</b><br/>
+Container element for the metadata of an article and the journal in which it was published.
+~~-->
+<!--~~ <date>
+<b>Date</b><br/>
+Container element for the parts of a single calendar date.
+~~-->
+<!--~~ <publisher-name>
+<b>Publisher's Name</b><br/>
+Name of the person, company, or other entity that published a work.
+~~-->
+<!--~~ <compound-kwd-part>
+<b>Compound Keyword Part</b><br/>
+Individual component of a multi-part keyword (for example, a code, the code's meaning).
+~~-->
+<!--~~ <response>
+<b>Response</b><br/>
+Reply, response, or commentary concerning the journal article. In the typical case, the response is included in the same XML package as the original article, attached at the end of the article proper. Metadata that differs from that of the original article (for example, title, author), may be captured using the  `<front-stub> element; if the  `<front-stub> element is used, any metadata not specifically tagged is inherited from the original article. 
+~~-->
+<!--~~ <issue-part>
+<b>Issue Part</b><br/>
+Number, name, or other identifier of a sub-part of a journal issue.
+~~-->
+<!--~~ <access-date>
+<b>Access Date for Cited Work</b><br/>
+This element is deprecated; avoid using it. Use  `<date-in-citation> . 
+~~-->
+<!--~~ <conference>
+<b>Conference Information</b><br/>
+Container element to contain information about a single conference and its proceedings.
+~~-->
+

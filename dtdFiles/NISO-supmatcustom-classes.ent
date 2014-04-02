@@ -1,0 +1,21 @@
+
+<!-- ============================================================= -->
+<!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
+<!--                        TYPICAL INVOCATION                     -->
+<!--
+"-//NLM//DTD JATS JP SupMat Customize Class Module v0.1 20130503//EN"
+     Delivered as file "NISO-supmatcustom-classes.ent"
+                                                                   -->
+<!-- ============================================================= -->
+
+<!--                    SIMPLE DISPLAY ELEMENTS                    -->
+<!--                    The simplest and most basic of the Display
+                        Class elements, which may be allowed in many
+                        places, for example, inside other Display
+                        Class elements or inside the cell of a
+                        Table                                      -->
+<!ENTITY % simple-display.class
+                        "alternatives | array | graphic | media |
+                         preformat | ext:resource"         >
+
+
